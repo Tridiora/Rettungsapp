@@ -20,9 +20,15 @@ function portInUse() {
 async function main() {
   if (process.env.CODESPACES !== 'true') throw new Error('Dieser automatische Start ist ausschließlich für GitHub Codespaces vorgesehen. Lokal: npm run dev');
   if (await portInUse()) {console.log('Port 3000 ist bereits aktiv. Vorschau im Reiter Ports öffnen.'); return;}
+  const startupSource = fs.readFileSync(__filename, 'utf8');
   // Never overwrite edits or switch a user's branch while refreshing the preview.
   if (!run('git',['status','--porcelain'],true) && run('git',['branch','--show-current'],true)==='main') {
     run('git',['pull','--ff-only','origin','main']);
+    // Continue in the updated script, not the version loaded before git pull.
+    if (fs.readFileSync(__filename, 'utf8') !== startupSource) {
+      run(process.execPath, [__filename]);
+      return;
+    }
   } else {
     console.log('Eigene Änderungen oder anderer Branch: kein automatisches Git-Update.');
   }
@@ -33,10 +39,11 @@ async function main() {
     run('npm',['ci','--no-audit','--no-fund']);
     fs.writeFileSync(stamp, fingerprint);
   }
-  run(process.execPath,['scripts/prepare-pdf.cjs']);
+  console.log('Rettungsapp wird für die stabile Vorschau gebaut. Bitte warten …');
+  run('npm',['run','build']);
   const log = fs.openSync('.data/codespaces-server.log','a');
-  const child = spawn(process.execPath,['node_modules/next/dist/bin/next','dev','--hostname','0.0.0.0','--port','3000'], {
-    cwd:root, detached:true, stdio:['ignore',log,log], env:{...process.env,NEXT_TELEMETRY_DISABLED:'1'}
+  const child = spawn(process.execPath,['node_modules/next/dist/bin/next','start','--hostname','0.0.0.0','--port','3000'], {
+    cwd:root, detached:true, stdio:['ignore',log,log], env:{...process.env,NEXT_TELEMETRY_DISABLED:'1',NODE_ENV:'production'}
   });
   child.on('error', error => {console.error(error.message); process.exitCode=1;});
   child.unref(); fs.closeSync(log);
@@ -44,7 +51,7 @@ async function main() {
     try {
       const response=await fetch('http://127.0.0.1:3000/api/session',{signal:AbortSignal.timeout(3000)});
       if (response.ok) {
-        console.log('Rettungsapp bereit: http://localhost:3000 – im Reiter Ports auf „Im Browser öffnen“ klicken.');
+        console.log('Rettungsapp bereit (stabiler App-Server, ohne Live-Neuladen): http://localhost:3000 – im Reiter Ports auf „Im Browser öffnen“ klicken.');
         console.log('Admin-Zugang: private Datei .data/ERSTER-ADMIN.txt. Keine Zugangsdaten ins Repository kopieren.');
         return;
       }

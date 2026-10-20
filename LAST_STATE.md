@@ -1,10 +1,20 @@
 # LAST_STATE – 20.10.2026
 
+## Codespaces: wiederholtes Neuladen und Verbindungsfehler
+
+Nutzer meldete fortgesetztes Neuladen und fetch/aborted in der Vorschau. Startskript auf next build + next start statt next dev umgestellt; damit läuft keine HMR-Verbindung im Browser. Nach einem per git pull aktualisierten Startskript wird künftig das neue Skript ausgeführt. Fehlgeschlagener Build startet keinen alten Server.
+
+Gemeinsamer API-Client für Redaktion, Medienverwaltung und Inhaltssynchronisation: 20-Sekunden-Zeitlimit, verständliche Netzwerk-/Proxy-Meldungen, keine automatischen Wiederholungen von Schreibzugriffen. Redaktion bietet bei initialem Fehler Erneut laden. Bereits geladene Inhalte bleiben bei temporären Fehlern bestehen; Sitzungswechsel setzt sie zurück und verwirft verspätete Antworten.
+
+22 Tests, Produktionsbuild und gezielter ESLint-Lauf erfolgreich. Echter lokaler Produktionsserver mit der angegebenen externen Codespaces-Origin geprüft: Login HTTP 200, Secure-Cookie, Admin-Inhalte und Verwaltungsseite ohne HMR. Tests für Startreihenfolge, Buildfehler, aktualisiertes Startskript, Netzwerkfehler, Timeout und verspätete Antworten hinzugefügt. Die entfernte private Vorschau lieferte von hier HTTP 404; direkte Prüfung dort nicht möglich. Ursache des tatsächlichen entfernten Neuladens ist ohne Browser-/Serverlogs nicht abschließend belegt.
+
+Einmalige Übernahme im vorhandenen Codespace: zuerst git pull --ff-only im Terminal, dann Codespace stoppen und wieder öffnen. Dadurch wird bereits beim ersten Neustart das neue Startskript ausgeführt. Auf Meldung „stabiler App-Server“ warten, alte Vorschau schließen und Port 3000 neu öffnen. Keine lokalen Änderungen überschreiben.
+
 ## Codespaces-Anmeldung korrigiert
 
 Die Herkunftsprüfung berücksichtigte ausschließlich eine aus Umgebungsvariablen erzeugte Vorschauadresse oder die interne Request-URL. Hinter einer Weiterleitung konnte dadurch die Anmeldung vor der Passwortprüfung mit HTTP 403 scheitern. Die Prüfung nutzt jetzt bei Browseranfragen Sec-Fetch-Site: same-origin; dieser Header ist für Webseiten-JavaScript nicht setzbar. same-site, cross-site, ungültige und fehlende Origins bleiben gesperrt. Ohne Fetch-Metadaten gilt weiterhin der exakte bisherige Origin-Abgleich; Forwarded-Host wird nicht als Vertrauensanker verwendet. Sichere Sitzungscookies richten sich nach der zugelassenen öffentlichen HTTPS-Herkunft.
 
-16 Tests und Produktionsbuild erfolgreich. Neue Regressionstests decken interne localhost-Adresse, externe Codespaces-Adresse ohne passende Umgebungsvariablen, falsches Passwort, erfolgreiche Anmeldung, Sitzung, blockierte fremde Abmeldung und erfolgreichen Logout ab. Kein Zugriff auf den tatsächlichen Nutzer-Codespace; konkrete Vorschau-URL wurde angefragt, bisher nicht mitgeteilt. Für die Übernahme bestehenden Codespace stoppen und neu starten; bei lokal geändertem Checkout wird das automatische Update bewusst ausgelassen.
+16 Tests und Produktionsbuild erfolgreich. Neue Regressionstests decken interne localhost-Adresse, externe Codespaces-Adresse ohne passende Umgebungsvariablen, falsches Passwort, erfolgreiche Anmeldung, Sitzung, blockierte fremde Abmeldung und erfolgreichen Logout ab. Kein Zugriff auf den tatsächlichen Nutzer-Codespace; Vorschau-URL wurde inzwischen mitgeteilt; der Test verwendet ihre Origin. Für die Übernahme bestehenden Codespace stoppen und neu starten; bei lokal geändertem Checkout wird das automatische Update bewusst ausgelassen.
 
 ## Abgeschlossener Inhaltsausbau
 

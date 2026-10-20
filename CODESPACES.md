@@ -12,7 +12,7 @@
 
 ## Später wieder öffnen / neuesten Stand laden
 
-Unter https://github.com/codespaces denselben Codespace fortsetzen. Beim Start holt die Konfiguration neue Commits von `main`, installiert bei geändertem Paketstand die Abhängigkeiten und startet die App. Sind im Codespace eigene Änderungen vorhanden oder ist ein anderer Branch ausgewählt, werden diese erhalten und das automatische Git-Update ausgelassen.
+Unter https://github.com/codespaces denselben Codespace fortsetzen. Beim Start holt die Konfiguration neue Commits von `main`, installiert bei geändertem Paketstand die Abhängigkeiten baut die Produktionsfassung und startet den regulären App-Server ohne Live-Neuladen. Sind im Codespace eigene Änderungen vorhanden oder ist ein anderer Branch ausgewählt, werden diese erhalten und das automatische Git-Update ausgelassen.
 
 Wenn die App bereits läuft und neue Änderungen auf GitHub angekommen sind: den Codespace über das Codespaces-Menü **stoppen** und anschließend wieder öffnen. Nur das Browserfenster zu schließen löst keinen sofortigen Neustart aus. Einen Codespace wiederverwenden, statt für jeden Besuch einen neuen anzulegen.
 
@@ -35,3 +35,11 @@ Prüfstand: lokale Tests und Produktionsbuild; ein echter GitHub-Codespace wurde
 ## Anmeldung meldet „Der Zugriff muss aus dieser Anwendung erfolgen“
 
 Diese Meldung betrifft die Herkunftsprüfung und nicht das Passwort. Der Fix vom 20.10.2026 berücksichtigt die vom Browser bestätigte eigene Herkunft auch hinter der Codespaces-Weiterleitung. Bestehenden Codespace stoppen, wieder öffnen und die Vorschauseite neu laden. Bei eigenen uncommitteten Änderungen wird das automatische Update ausgelassen; die Startausgabe nennt diesen Fall. Zugangsdaten bleiben unverändert in `.data/ERSTER-ADMIN.txt`.
+
+## Einmaliges Update bei ständigem Neuladen oder „Failed to fetch / aborted“
+
+1. Im Terminal des bestehenden Codespaces `git pull --ff-only` ausführen. Falls Git wegen eigener Änderungen abbricht, diese zuerst sichern; nicht zurücksetzen.
+2. Den Codespace stoppen und wieder öffnen. Das aktualisierte Startskript baut die App und startet `next start` statt des Entwicklungsservers. Warten, bis die Startausgabe „stabiler App-Server, ohne Live-Neuladen“ meldet.
+3. Den alten Vorschau-Tab schließen und unter **Ports → 3000 → Im Browser öffnen** neu öffnen.
+
+Der vorangestellte Pull ist bei dieser Umstellung wichtig: Das alte, bereits gestartete Skript würde sonst zwar neue Dateien holen, aber selbst noch seinen alten Startablauf ausführen. Künftige Aktualisierungen des Startskripts berücksichtigen das automatisch. Sollte das Problem danach weiter auftreten, die letzten Zeilen von `.data/codespaces-server.log` prüfen. Der Server wurde lokal mit der Codespaces-Origin getestet; ein Live-Test im privaten Codespace ist nicht erfolgt.

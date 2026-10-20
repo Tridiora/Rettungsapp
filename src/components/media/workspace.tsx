@@ -1,4 +1,5 @@
 'use client'
+import { apiJson } from '@/lib/api-client'
 import { useCallback, useEffect, useState } from 'react'
 import Link from 'next/link'
 import { FileText, ImageIcon, Upload, Search, ShieldCheck, Users, FolderOpen, LogOut, Pencil, Eye } from 'lucide-react'
@@ -11,7 +12,7 @@ import { useEditorialStore } from '@/stores/editorial-store'
 const field='block w-full rounded-xl border border-border bg-background p-3 mt-1 text-foreground'
 const button='inline-flex items-center justify-center gap-2 rounded-xl border border-border bg-surface px-4 py-2 text-sm font-semibold disabled:opacity-40'
 const statusNames={draft:'Entwurf',review:'Zur Prüfung',published:'Veröffentlicht',archived:'Archiviert'}
-async function api<T>(url:string,init?:RequestInit):Promise<T>{const res=await fetch(url,init);const data=await res.json();if(!res.ok)throw Error(data.error||'Anfrage fehlgeschlagen.');return data}
+const api = apiJson
 export default function MediaWorkspace({ administration=false }:{administration?:boolean}) {
   const [user,setUser]=useState<Account|null>(null),[items,setItems]=useState<MediaRecord[]>([]),[loading,setLoading]=useState(true),[error,setError]=useState(''),[notice,setNotice]=useState('')
   const [view,setView]=useState<'library'|'upload'|'accounts'>('library'),[query,setQuery]=useState(''),[status,setStatus]=useState('all'),[selected,setSelected]=useState<MediaRecord|null>(null),[editing,setEditing]=useState<MediaRecord|null>(null),[login,setLogin]=useState(false),[busy,setBusy]=useState(false)
@@ -22,8 +23,8 @@ export default function MediaWorkspace({ administration=false }:{administration?
   // load updates state only after the external session and library requests finish.
   // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(()=>{void load()},[load])
-  async function signIn(event:React.FormEvent<HTMLFormElement>){event.preventDefault();const form=new FormData(event.currentTarget);setBusy(true);setError('');try{await api('/api/session',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(Object.fromEntries(form))});setLogin(false);await load();await useEditorialStore.getState().refresh();setNotice('Angemeldet. Deine Dateien und privaten Markierungen sind verfügbar.')}catch(e){setError((e as Error).message)}finally{setBusy(false)}}
-  async function signOut(){try{await api('/api/session',{method:'DELETE'});setSelected(null);setEditing(null);setView('library');setUser(null);await load();await useEditorialStore.getState().refresh()}catch(e){setError((e as Error).message)}}
+  async function signIn(event:React.FormEvent<HTMLFormElement>){event.preventDefault();const form=new FormData(event.currentTarget);setBusy(true);setError('');try{await api('/api/session',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(Object.fromEntries(form))});setLogin(false);useEditorialStore.getState().reset();await load();await useEditorialStore.getState().refresh();setNotice('Angemeldet. Deine Dateien und privaten Markierungen sind verfügbar.')}catch(e){setError((e as Error).message)}finally{setBusy(false)}}
+  async function signOut(){try{await api('/api/session',{method:'DELETE'});useEditorialStore.getState().reset();setSelected(null);setEditing(null);setView('library');setUser(null);await load();await useEditorialStore.getState().refresh()}catch(e){setError((e as Error).message)}}
   const filtered=items.filter(item=>(!native||item.status==='published')&&(status==='all'||item.status===status)&&`${item.title} ${item.category} ${item.filename}`.toLocaleLowerCase('de').includes(query.toLocaleLowerCase('de')))
   if(selected)return <div className="p-4 md:p-8 max-w-[1600px] mx-auto"><MediaReader key={selected.id+(user?.id||'guest')} media={selected} user={user} onClose={()=>setSelected(null)}/></div>
   return <div className="max-w-7xl mx-auto p-4 md:p-8 space-y-6">
