@@ -16,8 +16,24 @@ export function requireUser(request: Request, roles?: string[]): Account {
   if (roles && !roles.includes(user.role)) throw new ApiError(403, 'Für diese Aktion fehlen die Rechte.')
   return user
 }
-export function sameOrigin(request: Request) {
-  if (request.headers.get('origin') !== (codespaceOrigin() || new URL(request.url).origin)) throw new ApiError(403, 'Der Zugriff muss aus dieser Anwendung erfolgen.')
+/** CSRF check: browser fetch metadata survives reverse-proxy URL rewriting.
+ * Sec-* headers cannot be set by page JavaScript. Clients without fetch metadata
+ * must still match the configured public origin exactly; forwarded hosts are not trusted.
+ */
+export function sameOrigin(request: Request): string {
+  const origin = request.headers.get('origin')
+  const site = request.headers.get('sec-fetch-site')
+  const reject = () => { throw new ApiError(403, 'Der Zugriff muss aus dieser Anwendung erfolgen.') }
+  if (!origin || origin === 'null') return reject()
+  try {
+    const url = new URL(origin)
+    if (!['https:', 'http:'].includes(url.protocol) || url.origin !== origin) return reject()
+  } catch { return reject() }
+  if (site === 'same-origin') return origin
+  // A sibling host is not our application either (same-site is insufficient).
+  if (site !== null) return reject()
+  if (origin !== (codespaceOrigin() || new URL(request.url).origin)) return reject()
+  return origin
 }
 export function jsonError(error: unknown) {
   if (error instanceof ApiError) return Response.json({ error: error.message }, { status: error.status })

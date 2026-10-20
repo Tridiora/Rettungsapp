@@ -1,5 +1,11 @@
 # LAST_STATE – 20.10.2026
 
+## Codespaces-Anmeldung korrigiert
+
+Die Herkunftsprüfung berücksichtigte ausschließlich eine aus Umgebungsvariablen erzeugte Vorschauadresse oder die interne Request-URL. Hinter einer Weiterleitung konnte dadurch die Anmeldung vor der Passwortprüfung mit HTTP 403 scheitern. Die Prüfung nutzt jetzt bei Browseranfragen Sec-Fetch-Site: same-origin; dieser Header ist für Webseiten-JavaScript nicht setzbar. same-site, cross-site, ungültige und fehlende Origins bleiben gesperrt. Ohne Fetch-Metadaten gilt weiterhin der exakte bisherige Origin-Abgleich; Forwarded-Host wird nicht als Vertrauensanker verwendet. Sichere Sitzungscookies richten sich nach der zugelassenen öffentlichen HTTPS-Herkunft.
+
+16 Tests und Produktionsbuild erfolgreich. Neue Regressionstests decken interne localhost-Adresse, externe Codespaces-Adresse ohne passende Umgebungsvariablen, falsches Passwort, erfolgreiche Anmeldung, Sitzung, blockierte fremde Abmeldung und erfolgreichen Logout ab. Kein Zugriff auf den tatsächlichen Nutzer-Codespace; konkrete Vorschau-URL wurde angefragt, bisher nicht mitgeteilt. Für die Übernahme bestehenden Codespace stoppen und neu starten; bei lokal geändertem Checkout wird das automatische Update bewusst ausgelassen.
+
 ## Abgeschlossener Inhaltsausbau
 
 80 unterschiedliche Lernbausteine: je zehn in Anatomie & Physiologie, Notfallmedizin, Pharmakologie, Einsatztaktik, Recht & Ethik, Hygiene, Kommunikation und Pädiatrie. Jeder Baustein enthält Fachtext, einfache Erklärung, Frage und begründete Quizauflösung. Acht Kartensets, acht Quiz mit je zehn Fragen und acht Lesekapitel bilden dieselben 80 Themen in verschiedenen Lernformen ab (104 redaktionelle Datensätze).

@@ -20,3 +20,36 @@ test('Codespaces: nur die eigene HTTPS-Vorschau darf schreibende Anfragen stelle
   assert.throws(()=>sameOrigin(req('https://test-space-3000.app.github.dev')),e=>e.status===403);
  }finally{for(const name of names)if(previous[name]===undefined)delete process.env[name];else process.env[name]=previous[name]}
 });
+
+test('Proxy: browserbestätigte eigene Herkunft funktioniert ohne Codespaces-Umgebung',()=>{
+ const {sameOrigin}=load('src/lib/server/security.ts');
+ const preview='https://actual-space-3000.app.github.dev';
+ const req=(origin,site)=>new Request('http://localhost:3000/api/session',{headers:{...(origin===undefined?{}:{origin}),...(site===undefined?{}:{'sec-fetch-site':site}),'x-forwarded-host':'attacker.example'}});
+ assert.equal(sameOrigin(req(preview,'same-origin')),preview);
+ for(const site of ['cross-site','same-site','none','unexpected'])assert.throws(()=>sameOrigin(req(preview,site)),e=>e.status===403);
+ for(const origin of [undefined,'null','https://actual-space-3000.app.github.dev/path','file://','not-a-url'])assert.throws(()=>sameOrigin(req(origin,'same-origin')),e=>e.status===403);
+ assert.throws(()=>sameOrigin(req(preview,undefined)),e=>e.status===403);
+ assert.throws(()=>sameOrigin(req('http://localhost:3000','cross-site')),e=>e.status===403);
+});
+
+test('Proxy: Login, Admin-Sitzung und Logout trotz interner localhost-Adresse',async()=>{
+ const os=require('node:os');
+ const dir=fs.mkdtempSync(path.join(os.tmpdir(),'codespaces-session-'));
+ process.env.MEDLEARN_DATA_DIR=dir;
+ const {database}=load('src/lib/server/database.ts'),db=database();
+ const session=load('src/app/api/session/route.ts');
+ const password=fs.readFileSync(path.join(dir,'ERSTER-ADMIN.txt'),'utf8').match(/Passwort: (.+)/)[1].trim();
+ const req=(method,site='same-origin',cookie='',body)=>new Request('http://localhost:3000/api/session',{method,headers:{origin:'https://actual-space-3000.app.github.dev','sec-fetch-site':site,cookie,'content-type':'application/json'},body:body===undefined?undefined:JSON.stringify(body)});
+ try {
+  const credentials={email:'admin@medlearn.local',password};
+  assert.equal((await session.POST(req('POST','cross-site','',credentials))).status,403);
+  assert.equal((await session.POST(req('POST','same-origin','',{...credentials,password:'wrong-password'}))).status,401);
+  const response=await session.POST(req('POST','same-origin','',credentials));assert.equal(response.status,200);
+  const cookie=response.headers.get('set-cookie');assert.match(cookie,/; Secure/);assert.match(cookie,/HttpOnly/);assert.match(cookie,/SameSite=Strict/);
+  const token=cookie.split(';')[0];
+  assert.equal((await(await session.GET(req('GET','same-origin',token))).json()).user.role,'admin');
+  assert.equal((await session.DELETE(req('DELETE','same-site',token))).status,403);
+  assert.equal((await session.DELETE(req('DELETE','same-origin',token))).status,200);
+  assert.equal((await(await session.GET(req('GET','same-origin',token))).json()).user,null);
+ } finally {db.close();delete process.env.MEDLEARN_DATA_DIR;}
+});

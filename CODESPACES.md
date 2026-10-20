@@ -31,3 +31,7 @@ Offizielle Informationen: [Abrechnung](https://docs.github.com/en/billing/concep
 Die Startausgabe und `.data/codespaces-server.log` zeigen den Fehler. Im Codespace-Terminal kann `node scripts/codespaces-start.cjs` den Start erneut versuchen. Ein belegter Port wird nicht beendet oder durch einen weiteren Server ersetzt. Bei fehlendem Kontingent hilft ein Neustart nicht; zuerst die GitHub-Nutzungsübersicht prüfen.
 
 Prüfstand: lokale Tests und Produktionsbuild; ein echter GitHub-Codespace wurde bei der Einrichtung nicht angelegt. Die tatsächliche Kontingentverfügbarkeit ist erst im GitHub-Konto sichtbar.
+
+## Anmeldung meldet „Der Zugriff muss aus dieser Anwendung erfolgen“
+
+Diese Meldung betrifft die Herkunftsprüfung und nicht das Passwort. Der Fix vom 20.10.2026 berücksichtigt die vom Browser bestätigte eigene Herkunft auch hinter der Codespaces-Weiterleitung. Bestehenden Codespace stoppen, wieder öffnen und die Vorschauseite neu laden. Bei eigenen uncommitteten Änderungen wird das automatische Update ausgelassen; die Startausgabe nennt diesen Fall. Zugangsdaten bleiben unverändert in `.data/ERSTER-ADMIN.txt`.
