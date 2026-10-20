@@ -1,5 +1,6 @@
 import { createHash } from 'node:crypto'
 import { database } from './database'
+import { codespaceOrigin } from './app-origin'
 import type { Account } from '@/lib/media-types'
 
 export class ApiError extends Error { constructor(public status: number, message: string) { super(message) } }
@@ -16,7 +17,7 @@ export function requireUser(request: Request, roles?: string[]): Account {
   return user
 }
 export function sameOrigin(request: Request) {
-  if (request.headers.get('origin') !== new URL(request.url).origin) throw new ApiError(403, 'Der Zugriff muss aus dieser Anwendung erfolgen.')
+  if (request.headers.get('origin') !== (codespaceOrigin() || new URL(request.url).origin)) throw new ApiError(403, 'Der Zugriff muss aus dieser Anwendung erfolgen.')
 }
 export function jsonError(error: unknown) {
   if (error instanceof ApiError) return Response.json({ error: error.message }, { status: error.status })

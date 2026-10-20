@@ -1,0 +1,11 @@
+{
+  "name": "Rettungsapp – Browser-Vorschau",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": { "label": "Rettungsapp öffnen", "onAutoForward": "openBrowser", "protocol": "http" }
+  },
+  "postStartCommand": "node scripts/codespaces-start.cjs",
+  "remoteUser": "node",
+  "shutdownAction": "stopContainer"
+}

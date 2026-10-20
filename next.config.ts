@@ -1,6 +1,9 @@
 import type { NextConfig } from "next";
+import { codespaceOrigin } from "./src/lib/server/app-origin";
+const previewOrigin = codespaceOrigin();
 
 const nextConfig: NextConfig = {
+  allowedDevOrigins: previewOrigin ? [new URL(previewOrigin).hostname] : [],
   outputFileTracingExcludes: { '*': ['./.data/**/*', './android/**/*', './ios/**/*', './tests/**/*'] },
   turbopack: {
     rules: {

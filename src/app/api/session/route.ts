@@ -1,4 +1,5 @@
 import { randomBytes } from 'node:crypto'
+import { codespaceOrigin } from '@/lib/server/app-origin'
 import { compareSync } from 'bcryptjs'
 import { database } from '@/lib/server/database'
 import { ApiError, digest, jsonError, limitedJson, sameOrigin, sessionUser, textField } from '@/lib/server/security'
@@ -19,7 +20,7 @@ export async function POST(request: Request) {
     db.prepare('DELETE FROM sessions WHERE expires < ?').run(Date.now())
     const token = randomBytes(32).toString('base64url')
     db.prepare('INSERT INTO sessions VALUES (?,?,?)').run(digest(token), user.id, Date.now() + 7 * 86400_000)
-    return Response.json({ user: { id: user.id, name: user.name, email: user.email, role: user.role } }, { headers: { 'Set-Cookie': `medlearn_session=${token}; HttpOnly; SameSite=Strict; Path=/; Max-Age=604800${new URL(request.url).protocol === 'https:' ? '; Secure' : ''}`, 'Cache-Control': 'no-store' } })
+    return Response.json({ user: { id: user.id, name: user.name, email: user.email, role: user.role } }, { headers: { 'Set-Cookie': `medlearn_session=${token}; HttpOnly; SameSite=Strict; Path=/; Max-Age=604800${(codespaceOrigin() || new URL(request.url).protocol === 'https:') ? '; Secure' : ''}`, 'Cache-Control': 'no-store' } })
   } catch (e) { return jsonError(e) }
 }
 export async function DELETE(request: Request) {

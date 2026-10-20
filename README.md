@@ -2,6 +2,10 @@
 
 Lernplattform für die Notfallsanitäter-Ausbildung und Weiterbildung im deutschen Rettungswesen. Entwicklungsstand, noch kein vollständig redaktionell geprüfter Lehratlas.
 
+## Ohne lokale Installation starten
+
+[In GitHub Codespaces öffnen](https://codespaces.new/Tridiora/Rettungsapp) · [Startanleitung und kostenloses Kontingent](CODESPACES.md)
+
 ## Lokal starten
 
 Voraussetzung: Node.js 22 LTS und npm.
@@ -42,3 +46,4 @@ SQLite und Originaldateien benötigen ein dauerhaftes, gesichertes Servervolume.
 Lernfortschritt und Anatomienotizen sind noch browserlokal; PDF-Markierungen liegen bereits beim Serverkonto. Frühere lokale Eigenbeiträge werden noch nicht automatisch importiert. Original-PDFs lassen sich ersetzen, ihr eingebetteter Text wird nicht im Inhaltseditor umgeschrieben. Der Anatomieumfang ist noch kein vollständiger Atlas. Native Projekte sind vorbereitet, APK/IPA und reale Geräteprüfungen stehen noch aus.
 
 Die Quellenangaben und Lizenzbedingungen der enthaltenen Fremdmedien gelten weiterhin; sie werden durch dieses Repository nicht aufgehoben.
+
