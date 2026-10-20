@@ -1,0 +1,8 @@
+'use client'
+import {useState} from 'react'
+import type {Account} from '@/lib/media-types'
+export function RoleManager({users,onChanged}:{users:Account[];onChanged:()=>void}){
+ const [error,setError]=useState(''),[busy,setBusy]=useState(false)
+ async function save(e:React.FormEvent<HTMLFormElement>,id:string){e.preventDefault();setBusy(true);setError('');const role=new FormData(e.currentTarget).get('role');try{const r=await fetch('/api/accounts',{method:'PATCH',headers:{'Content-Type':'application/json'},body:JSON.stringify({id,role})});const b=await r.json();if(!r.ok)throw Error(b.error);onChanged()}catch(e){setError((e as Error).message)}finally{setBusy(false)}}
+ return <details className="border border-border rounded-xl p-4"><summary className="font-bold cursor-pointer">Grundrollen der Benutzerkonten</summary><p className="my-3 text-sm text-muted">Administration und Moderation dürfen alle Inhalte bearbeiten. Mitglieder erhalten zusätzliche Rechte durch Gruppen, zum Beispiel „Lehrer“. Nur die Administration verwaltet Konten und Rechte.</p>{error&&<p role="alert">{error}</p>}{users.map(u=><form key={u.id+u.role} className="flex flex-wrap gap-3 items-center py-3 border-t border-border" onSubmit={e=>save(e,u.id)}><span className="flex-1 min-w-40">{u.name} · {u.email}</span><select aria-label={`Grundrolle für ${u.name}`} name="role" defaultValue={u.role} className="border border-border bg-background rounded-lg p-2"><option value="learner">Mitglied / Schüler</option><option value="moderator">Moderation</option><option value="admin">Administration</option></select><button disabled={busy} className="border border-border rounded-lg px-3 py-2">Rolle speichern</button></form>)}</details>
+}

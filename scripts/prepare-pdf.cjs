@@ -1,0 +1,8 @@
+const fs=require('node:fs')
+const path=require('node:path')
+const target=path.join(__dirname,'..','public','vendor')
+fs.mkdirSync(target,{recursive:true})
+fs.copyFileSync(require.resolve('pdfjs-dist/build/pdf.worker.min.mjs'),path.join(target,'pdf.worker.min.mjs'))
+for(const directory of ['cmaps','standard_fonts','wasm'])fs.cpSync(path.join(path.dirname(require.resolve('pdfjs-dist/package.json')),directory),path.join(target,directory),{recursive:true})
+fs.copyFileSync(require.resolve('pdfjs-dist/LICENSE'),path.join(target,'PDFJS-LICENSE.txt'))
+console.log('PDF-Ressourcen lokal bereitgestellt.')

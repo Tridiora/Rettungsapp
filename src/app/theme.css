@@ -1,0 +1,194 @@
+@import "tailwindcss";
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+@theme inline {
+  --color-primary: #234567;
+  --color-primary-light: #305779;
+  --color-primary-dark: #172f48;
+  --color-accent: #08786f;
+  --color-accent-light: #09675f;
+  --color-secondary: #bd303e;
+  --color-secondary-light: #a92532;
+  --color-success: #23783f;
+  --color-warning: #925b08;
+  --color-primary-ink: var(--primary-ink);
+  --color-accent-ink: var(--accent-ink);
+  --color-secondary-ink: var(--secondary-ink);
+  --color-success-ink: var(--success-ink);
+  --color-warning-ink: var(--warning-ink);
+  --color-surface: var(--surface);
+  --color-surface-hover: var(--surface-hover);
+  --color-background: var(--bg);
+  --color-foreground: var(--fg);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+:root {
+  color-scheme: light;
+  --bg: #f0f4f8;
+  --fg: #172b40;
+  --surface: #ffffff;
+  --surface-hover: #e8eff5;
+  --muted: #536579;
+  --border: #cbd6e2;
+  --primary-ink: #234567;
+  --accent-ink: #086c64;
+  --secondary-ink: #ac2433;
+  --success-ink: #206935;
+  --warning-ink: #805006;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #101923;
+  --fg: #edf3fa;
+  --surface: #1a2838;
+  --surface-hover: #26394d;
+  --muted: #b0c1d3;
+  --border: #43576d;
+  --primary-ink: #b1d5ff;
+  --accent-ink: #72ded0;
+  --secondary-ink: #ffadb6;
+  --success-ink: #91dda6;
+  --warning-ink: #f6d082;
+}
+
+/* ── Base ─────────────────────────────────────────── */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Custom Scrollbar ─────────────────────────────── */
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1e3a5f;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
+/* ── Selection ────────────────────────────────────── */
+
+::selection {
+  background: #0d948840;
+  color: inherit;
+}
+
+/* ── Focus Visible ────────────────────────────────── */
+
+*:focus-visible {
+  outline: 2px solid var(--accent-ink);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ── Keyframe Animations ──────────────────────────── */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes cardFlip {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(90deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+
+@keyframes pulse-gentle {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+/* ── Utility Classes ──────────────────────────────── */
+
+.card-shadow {
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.08),
+    0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+.card-shadow:hover {
+  box-shadow:
+    0 2px 6px rgba(0, 0, 0, 0.1),
+    0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.glass-effect {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: 0 8px 24px rgb(10 30 50 / 8%);
+}
+
+input, textarea, select { caret-color: var(--fg); }
+input::placeholder, textarea::placeholder { color: var(--muted); opacity: 1; }
+button:not(:disabled), select { cursor: pointer; }
+button:disabled { cursor: not-allowed; opacity: .55; }
+button[aria-pressed="true"] { outline: 2px solid var(--accent-ink); outline-offset: 2px; }
+mark { color: #172b40; }
