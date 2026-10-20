@@ -1,4 +1,5 @@
 'use client'
+import {SourceLinks} from '@/components/source-links'
 import { LanguageSwitch, LearningText, TermText } from '@/components/learning-language'
 
 import { useState, useEffect, useCallback } from 'react'
@@ -224,7 +225,7 @@ export function StudySessionClient({ deckId }: { deckId: string }) {
                   <p className="text-lg leading-relaxed whitespace-pre-line mt-2 max-h-48 overflow-y-auto"><LearningText technical={currentCard.back} simple={'simpleExplanation' in currentCard ? currentCard.simpleExplanation : undefined} /></p>
                 </div>
 
-                {'source' in currentCard && currentCard.source && <p className="text-xs text-muted mt-3 break-words">Quelle: {currentCard.source}</p>}
+                {'source' in currentCard && currentCard.source && <SourceLinks source={String(currentCard.source)}/>}
                 <div className="mt-6 text-xs text-muted pt-4 border-t border-border flex justify-between">
                   <span>Hast du es gewusst?</span>
                   <span className="font-mono text-[11px] bg-background px-2 py-0.5 rounded border border-border">

@@ -96,6 +96,7 @@ export interface Quiz {
 }
 
 export interface Question {
+  source?: string
   id: string
   quizId: string
   type: QuestionType

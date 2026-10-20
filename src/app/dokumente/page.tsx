@@ -1,4 +1,6 @@
 'use client'
+import { LessonMedia } from '@/components/lesson-media'
+import { SourceLinks } from '@/components/source-links'
 import { LanguageSwitch, TermText } from '@/components/learning-language'
 
 import { useState, useEffect } from 'react'
@@ -284,6 +286,8 @@ export default function DokumentePage() {
           <div className="px-6 pt-5"><LanguageSwitch onChange={() => { setSelectedText(''); setSelectedSectionId(''); setShowNoteModal(false) }} /></div>
           {/* Document Content Flow */}
           <div className="p-6 md:p-8 space-y-8 select-text">
+            <p className="text-sm text-muted">{selectedDoc.summary}</p>
+            <LessonMedia key={selectedDoc.id} document={selectedDoc}/>
             {selectedDoc.sections.map((section) => {
               const visibleText = learningLanguage === 'simple' ? section.simpleContent || 'Für diesen Abschnitt fehlt noch die einfache Fassung. Bitte wechsle zur Fachsprache.' : section.content
               const isBookmarked = bookmarks.includes(section.id)
@@ -312,6 +316,7 @@ export default function DokumentePage() {
                     </button>
                   </div>
 
+                  <SourceLinks source={section.sources}/>
                   <p className="text-sm text-foreground/90 leading-relaxed whitespace-pre-line font-serif">
                     {(() => {
                       const matches = userHighlights.filter(h => (h.language || 'technical') === learningLanguage && h.sectionId === section.id && visibleText.includes(h.text)).map(h => ({ ...h, start: visibleText.indexOf(h.text) })).sort((a,b) => a.start - b.start)

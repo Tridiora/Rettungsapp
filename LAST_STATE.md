@@ -1,26 +1,33 @@
 # LAST_STATE – 20.10.2026
 
-## Aktueller Arbeitsstand
+## Abgeschlossener Inhaltsausbau
 
-Codespaces-Vorschau mit automatischer Installation, Start auf Port 3000 und sicherer Aktualisierung von main beim Wiederöffnen eingerichtet. Die konkrete Codespaces-HTTPS-Adresse wird für schreibende Anfragen zugelassen; andere Codespaces und gefälschte Forwarded-Host-Header erhalten keine Berechtigung. Sitzungscookies verwenden in Codespaces Secure. Next.js erlaubt nur die konkrete Vorschau-Domain für Entwicklungsressourcen.
+80 unterschiedliche Lernbausteine: je zehn in Anatomie & Physiologie, Notfallmedizin, Pharmakologie, Einsatztaktik, Recht & Ethik, Hygiene, Kommunikation und Pädiatrie. Jeder Baustein enthält Fachtext, einfache Erklärung, Frage und begründete Quizauflösung. Acht Kartensets, acht Quiz mit je zehn Fragen und acht Lesekapitel bilden dieselben 80 Themen in verschiedenen Lernformen ab (104 redaktionelle Datensätze).
 
-Basiscommit vor dieser Änderung: e4f615b37f47584edfe53cc8e2506f4b1f3b0b13. Der diese Datei enthaltende Commit ist der aktuelle Übergabestand; exakte Revision mit `git log -1` ermitteln.
+Acht eigene SVG-Lernlandkarten, vier auswählbare Themen je Kapitel, optionaler pausierbarer Rundgang mit 15-Sekunden-Wechsel und Berücksichtigung reduzierter Bewegung. Der bestehende lizenzierte Herzfilm ist eingebunden; weitere deutsche Filme und Original-PDFs werden bei ihren Herausgebern verlinkt. Das sind didaktische Übersichten, keine anatomischen Simulationen. Quellen sind in Karten, Quizauflösungen und Kapitelabschnitten anklickbar. Medien und Rundgänge bleiben im Browser-Verwaltungsportal bearbeitbar, einschließlich neu anlegbarer Einträge.
 
-## Prüfung
+Die einmalige Migration curriculum-de-v1 ergänzt neue Datensätze ohne redaktionelle Bearbeitungen zu überschreiben. Sie wurde auch in der lokalen Produktionsvorschau ausgeführt. Inhalte und Quellenverzeichnis: CONTENT_REVIEW.md. Quellenabgleich durch KI mit deutschen Primärquellen, keine unabhängige medizinische Freigabe. Keine pauschalen Arzneimitteldosierungen oder vollständigen Einsatz-SOPs.
 
-- 11 Tests erfolgreich, einschließlich Codespaces-Herkunftsprüfung und bestehenden Rechte-/Medientests.
-- Produktionsbuild erfolgreich; Startskript separat syntaktisch geprüft.
-- Keine echte Codespaces-Instanz gestartet, keine Gebührenoptionen aktiviert. Containerstart und Browser-Vorschau auf GitHub stehen als reale Prüfung noch aus.
-- Anleitung: CODESPACES.md. Admin-Erstzugang entsteht separat im Codespace unter .data/ERSTER-ADMIN.txt.
+## Prüfstand
 
-## Nächster Schritt
+- 14 Tests erfolgreich, einschließlich Themenabdeckung, zweier Sprachfassungen, eindeutiger Quizantworten, wiederholbarer Migration und Erhalt redaktioneller Bearbeitungen.
+- Produktionsbuild erfolgreich.
+- Produktions-API liefert genau 104 neue Datensätze. Neue Karten-/Quizrouten, Dokumente, SVG und Verwaltung antworten mit HTTP 200.
+- 80 unterschiedliche Quellen- und Medienlinks geprüft, alle HTTP 200; inhaltlicher Quellenabgleich separat durchgeführt. Erreichbarkeit allein ist keine fachliche Validierung.
+- Gezielte ESLint-Prüfung ohne Fehler; eine Empfehlung für next/image statt img bei frei gepflegten Abbildungen.
+- SVG-Beispiel gerendert und visuell geprüft. Vollständige interaktive Browserprüfung blockiert: Browser-Werkzeug meldet Transport closed. Kein Android-/iOS-Gerätetest.
+- Lokales Erstpasswort gegen gespeicherten Hash geprüft. Keine Zugangsdaten oder Datenbanken im Git-Commit.
 
-Nutzer öffnet einen Codespace auf main mit 2 Kernen und prüft Vorschau, Anmeldung, Speichern und Wiederaufnahme. Bei Problemen zuerst Startausgabe und .data/codespaces-server.log prüfen. Codespace-Ports privat lassen. Keine Passwörter oder Datenbankdateien committen.
+## Zugang und Übernahme
+
+Admin-Konto: admin@medlearn.local. Das individuelle Erstpasswort liegt in .data/ERSTER-ADMIN.txt der jeweiligen Installation. Codespace und lokales Projekt besitzen getrennte Datenbanken und Passwörter. Für Codespaces den bestehenden Codespace stoppen und wieder öffnen: sauberes main wird durch das Startskript aktualisiert. Beim ersten Inhaltsabruf wird die Migration automatisch ausgeführt. Anleitung: CODESPACES.md.
+
+Dieser Commit ist der Übergabestand; genaue Revision mit git log -1 bestimmen. Vorheriger veröffentlichter Stand: 933f49d. Nach Commit pushen und Remote-Revision vergleichen; keinen Upload ohne Nachweis behaupten.
 
 ## Fortbestehende Produktaufgaben
 
-Vollständiger Anatomieatlas mit weiteren lizenzierten Detailzeichnungen; native Android-/iOS-Builds und Geräteprüfung; serverseitiger Lernfortschritt statt Browserprofil; Import früherer lokaler Eigenbeiträge. Der Inhaltseditor ist kein Editor für eingebetteten Original-PDF-Text oder sämtliche fest programmierten UI-Texte. Weitere Details in SERVER-UND-MEDIEN.md.
+Unabhängige medizinische Redaktion und vertiefende Ausbildungsinhalte; vollständiger Anatomieatlas mit weiteren lizenzierten Detailzeichnungen; native Android-/iOS-Builds und Geräteprüfung; serverseitiger Lernfortschritt statt Browserprofil; Import früherer lokaler Eigenbeiträge. Der Inhaltseditor bearbeitet weder eingebetteten Original-PDF-Text noch sämtliche fest programmierten UI-Texte. Weitere Details: SERVER-UND-MEDIEN.md.
 
 ## Arbeitsregel
 
-Bei weiteren Arbeiten diesen Stand regelmäßig und vor größeren Abschnitten aktualisieren. Geprüfte Änderungen nach Tridiora/Rettungsapp pushen. Bei unvollständiger Arbeit offene Fehler, letzte erfolgreiche Checks und konkrete nächste Schritte hier festhalten; keinen erfolgreichen Upload oder Test behaupten, wenn er noch aussteht.
+Diesen Stand regelmäßig und vor größeren Abschnitten aktualisieren. Geprüfte Änderungen nach Tridiora/Rettungsapp pushen. Bei unvollständiger Arbeit offene Fehler, letzte erfolgreiche Checks und konkrete nächste Schritte festhalten. Keine Passwörter oder Datenbanken committen.

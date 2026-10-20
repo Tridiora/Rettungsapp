@@ -9,7 +9,10 @@ export interface LearningDocument {
   pages: number
   date: string
   summary: string
-  sections: { id: string; title: string; content: string; simpleContent?: string }[]
+  imageUrl?: string
+  visualSteps?: { title:string; technical:string; simple:string }[]
+  resources?: { title:string; url:string; kind:string }[]
+  sections: { id: string; title: string; content: string; simpleContent?: string; sources?: string[] }[]
 }
 export interface Library {
   decks: Managed<Deck>[]

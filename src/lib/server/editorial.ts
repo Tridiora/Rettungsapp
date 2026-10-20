@@ -9,6 +9,7 @@ import { anatomyModels } from '@/lib/anatomy-data'
 import { glossary } from '@/lib/learning-glossary'
 import { detailedExplanations } from '@/lib/detailed-explanations'
 import { atlasMedia } from '@/lib/atlas-media-data'
+import { curriculumLibrary } from '@/lib/curriculum/index'
 
 export function editorialDb() {
   const db=database()
@@ -46,6 +47,13 @@ export function editorialDb() {
   if(!db.prepare("SELECT value FROM editorial_meta WHERE key='atlas-v1'").get())db.transaction(()=>{
     for(const data of atlasMedia){const row={id:`illustrations:${data.id}`,kind:'illustrations',data,ownerId:'system',scope:'global',classId:'',status:'published',revision:1};db.prepare('INSERT OR IGNORE INTO editorial_content VALUES (?,?,?)').run(row.id,row.kind,JSON.stringify(row))}
     db.prepare("INSERT INTO editorial_meta VALUES ('atlas-v1','1')").run()
+  })()
+  if(!db.prepare("SELECT value FROM editorial_meta WHERE key='curriculum-de-v1'").get())db.transaction(()=>{
+    for(const kind of ['decks','cards','quizzes','documents'] as const)for(const data of curriculumLibrary[kind]){
+      const row={id:kind+':'+data.id,kind,data,ownerId:'system',scope:'global',classId:'',status:'published',revision:1}
+      db.prepare('INSERT OR IGNORE INTO editorial_content VALUES (?,?,?)').run(row.id,kind,JSON.stringify(row))
+    }
+    db.prepare("INSERT INTO editorial_meta VALUES ('curriculum-de-v1','1')").run()
   })()
   return db
 }
