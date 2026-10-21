@@ -11,6 +11,24 @@ export interface User {
   updatedAt: Date
 }
 
+// Apprenticeship & Timeline Types
+export type YearLevel = 1 | 2 | 3 | 'all'
+
+export interface Milestone {
+  id: string
+  title: string
+  date: string
+  description?: string
+  yearLevel?: 1 | 2 | 3
+}
+
+export interface ClassTimeline {
+  startDate: string
+  durationMonths: number
+  examDate?: string
+  milestones?: Milestone[]
+}
+
 // Flashcard Types
 export type FlashcardStatus = 'draft' | 'pending_review' | 'approved' | 'rejected'
 export type DifficultyLevel = 'beginner' | 'intermediate' | 'advanced' | 'expert'
@@ -40,6 +58,7 @@ export interface Flashcard {
   author?: User
   status: FlashcardStatus
   difficulty: DifficultyLevel
+  yearLevel?: YearLevel
   tags: string[]
   createdAt: Date
   updatedAt: Date
@@ -57,6 +76,7 @@ export interface Deck {
   isOfficial: boolean
   cardCount: number
   difficulty: DifficultyLevel
+  yearLevel?: YearLevel
   tags: string[]
   createdAt: Date
   updatedAt: Date
@@ -90,6 +110,7 @@ export interface Quiz {
   passingScore: number // percentage
   isExamSimulation: boolean
   difficulty: DifficultyLevel
+  yearLevel?: YearLevel
   authorId: string
   author?: User
   createdAt: Date
@@ -181,6 +202,7 @@ export interface Document {
   authorId: string
   author?: User
   pageCount?: number
+  yearLevel?: YearLevel
   createdAt: Date
 }
 

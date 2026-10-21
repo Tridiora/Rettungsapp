@@ -1,7 +1,7 @@
-import type { Deck, Flashcard, Quiz } from '@/types'
+import type { Deck, Flashcard, Quiz, YearLevel } from '@/types'
 
 export type Publication = 'draft' | 'published' | 'archived'
-export type Managed<T> = T & { publication?: Publication; source?: string }
+export type Managed<T> = T & { publication?: Publication; source?: string; yearLevel?: YearLevel }
 export interface LearningDocument {
   id: string
   title: string
@@ -10,6 +10,7 @@ export interface LearningDocument {
   date: string
   summary: string
   imageUrl?: string
+  yearLevel?: YearLevel
   visualSteps?: { title:string; technical:string; simple:string }[]
   resources?: { title:string; url:string; kind:string }[]
   sections: { id: string; title: string; content: string; simpleContent?: string; sources?: string[] }[]
