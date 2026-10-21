@@ -13,7 +13,7 @@ export interface LearningDocument {
   yearLevel?: YearLevel
   visualSteps?: { title:string; technical:string; simple:string }[]
   resources?: { title:string; url:string; kind:string }[]
-  sections: { id: string; title: string; content: string; simpleContent?: string; sources?: string[] }[]
+  sections: { yearLevel?: YearLevel; id: string; title: string; content: string; simpleContent?: string; sources?: string[] }[]
 }
 export interface Library {
   decks: Managed<Deck>[]

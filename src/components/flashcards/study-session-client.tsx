@@ -26,7 +26,8 @@ export function StudySessionClient({ deckId }: { deckId: string }) {
   const user = useAppStore(s => s.currentUser)
   const recordCard = useLearningStore(s => s.recordCard)
   const deck = decks.find((d) => d.id === deckId)
-  const deckCards = flashcards.filter((c) => c.deckId === deckId)
+  const selectedYear = useAppStore(s => s.selectedYear)
+  const deckCards = flashcards.filter((c) => c.deckId === deckId && (selectedYear === 'all' || (c.yearLevel || 1) === selectedYear))
   const cards = deckCards
 
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -98,9 +99,9 @@ export function StudySessionClient({ deckId }: { deckId: string }) {
   if (!deck || !currentCard) return <div className="p-8 space-y-4"><h1 className="text-xl font-bold">{deck ? 'Noch keine Karten in diesem Lernset' : 'Lernset nicht gefunden'}</h1><Link className="text-accent-ink underline" href="/karteikarten">Zur Übersicht</Link></div>
 
   return (
-    <div className="min-h-screen p-4 md:p-8 max-w-4xl mx-auto flex flex-col justify-between">
+    <div className="min-h-full w-full p-3 sm:p-5 lg:p-8 max-w-6xl mx-auto flex flex-col gap-3">
       {/* ── Top Bar ── */}
-      <div className="flex items-center justify-between gap-4">
+      <div className="flex flex-wrap items-center justify-between gap-3">
         <Link
           href="/karteikarten"
           className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-border bg-surface text-xs font-semibold text-muted hover:text-foreground transition-colors"
@@ -138,21 +139,20 @@ export function StudySessionClient({ deckId }: { deckId: string }) {
       </div>
 
       {/* ── Main Card Area or Finish Screen ── */}
-      <div className="flex-1 flex items-center justify-center my-6">
+      <div className="flex-1 flex items-start justify-center my-2">
         {!isFinished ? (
-          <div className="w-full max-w-2xl perspective-1000">
+          <div className="w-full">
             <motion.div
-              animate={{ rotateY: isFlipped ? 180 : 0 }}
+              animate={{ opacity: 1 }}
               transition={{ duration: 0.5, ease: 'easeInOut' }}
-              className="relative w-full min-h-[380px] rounded-3xl bg-surface border border-border shadow-xl p-8 flex flex-col justify-between cursor-pointer select-none"
-              style={{ transformStyle: 'preserve-3d' }}
-              onClick={() => setIsFlipped(!isFlipped)}
+              className="relative w-full rounded-3xl bg-surface border border-border shadow-xl"
+
             >
               {/* Front Side */}
               <div
                 className={cn(
-                  'absolute inset-0 p-8 flex flex-col justify-between backface-hidden rounded-3xl',
-                  isFlipped ? 'pointer-events-none opacity-0' : 'opacity-100'
+                  'p-4 sm:p-6 lg:p-8 flex-col justify-between gap-5 min-h-[clamp(15rem,45dvh,34rem)] rounded-3xl break-words',
+                  isFlipped ? 'hidden' : 'flex'
                 )}
               >
                 <div>
@@ -161,14 +161,14 @@ export function StudySessionClient({ deckId }: { deckId: string }) {
                       Frage / Fall
                     </span>
                     <span className="text-xs text-muted flex items-center gap-1 font-medium">
-                      <RotateCw className="w-3.5 h-3.5" /> Zum Umdrehen klicken
+                      <RotateCw className="w-3.5 h-3.5" /> Mit Drehen-Taste umdrehen
                     </span>
                   </div>
 
                   <h2 className="text-xl md:text-2xl font-bold text-foreground leading-relaxed mt-4">
                     <TermText text={currentCard.front}/>
                   </h2>
-                  {currentCard.imageUrl&&<img src={currentCard.imageUrl} alt="Abbildung zur Lernkarte" className="mt-4 max-h-72 mx-auto rounded-xl"/>}
+                  {currentCard.imageUrl&&<img src={currentCard.imageUrl} alt="Abbildung zur Lernkarte" className="mt-4 max-h-[40dvh] max-w-full object-contain mx-auto rounded-xl"/>}
                 </div>
 
                 {/* Hint */}
@@ -208,10 +208,10 @@ export function StudySessionClient({ deckId }: { deckId: string }) {
               {/* Back Side (Answer) */}
               <div
                 className={cn(
-                  'absolute inset-0 p-8 flex flex-col justify-between backface-hidden rounded-3xl bg-surface-hover/30',
-                  !isFlipped ? 'pointer-events-none opacity-0' : 'opacity-100'
+                  'p-4 sm:p-6 lg:p-8 flex-col gap-5 min-h-[clamp(15rem,45dvh,34rem)] rounded-3xl bg-surface-hover/30 break-words',
+                  !isFlipped ? 'hidden' : 'flex'
                 )}
-                style={{ transform: 'rotateY(180deg)' }}
+
               >
                 <div>
                   <div className="flex items-center justify-between mb-4">
@@ -222,7 +222,8 @@ export function StudySessionClient({ deckId }: { deckId: string }) {
                   </div>
 
                   <LanguageSwitch />
-                  <p className="text-lg leading-relaxed whitespace-pre-line mt-2 max-h-48 overflow-y-auto"><LearningText technical={currentCard.back} simple={'simpleExplanation' in currentCard ? currentCard.simpleExplanation : undefined} /></p>
+                  {currentCard.explanationImageUrl && <img src={currentCard.explanationImageUrl} alt={`Erklärschema: ${currentCard.front}`} className="mt-4 w-full max-h-[60dvh] object-contain rounded-xl"/>}
+                  <p className="text-base lg:text-lg leading-relaxed whitespace-pre-line mt-3"><LearningText technical={currentCard.back} simple={'simpleExplanation' in currentCard ? currentCard.simpleExplanation : undefined} /></p>
                 </div>
 
                 {'source' in currentCard && currentCard.source && <SourceLinks source={String(currentCard.source)}/>}
@@ -291,11 +292,11 @@ export function StudySessionClient({ deckId }: { deckId: string }) {
 
       {/* ── Bottom Controls ── */}
       {!isFinished && (
-        <div className="flex items-center justify-center gap-4 py-2">
+        <div className="flex flex-wrap items-center justify-center gap-2 py-3 sticky bottom-0 bg-background/95 rounded-2xl">
           <button
             onClick={() => handleAnswer(false)}
             disabled={!isFlipped}
-            className="flex-1 max-w-xs py-3 px-6 rounded-2xl bg-secondary/10 hover:bg-secondary text-secondary-ink hover:text-white border border-secondary/20 font-bold text-sm transition-all shadow-sm flex items-center justify-center gap-2 active:scale-95"
+            className="flex-1 max-w-xs py-3 px-3 sm:px-6 rounded-2xl bg-secondary/10 hover:bg-secondary text-secondary-ink hover:text-white border border-secondary/20 font-bold text-sm transition-all shadow-sm flex items-center justify-center gap-2 active:scale-95"
           >
             <X className="w-5 h-5" />
             <span>Wiederholen</span>
@@ -304,7 +305,7 @@ export function StudySessionClient({ deckId }: { deckId: string }) {
           <button
             onClick={() => setIsFlipped(!isFlipped)}
             className="p-3 rounded-2xl border border-border bg-surface hover:bg-surface-hover text-muted hover:text-foreground transition-all"
-            title="Karte umdrehen"
+            title="Karte umdrehen" aria-label="Karte umdrehen"
           >
             <RotateCw className="w-5 h-5" />
           </button>
@@ -312,7 +313,7 @@ export function StudySessionClient({ deckId }: { deckId: string }) {
           <button
             onClick={() => handleAnswer(true)}
             disabled={!isFlipped}
-            className="flex-1 max-w-xs py-3 px-6 rounded-2xl bg-success/15 hover:bg-success text-success-ink hover:text-white border border-success/30 font-bold text-sm transition-all shadow-sm flex items-center justify-center gap-2 active:scale-95"
+            className="flex-1 max-w-xs py-3 px-3 sm:px-6 rounded-2xl bg-success/15 hover:bg-success text-success-ink hover:text-white border border-success/30 font-bold text-sm transition-all shadow-sm flex items-center justify-center gap-2 active:scale-95"
           >
             <Check className="w-5 h-5" />
             <span>Gewusst</span>

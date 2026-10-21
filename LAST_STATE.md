@@ -1,3 +1,11 @@
+# Fortsetzung · 21.10.2026: InfinityFree-Lern-Beta
+
+900 Hauptfragen und entsprechende Karten/Abschnitte in acht Fachgebieten; zusätzlich 43 bisherige Anatomiekarten. Lehrjahrfilter, flexible Kartenhöhe, 20+-Fragen-Runden, eigene SVG-Erklärschemata und elf interaktive Anatomierundgänge samt MP4/VTT.
+
+Die statische Beta wird mit Node 22 und `npm run build:beta` nach `dist-infinityfree` exportiert. Der Servermodus bleibt erhalten. Upload-Anleitung und Grenzen: BETA-INFINITYFREE.md. Inhaltsstand und noch ausstehende medizinische Prüfung: BETA-CONTENT.md. Keine tatsächliche InfinityFree-Veröffentlichung durchgeführt.
+
+---
+
 # LAST_STATE – 20.10.2026
 
 ## Codespaces: wiederholtes Neuladen und Verbindungsfehler

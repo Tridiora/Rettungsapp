@@ -1,0 +1,110 @@
+# Gesprächsbeginn|1|https://www.sicherer-rettungsdienst.de/|Ein ruhiger klarer Gesprächsbeginn erleichtert Orientierung. Kommunikation wird an Zustand, Sprache und Bedürfnisse der betroffenen Person angepasst.
+Was unterstützt einen guten Erstkontakt?|Vorstellen und Aufgabe kurz erklären|Sofort ohne Ansprache anfassen|Nur über die Person sprechen
+Warum die Person direkt ansprechen?|Beteiligung und Vertrauen fördern|Angehörige grundsätzlich ausschließen|Eine Diagnose beweisen
+Was ist eine offene Frage?|Eine Frage mit freier Antwortmöglichkeit|Eine Frage nur mit Ja oder Nein|Eine Frage ohne Empfänger
+Welche Frage ist offen?|Was ist heute passiert?|Haben Sie Schmerzen, ja oder nein?|Sind Sie 40 Jahre alt?
+Was ist eine geschlossene Frage?|Eine Frage mit begrenzten Antwortmöglichkeiten|Eine Einladung zu beliebigem Erzählen|Eine Frage ohne Inhalt
+Wann können geschlossene Fragen hilfreich sein?|Bei gezielter Klärung und Zeitdruck|Immer als Ersatz für jedes Gespräch|Nur bei gesunden Menschen
+Warum einen ruhigen Ton wählen?|Verständigung und Orientierung unterstützen|Jede Angst sofort beseitigen|Schmerzfreiheit garantieren
+Was bedeutet aktives Zuhören?|Aufmerksam aufnehmen und Verständnis rückmelden|Nebenbei andere Gespräche führen|Jede Aussage sofort unterbrechen
+Was ist eine geeignete Zusammenfassung?|Wesentliche Angaben in eigenen Worten rückmelden|Neue Tatsachen hinzufügen|Aussagen abwerten
+Warum den bevorzugten Namen erfragen?|Respektvolle Ansprache ermöglichen|Diagnose bestimmen|Einwilligung ersetzen
+# Verständliche Sprache|1|https://www.gesundheitsinformation.de/|Verständliche Sprache verwendet kurze konkrete Aussagen. Rückfragen prüfen das Verständnis und sollen die Person nicht beschämen.
+Was hilft bei medizinischen Erklärungen?|Kurze Sätze und erklärte Fachbegriffe|Möglichst viele Abkürzungen|Nur lateinische Wörter
+Was bedeutet Teach-back?|Person erklärt das Verstandene in eigenen Worten|Personal wiederholt nur lauter|Schriftliche Prüfung ohne Erklärung
+Wie wird Teach-back respektvoll eingeleitet?|Zur Prüfung der eigenen Erklärung um Rückmeldung bitten|Person als unwissend bezeichnen|Mit Konsequenzen drohen
+Warum Informationen portionieren?|Überforderung reduzieren|Wesentliche Risiken verschweigen|Gespräch künstlich verlängern
+Was ist bei Verständnisproblemen sinnvoll?|Anders erklären und erneut prüfen|Immer denselben Satz lauter sagen|Gespräch abbrechen ohne Alternative
+Was ist eine konkrete Zeitangabe?|Wir prüfen in wenigen Minuten erneut Ihren Zustand|Irgendwann passiert etwas|Es dauert eine Ewigkeit
+Warum unklare Beschwichtigungen vermeiden?|Sie können falsche Sicherheit vermitteln|Beruhigung ist grundsätzlich verboten|Nur Fachsprache ist erlaubt
+Welche Aussage ist transparent?|Wir prüfen die Ursache; sicher ist sie noch nicht|Es ist garantiert nichts, ohne Untersuchung|Ich weiß sicher alles
+Was ist bei Fachbegriffen sinnvoll?|Bedeutung kurz alltagssprachlich erklären|Nur buchstabieren|Begriff mehrfach wiederholen ohne Erklärung
+Warum eine Maßnahme vor Berührung ankündigen?|Orientierung und Zustimmung erleichtern|Einwilligung automatisch ersetzen|Untersuchung unnötig machen
+# Anamnese und Fragen|1|https://www.gesundheitsinformation.de/|Fragen sollen Informationen gewinnen, ohne Antworten vorzugeben. Beobachtung, eigene Deutung und Angaben Dritter werden auseinandergehalten.
+Was ist eine suggestive Frage?|Eine Frage, die eine gewünschte Antwort nahelegt|Jede kurze Frage|Jede Frage nach dem Namen
+Welche Frage ist eher neutral?|Wie fühlen sich die Beschwerden an?|Das ist doch bestimmt nur Angst?|Sie haben sicher keine Schmerzen?
+Warum nach Beginn und Verlauf fragen?|Zeitliche Entwicklung einordnen|Nur Gespräch verlängern|Diagnose allein aus Uhrzeit sichern
+Warum nach bisherigen Maßnahmen fragen?|Wirkungen und mögliche Wechselwirkungen berücksichtigen|Nur Fehler suchen|Damit weitere Befunde entfallen
+Was ist Fremdanamnese?|Angaben anderer Personen zur betroffenen Person|Erfundene Anamnese|Nur Angaben aus dem Ausland
+Wie sollten Fremdangaben gekennzeichnet werden?|Mit Herkunft der Information|Als eigene sichere Beobachtung|Ohne jede Quellenangabe
+Warum Widersprüche behutsam klären?|Missverständnisse und relevante Unterschiede erkennen|Lügen grundsätzlich unterstellen|Gespräch sofort beenden
+Was hilft bei langen unstrukturierten Erzählungen?|Freundlich zusammenfassen und gezielt lenken|Abwertend unterbrechen|Nie nachfragen
+Was ist bei intimen Fragen wichtig?|Privatsphäre und sachliche Begründung|Öffentliche Befragung|Humor auf Kosten der Person
+Warum nach den Hauptsorgen fragen?|Perspektive und Prioritäten verstehen|Medizinische Untersuchung ersetzen|Alle Wünsche automatisch erfüllen
+# Nonverbale Kommunikation|1|https://www.deutsche-alzheimer.de/fileadmin/Alz/pdf/Flyer_und_Dokumente/11_Tipps_zur_besseren_Verstaendigung.pdf|Körperhaltung und Abstand beeinflussen Gespräche. Nonverbale Zeichen sind kontextabhängig und erlauben keine sichere Gedankenlesung.
+Was kann eine zugewandte Körperhaltung vermitteln?|Aufmerksamkeit|Sichere Diagnose|Automatische Zustimmung
+Warum angemessenen Abstand beachten?|Sicherheit und persönliche Grenzen respektieren|Kontakt grundsätzlich verhindern|Nur Messwerte verbessern
+Ist fehlender Blickkontakt automatisch Unehrlichkeit?|Nein|Ja|Nur bei Erwachsenen immer
+Warum auf Augenhöhe sprechen, wenn möglich?|Weniger bedrohliche Gesprächssituation schaffen|Medizinische Autorität aufgeben|Hörvermögen garantieren
+Was ist bei Berührungen zu berücksichtigen?|Ankündigung, Zustimmung und persönliche Grenzen|Jede Berührung ist immer willkommen|Nur eigene Gewohnheit
+Kann Schweigen Teil eines Gesprächs sein?|Ja, es kann Raum zum Verarbeiten geben|Nein, es ist immer Ablehnung|Nur bei Bewusstlosigkeit
+Warum Mimik nicht isoliert interpretieren?|Kultur, Schmerz und Situation beeinflussen Ausdruck|Mimik ist immer bedeutungslos|Mimik beweist jede Diagnose
+Was bedeutet professionelle Nähe?|Zuwendung bei respektierten Grenzen|Private Freundschaft erzwingen|Vollständige emotionale Distanz
+Was kann hektische Bewegung auslösen?|Zusätzliche Unsicherheit|Immer bessere Kooperation|Sichere Beruhigung
+Warum widersprüchliche verbale und nonverbale Signale beachten?|Sie können Verständigung erschweren|Sie beweisen Täuschung|Sie machen Nachfragen unnötig
+# Angst und Schmerz|2|https://www.gesundheitsinformation.de/|Angst und Schmerz sind subjektive Erfahrungen. Anerkennen bedeutet nicht, jede vermutete Ursache ungeprüft zu bestätigen.
+Was ist eine empathische Rückmeldung?|Ich sehe, dass Sie sehr belastet sind|Stellen Sie sich nicht so an|Das kann gar nicht wehtun
+Warum Schmerzen ernst nehmen?|Subjektive Beschwerden sind relevante Informationen|Nur sichtbare Wunden schmerzen|Schmerz ist immer messbar wie Temperatur
+Was erfasst eine Schmerzskala?|Subjektive Schmerzintensität|Sichere Ursache|Automatisch erforderliche Medikamentendosis
+Warum eine Schmerzskala im Verlauf wiederholen?|Veränderung und Behandlungseffekt erfassen|Antworten kontrollieren und bestrafen|Diagnose allein sichern
+Was hilft bei Angst häufig?|Ruhige Orientierung und nachvollziehbare nächste Schritte|Unbegründete Garantien|Drohungen
+Was ist bei Panik und Atemnot wichtig?|Auch körperliche Ursachen beurteilen|Immer ausschließlich psychische Ursache annehmen|Untersuchung unterlassen
+Warum keine falschen Versprechen geben?|Vertrauen und realistische Erwartungen erhalten|Weil jede Hoffnung falsch ist|Nur um Gespräche kurz zu halten
+Was bedeutet Validierung einer Emotion?|Gefühl anerkennen|Jede Sachbehauptung bestätigen|Jede Behandlung ablehnen
+Wie kann Kontrolle vermittelt werden?|Schritte erklären und mögliche Mitwirkung anbieten|Entscheidungen verheimlichen|Alle Grenzen aufheben
+Warum Angehörige bei Angst gezielt einbeziehen?|Sie können Orientierung und Unterstützung geben|Sie ersetzen immer den Patientenwillen|Sie dürfen grundsätzlich alles entscheiden
+# Hör-, Seh- und Sprachbarrieren|2|https://www.deutsche-alzheimer.de/fileadmin/Alz/pdf/Flyer_und_Dokumente/11_Tipps_zur_besseren_Verstaendigung.pdf|Barrieren erfordern passende Kommunikationswege. Einschränkung eines Sinnes bedeutet nicht automatisch Einschränkung des Denkens.
+Was hilft bei Hörbeeinträchtigung?|Zugewandt deutlich sprechen und Hilfsmittel berücksichtigen|Von hinten schreien|Gleichzeitig mehrere Personen sprechen lassen
+Warum Hintergrundgeräusche reduzieren?|Sprachverständnis verbessern|Herzfrequenz messen|Einwilligung ersetzen
+Was ist bei Sehbeeinträchtigung wichtig?|Sich vorstellen und Handlungen ankündigen|Nur wortlos zeigen|Die Person ohne Ankündigung ziehen
+Ist Hörverlust automatisch kognitive Einschränkung?|Nein|Ja|Nur im Alter immer
+Was ist bei Aphasie zu beachten?|Sprachstörung bedeutet nicht automatisch fehlendes Verständnis|Person kann grundsätzlich nichts verstehen|Nur Angehörige ansprechen
+Was kann bei Ausdrucksschwierigkeiten helfen?|Zeit, einfache Auswahl und geeignete Kommunikationshilfen|Sätze immer sofort beenden|Antworten erfinden
+Warum professionelle Sprachmittlung erwägen?|Genauigkeit und Vertraulichkeit unterstützen|Jede Übersetzung verhindern|Nur aus Höflichkeit
+Warum Kinder nicht unkritisch als Dolmetschende einsetzen?|Belastung und Übersetzungsfehler vermeiden|Kinder verstehen nie Sprache|Weil Angehörige immer ungeeignet sind
+An wen richtet sich das Gespräch bei Sprachmittlung?|Weiterhin an die betroffene Person|Nur an die dolmetschende Person|Nur an Umstehende
+Wie wird trotz Übersetzung Verständnis geprüft?|Inhalte rückerklären lassen und Rückfragen ermöglichen|Nur Unterschrift verlangen|Nur Übersetzungsdauer messen
+# Demenz und Delir|2|https://www.deutsche-alzheimer.de/|Kognitive Einschränkungen verändern den Kommunikationsbedarf. Eine akute Veränderung kann auf eine zusätzliche körperliche Erkrankung hinweisen.
+Was hilft häufig bei Demenz im Gespräch?|Kurze klare Sätze und vertraute Orientierung|Viele gleichzeitige Fragen|Ständige Konfrontation mit Fehlern
+Warum ausreichend Antwortzeit lassen?|Verarbeitung kann länger dauern|Damit keine Antworten kommen|Nur zur Verzögerung
+Was ist bei plötzlich neuer Verwirrtheit wichtig?|Akute körperliche Ursachen berücksichtigen|Immer normale Demenz annehmen|Untersuchung weglassen
+Was bedeutet Delir grundsätzlich?|Akute Störung von Aufmerksamkeit und Bewusstsein mit wechselndem Verlauf|Jede lebenslange Vergesslichkeit|Immer eine reine Charaktereigenschaft
+Kann ein Delir auch ruhig und zurückgezogen wirken?|Ja|Nein|Nur bei Kindern
+Warum vertraute Bezugspersonen fragen?|Ausgangszustand und Veränderungen erfahren|Einwilligungsfähigkeit automatisch ersetzen|Nur Medikamente verkaufen
+Was ist bei falscher zeitlicher Orientierung oft hilfreicher?|Ruhig orientieren ohne Beschämung|Laut streiten|Person auslachen
+Warum Reizüberflutung reduzieren?|Unruhe und Überforderung begrenzen|Jede Beobachtung verhindern|Alle Kommunikation einstellen
+Was ist bei Weglauftendenz zunächst wichtig?|Ursachen, Bedürfnisse und Sicherheit beurteilen|Automatisch bestrafen|Immer sofort allein lassen
+Ist eine Demenzdiagnose gleichbedeutend mit genereller Einwilligungsunfähigkeit?|Nein|Ja|Nur außerhalb der Wohnung
+# Deeskalation|2|https://www.sicherer-rettungsdienst.de/|Deeskalation verbindet respektvolle Kommunikation mit Eigenschutz. Drohungen und unmittelbare Gefährdung benötigen passende Unterstützung.
+Was ist bei zunehmender Aggression wichtig?|Abstand und Rückzugsmöglichkeit erhalten|Person einkreisen|Fluchtweg blockieren
+Welche Sprache unterstützt Deeskalation?|Ruhige klare kurze Aussagen|Provokationen|Spott
+Warum Grenzen klar benennen?|Sicherheit und Erwartungen verdeutlichen|Machtkampf beginnen|Person erniedrigen
+Was ist eine Ich-Botschaft?|Beschreibung eigener Wahrnehmung und Grenze|Pauschale Schuldzuweisung|Diagnose ohne Untersuchung
+Warum nicht mehrere Personen gleichzeitig diskutieren lassen?|Reizüberflutung und Widersprüche vermeiden|Team ausschließen|Hilfe verhindern
+Was ist bei akuter Gewaltandrohung sinnvoll?|Unterstützung und sichere Distanz organisieren|Allein körperlich beweisen, wer stärker ist|Bedrohung grundsätzlich ignorieren
+Kann ruhiges Auftreten jede Gewalt verhindern?|Nein|Ja|Nur bei Erwachsenen
+Warum Wahlmöglichkeiten im sicheren Rahmen anbieten?|Autonomie und Kooperation unterstützen|Jede Grenze aufheben|Medizinische Dringlichkeit verbergen
+Was ist bei beleidigenden Äußerungen professionell?|Sachlich bleiben und Grenzen setzen|Zurückbeleidigen|Person öffentlich bloßstellen
+Warum einen Rückzug nicht als persönliches Scheitern bewerten?|Sicherheit hat Vorrang|Weil Versorgung immer unwichtig ist|Weil Hilfe grundsätzlich endet
+# Teamkommunikation|3|https://www.sicherer-rettungsdienst.de/|Klare Teamkommunikation macht Aufträge und Veränderungen sichtbar. Rückmeldung ist besonders bei kritischen Schritten wichtig.
+Was gehört zu einem geschlossenen Kommunikationskreis?|Auftrag, Wiederholung und Abschlussrückmeldung|Nur ein Zuruf|Nur eine schriftliche Notiz ohne Empfänger
+Warum Namen bei Aufträgen verwenden?|Empfänger eindeutig benennen|Hierarchie verstärken|Andere beleidigen
+Was ist bei nicht verstandener Dosisangabe richtig?|Vor Ausführung nachfragen|Schätzen|Leise ignorieren
+Warum Veränderungen laut mitteilen?|Gemeinsames Lagebild aktualisieren|Nur Aufmerksamkeit erhalten|Dokumentation ersetzen
+Was bedeutet strukturierte Übergabe?|Information nach einem vereinbarten Schema vermitteln|Nur Diagnose nennen|Alle Details ungeordnet aufzählen
+Warum kritische Rückmeldung konkret formulieren?|Handlungsbedarf eindeutig machen|Person abwerten|Verantwortung verbergen
+Was ist eine geeignete Sicherheitsfrage?|Welche andere Ursache müssen wir noch ausschließen?|Wer ist schuld?|Warum weißt du nie etwas?
+Warum Hierarchiegefälle berücksichtigen?|Es kann das Ansprechen von Bedenken erschweren|Es verbessert immer jede Entscheidung|Es macht Rückfragen unnötig
+Was ist bei mehreren parallelen Aufgaben hilfreich?|Kurze Prioritäten- und Zuständigkeitsklärung|Alle sprechen gleichzeitig|Keine Rückmeldung zulassen
+Wie sollte eine Nachbesprechung beginnen?|Mit gemeinsamem Ablauf und Lernziel|Mit persönlicher Beschuldigung|Mit öffentlicher Bloßstellung
+# Schwierige Gespräche|3|https://www.gesundheitsinformation.de/|Schwierige Nachrichten benötigen Klarheit, Privatsphäre und Raum für Reaktionen. Eigene Zuständigkeit und gesicherte Informationen begrenzen die Aussage.
+Warum bei schlechten Nachrichten klare Wörter wählen?|Missverständnisse vermeiden|Gefühle unterdrücken|Hoffnung grundsätzlich verbieten
+Was ist vor einem sensiblen Gespräch wichtig?|Geeignete Umgebung und gesicherte Informationen|Möglichst viele Zuschauer|Privates Telefonat parallel
+Was ist nach einer belastenden Nachricht sinnvoll?|Pause und Raum für Reaktion|Sofort neues Thema erzwingen|Reaktion bewerten
+Warum unbekannte Prognosen nicht erfinden?|Falsche Sicherheit und Vertrauensverlust vermeiden|Weil Information nie hilft|Um jede Frage abzublocken
+Was ist bei Schuldgefühlen eines Angehörigen hilfreich?|Zuhören und keine unbegründeten Schuldzuweisungen machen|Schuld ohne Grundlage bestätigen|Gefühle verspotten
+Was ist bei Behandlungsablehnung kommunikativ wichtig?|Gründe erfragen und Risiken verständlich besprechen|Drohungen als Standard|Unterschrift ohne Gespräch
+Warum kulturelle Wünsche individuell erfragen?|Menschen unterscheiden sich auch innerhalb einer Gruppe|Kultur bestimmt jeden Wunsch sicher|Stereotype ersetzen Fragen
+Was ist bei religiösen Anliegen sinnvoll?|Mögliche Unterstützung im sicheren Versorgungsrahmen prüfen|Grundsätzlich abwerten|Medizinische Dringlichkeit immer ignorieren
+Warum eigene Belastungsgrenzen reflektieren?|Professionelle Hilfe und Unterstützung erhalten|Patienten verantwortlich machen|Jede Emotion verstecken
+Was ist das Ziel eines Abschlussgesprächs?|Nächste Schritte und offene Fragen klären|Nur möglichst schnell verschwinden|Alle Unsicherheiten verschweigen

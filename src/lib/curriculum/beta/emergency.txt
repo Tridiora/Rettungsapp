@@ -1,0 +1,110 @@
+# Ersteinschätzung|1|https://www.grc-org.de/wissenschaft/leitlinien|Ein strukturierter Ersteindruck dient dem raschen Erkennen von Lebensgefahr. Befunde müssen im Verlauf erneut beurteilt werden.
+Wofür steht A im ABCDE-Schema?|Atemweg|Allergie|Ausscheidung
+Wofür steht B im ABCDE-Schema?|Atmung|Blutzucker allein|Blutgruppe
+Wofür steht C im ABCDE-Schema?|Kreislauf|Bewusstsein allein|Körpertemperatur allein
+Wofür steht D im ABCDE-Schema?|Neurologische Beurteilung|Desinfektion|Dokumentation allein
+Wofür steht E im ABCDE-Schema?|Entkleiden und Umgebung berücksichtigen|Entlassung|Elektrodenzahl
+Was hat bei unmittelbarer Lebensgefahr Vorrang?|Erkannte lebensbedrohliche Störung behandeln|Vollständige Anamnese abwarten|Alle Geräte vorab ausdrucken
+Was bedeutet Reevaluation?|Erneute Beurteilung nach Zeit oder Maßnahmen|Einmalige Diagnose ohne Kontrolle|Ausschließlich Geräteprüfung
+Welche Information gehört zur Allergieanamnese?|Bekannte Auslöser und bisherige Reaktionen|Nur Körpergröße|Nur Einsatznummer
+Was ist beim Symptombeginn wichtig?|Zeitpunkt und Verlauf möglichst genau erheben|Immer den Notrufzeitpunkt gleichsetzen|Zeitangaben grundsätzlich weglassen
+Was bedeutet SAMPLER überwiegend?|Strukturierte Notfallanamnese|Reanimationsrhythmus|Beatmungsmodus
+# Kreislaufstillstand|1|https://www.grc-org.de/wissenschaft/leitlinien|Bei fehlender Reaktion und nicht normaler Atmung besteht Reanimationsverdacht. Frühzeitige Hilfe, Kompressionen und Defibrillation sind zentrale Glieder der Versorgung.
+Ist Schnappatmung eine normale Atmung?|Nein|Ja, immer|Nur bei Erwachsenen immer
+Was ist bei einem verfügbaren AED zu beachten?|Geräteanweisungen befolgen|Elektroden auf Kleidung kleben|Rhythmusanalyse durch Berührung unterstützen
+Wann darf während einer AED-Analyse angefasst werden?|Während der Analyse nicht|Während jeder Analyse beliebig|Nur während der Schockabgabe
+Was soll während einer Schockabgabe verhindert werden?|Kontakt von Personen mit dem Patienten|Freier Zugang zum Gerät|Haftung der Elektroden
+Welche Kompressionsfrequenz gilt bei Erwachsenen grundsätzlich?|100 bis 120 pro Minute|40 bis 60 pro Minute|180 bis 200 pro Minute
+Welche Kompressionstiefe wird bei Erwachsenen angestrebt?|5 bis 6 cm|1 bis 2 cm|Mehr als 10 cm
+Was ist zwischen Thoraxkompressionen wichtig?|Vollständige Entlastung|Dauerhaftes Aufstützen|Lange Pause nach jeder Kompression
+Wie sollen Kompressionsunterbrechungen sein?|So kurz wie möglich|Regelmäßig mehrere Minuten|Länger als die Kompressionsphasen
+Welche Unterlage unterstützt wirksame Thoraxkompressionen?|Möglichst feste Unterlage|Sehr weiche Matratze ohne Ausgleich|Sitzender Patient ohne Abstützung
+Was bedeutet ROSC?|Wiederkehr eines Spontankreislaufs|Fortdauernde Pulslosigkeit|Abschalten aller Überwachung
+# Atemnot|1|https://gesund.bund.de/asthma|Atemnot ist ein Symptom mit vielen Ursachen. Atemarbeit, Bewusstsein und Verlauf ergänzen Messwerte; ein einzelner Wert kann keine umfassende Entwarnung geben.
+Was bezeichnet Dyspnoe?|Subjektiv empfundene Atemnot|Ausschließlich schneller Puls|Ausschließlich Fieber
+Was bezeichnet Apnoe?|Aussetzen der Atmung|Verlangsamter Puls|Erhöhte Körpertemperatur
+Was bezeichnet Tachypnoe?|Beschleunigte Atemfrequenz|Verminderte Atemfrequenz|Atemstillstand
+Was bezeichnet Bradypnoe?|Verlangsamte Atemfrequenz|Beschleunigte Atemfrequenz|Erhöhte Herzfrequenz
+Welches Geräusch kann auf obere Atemwegsverengung hinweisen?|Stridor|Darmgeräusch|Knochenreiben
+Welche Beobachtung spricht für erhöhte Atemarbeit?|Einsatz der Atemhilfsmuskulatur|Entspanntes Sprechen allein|Normale Hautfarbe beweist Atemarbeit
+Was misst die Pulsoxymetrie näherungsweise?|Periphere Sauerstoffsättigung|Kohlendioxid direkt|Hämoglobinkonzentration direkt
+Schließt eine normale SpO2 eine Hypoventilation sicher aus?|Nein|Ja, immer|Ja, besonders unter Sauerstoff
+Welche Messung hilft bei der Beurteilung der Ventilation?|Kapnografie im passenden Kontext|Blutgruppe allein|Körpergröße allein
+Was ist bei akuter Atemnot und Bewusstseinseintrübung wichtig?|Unmittelbare strukturierte Beurteilung und Hilfe|Nur Beruhigung ohne Untersuchung|Abwarten bis zum nächsten Tag
+# Bewusstsein und Neurologie|1|https://gesund.bund.de/schlaganfall|Neurologische Veränderungen sind zeitkritisch, wenn sie plötzlich auftreten. Blutzucker, Atmung und Kreislauf gehören zur Differenzialbeurteilung.
+Was bedeutet Synkope?|Kurzzeitiger Bewusstseinsverlust durch vorübergehende Minderperfusion des Gehirns|Dauerhafte Lähmung jeder Extremität|Jeder epileptische Anfall
+Welche Zeitangabe ist bei Schlaganfallverdacht besonders wichtig?|Zuletzt sicher symptomfreier Zeitpunkt|Nur Zeitpunkt der Mahlzeit|Nur Zeitpunkt der Ausweisprüfung
+Schließen rückläufige Schlaganfallsymptome einen Notfall aus?|Nein|Ja, immer|Ja, wenn kein Schmerz besteht
+Lassen sich Hirnblutung und Gefäßverschluss präklinisch allein an Symptomen sicher unterscheiden?|Nein|Ja, anhand der Sprache allein|Ja, anhand der Körpergröße
+Was bedeutet fokal-neurologisch?|Eine umschriebene neurologische Funktion betreffend|Immer den ganzen Körper gleich betreffend|Ausschließlich psychisch bedingt
+Welche Messung gehört zur Abklärung einer Bewusstseinsstörung?|Blutzucker|Schuhgröße|Haarlänge
+Was ist während eines Krampfanfalls zu vermeiden?|Gegenstände in den Mund stecken|Umgebung vor Verletzungen sichern|Zeitlichen Verlauf beobachten
+Was bedeutet postiktal?|Phase nach einem epileptischen Anfall|Phase vor jeder Mahlzeit|Normaler Tiefschlaf ohne Zusammenhang
+Was wird bei Pupillen unter anderem beurteilt?|Größe, Seitengleichheit und Lichtreaktion|Nur Augenfarbe|Nur Brillenstärke
+Was sagt die GCS aus?|Standardisierte Beschreibung von Augen-, Sprach- und Motorikreaktion|Sichere Ursache der Bewusstseinsstörung|Ausschließlich Sauerstoffsättigung
+# Schock und Blutung|2|https://gesund.bund.de/sepsis|Schock bedeutet unzureichende Gewebeperfusion. Ein noch normaler Blutdruck schließt eine frühe gefährliche Kreislaufstörung nicht aus.
+Was beschreibt ein Schock medizinisch?|Unzureichende Gewebeperfusion|Nur psychisches Erschrecken|Jede erhöhte Temperatur
+Welche Ursache passt zum hypovolämischen Schock?|Relevanter Flüssigkeits- oder Blutverlust|Ausschließlich Herzrhythmusstörung|Ausschließlich Angst
+Welche Ursache passt zum kardiogenen Schock?|Schwere Pumpfunktionsstörung des Herzens|Isolierte Hautverletzung|Allein verminderte Trinkmenge
+Welche Ursache passt zum obstruktiven Schock?|Mechanische Behinderung des Kreislaufs|Ausschließlich Nahrungsmangel|Nur Schlafmangel
+Was bedeutet distributiver Schock?|Fehlverteilung mit gestörter Gefäßregulation|Jede Knochenfraktur|Jede langsame Atmung
+Kann bei beginnendem Schock der Blutdruck noch normal sein?|Ja|Nein, niemals|Nur bei Fieber
+Welche Maßnahme hat bei starker äußerer Blutung früh Priorität?|Wirksame Blutungskontrolle|Ausführliche Fotoaufnahme|Zunächst vollständiges Entkleiden aller Beteiligten
+Welche Beobachtung ergänzt den Blutdruck bei der Perfusionsbeurteilung?|Bewusstsein und Hautperfusion|Augenfarbe|Körpergröße
+Was ist Sepsis?|Lebensbedrohliche Organdysfunktion durch fehlregulierte Antwort auf Infektion|Jedes Fieber allein|Jede örtliche Rötung allein
+Schließt fehlendes Fieber eine Sepsis aus?|Nein|Ja, immer|Ja, bei älteren Menschen grundsätzlich
+# Thorax und Herz|2|https://gesund.bund.de/herzinfarkt|Brustbeschwerden können verschiedene gefährliche Ursachen haben. Präklinische Befunde lenken den Versorgungspfad, ersetzen aber nicht jede weitere Diagnostik.
+Schließt fehlender Brustschmerz einen Herzinfarkt aus?|Nein|Ja, immer|Ja, sofern der linke Arm nicht schmerzt
+Welche Untersuchung ist bei ACS-Verdacht zentral?|Zeitnahes 12-Kanal-EKG|Nur ein Foto des Thorax|Nur Temperaturmessung
+Was bedeutet ACS?|Akutes Koronarsyndrom|Akutes Cerebellumsignal|Automatische Sauerstoffkontrolle
+Was bezeichnet Arrhythmie?|Störung des Herzrhythmus|Jede Blutdruckerhöhung|Jede Sauerstoffgabe
+Welche Erkrankung beruht auf einem Verschluss von Lungenarterien?|Lungenembolie|Appendizitis|Zystitis
+Was bezeichnet Pneumothorax?|Luft im Pleuraspalt|Flüssigkeit in der Harnblase|Blut im Magen
+Was macht einen Spannungspneumothorax besonders gefährlich?|Zunehmende Beeinträchtigung von Atmung und Kreislauf|Ausschließlich Hautjucken|Nur Husten ohne weitere Wirkung
+Was bezeichnet ein Lungenödem?|Flüssigkeitsansammlung im Lungengewebe beziehungsweise Alveolarraum|Vermehrte Luft im Magen|Verringerte Knochenmasse
+Ist ein einzelnes unauffälliges EKG ein sicherer Ausschluss jedes ACS?|Nein|Ja, immer|Ja, ohne Anamnese
+Was ist bei neuen starken Brustbeschwerden entscheidend?|Zeitkritische strukturierte Abklärung|Nur Schmerzskala notieren und abwarten|Nur nach dem Alter entscheiden
+# Stoffwechsel und Vergiftung|2|https://gesund.bund.de/diabetes-typ-1|Stoffwechselstörungen und Vergiftungen können neurologische oder kardiorespiratorische Symptome verursachen. Exposition, Verlauf und Messwerte werden gemeinsam beurteilt.
+Was bezeichnet Hypoglykämie?|Zu niedrigen Blutzucker|Zu hohen Blutzucker|Zu niedrige Körpertemperatur
+Warum ist orale Zuckerzufuhr bei fehlender Schlucksicherheit gefährlich?|Aspirationsgefahr|Sie senkt immer den Blutzucker|Sie verhindert jede Atmung unabhängig von Schlucken
+Was bezeichnet Hyperglykämie?|Zu hohen Blutzucker|Zu niedrigen Blutzucker|Zu hohen Sauerstoffgehalt
+Welche Information ist bei Vergiftungsverdacht besonders hilfreich?|Stoff, Menge, Zeitpunkt und Aufnahmeweg|Nur Lieblingsessen|Nur Berufsbezeichnung
+Soll Erbrechen bei Vergiftungen routinemäßig ausgelöst werden?|Nein|Ja, immer|Ja, besonders bei Bewusstlosigkeit
+Welches Risiko besteht bei Kohlenmonoxidexposition für Helfende?|Eigene Vergiftung am Einsatzort|Nur Hautverfärbung|Kein Risiko ohne Geruch
+Kann Kohlenmonoxid zuverlässig am Geruch erkannt werden?|Nein|Ja, an starkem Rauchgeruch|Ja, an süßlichem Geruch
+Kann normale Standard-Pulsoxymetrie eine CO-Vergiftung sicher ausschließen?|Nein|Ja, immer|Ja, ab 95 Prozent sicher
+Was ist bei möglicher Opioidvergiftung besonders kritisch?|Atemdepression|Nur gesteigerter Appetit|Nur Hauttrockenheit
+Was bedeutet Antidot?|Gezielt gegen ein Gift wirkendes Mittel|Beliebiges Schmerzmittel|Jedes Desinfektionsmittel
+# Trauma und Temperatur|2|https://www.drk.de/hilfe-in-deutschland/erste-hilfe/|Traumaversorgung berücksichtigt Unfallmechanismus, lebensbedrohliche Befunde und Wärmeerhalt. Äußere Verletzungszeichen bilden das innere Verletzungsausmaß nicht immer ab.
+Was ist ein Polytrauma?|Mehrere Verletzungen mit lebensbedrohlicher Gesamtwirkung|Jede einzelne Schürfwunde|Nur zwei harmlose Kratzer
+Kann eine schwere innere Blutung ohne große äußere Wunde vorliegen?|Ja|Nein|Nur bei sichtbarer Fraktur
+Welche drei Funktionen werden mit DMS geprüft?|Durchblutung, Motorik, Sensibilität|Druck, Masse, Sauerstoff|Durst, Müdigkeit, Sprache
+Wann ist DMS bei Extremitätenmaßnahmen sinnvoll zu kontrollieren?|Vor und nach der Maßnahme|Nur beim Entlassen aus der Klinik|Nur bei Kindern
+Was bedeutet offene Fraktur?|Fraktur mit Verbindung zur Außenwelt|Jede Fraktur ohne Hautverletzung|Nur sichtbare Fehlstellung
+Was hat bei Verbrennungen zunächst Bedeutung?|Exposition beenden und Eigenschutz beachten|Immer Eis direkt auflegen|Blasen routinemäßig eröffnen
+Warum ist bei großflächigen Verbrennungen Auskühlung zu vermeiden?|Zusätzliche Hypothermie kann den Zustand verschlechtern|Kälte verhindert alle Infektionen|Verbrennungen schließen Wärmeverlust aus
+Was bezeichnet Hypothermie?|Zu niedrige Körperkerntemperatur|Erhöhten Blutzucker|Erhöhte Atemfrequenz
+Was unterscheidet Hitzschlag von einfachem Hitzegefühl?|Schwere Überwärmung mit zentralnervösen Störungen|Ausschließlich Durst|Nur warme Hände
+Was ist nach Entfernung nasser Kleidung bei Auskühlung wichtig?|Wärmeerhalt und weitere Beurteilung|Unbedecktes Liegenlassen|Alkoholgabe als Standard
+# Verlauf und Differenzialbeurteilung|3|https://www.grc-org.de/wissenschaft/leitlinien|Fortgeschrittene Beurteilung verbindet Trends und klinische Befunde. Technische Messungen sind fehleranfällig und müssen zum Gesamtbild passen.
+Was ist bei unplausibler SpO2 zuerst zusätzlich zu prüfen?|Signalqualität und klinischer Zustand|Nur Batteriefarbe|Nur Bildschirmhelligkeit
+Beweist eine elektrische EKG-Aktivität einen wirksamen Kreislauf?|Nein|Ja, immer|Ja, bei jedem schmalen Komplex
+Was bezeichnet PEA?|Elektrische Aktivität ohne nachweisbaren wirksamen Puls|Jeden schnellen Sinusrhythmus|Normales EKG mit stabilem Kreislauf
+Was bedeutet Asystolie?|Fehlende erkennbare elektrische Herzaktion|Regelmäßige schnelle Herzaktion|Normale Kammerfüllung
+Warum ist ein Messwerttrend häufig aussagekräftiger als ein Einzelwert?|Er zeigt die Entwicklung des Zustands|Er ersetzt jede Untersuchung|Er verhindert Messfehler vollständig
+Was kann ein abrupt verändertes Kapnogramm erfordern?|Patient und Atemwegssystem sofort prüfen|Nur Alarm stummschalten|Immer unverändert weiterarbeiten
+Was gehört zur Wirkungskontrolle nach einer Maßnahme?|Zielparameter und mögliche Nebenwirkungen erneut beurteilen|Nur Materialverbrauch zählen|Ausschließlich Dokumentation am Folgetag
+Warum muss eine Verdachtsdiagnose überprüfbar bleiben?|Neue Befunde können eine andere Ursache nahelegen|Erste Vermutungen sind immer richtig|Differenzialdiagnosen verzögern grundsätzlich Hilfe
+Was ist beim Übergang in die Klinik wesentlich?|Zeitlicher Verlauf, Befunde und Maßnahmen strukturiert übergeben|Nur Name nennen|Nur Diagnose ohne Befunde nennen
+Warum sind lokale SOPs bei invasiven Maßnahmen relevant?|Sie konkretisieren Verfahren, Kompetenzen und Abläufe|Sie ersetzen jede individuelle Beurteilung|Sie gelten automatisch weltweit
+# Besondere Notfälle|3|https://www.grc-org.de/wissenschaft/leitlinien|Akute Bedrohungen können mehrere Organsysteme gleichzeitig betreffen. Nicht jeder Notfall zeigt das klassische vollständige Symptombild.
+Kann eine Anaphylaxie ohne deutliche Hautsymptome auftreten?|Ja|Nein|Nur nach Insektenstichen ausgeschlossen
+Welche Kombination nach Allergenexposition ist besonders alarmierend?|Atemwegs- oder Kreislaufstörung|Nur unveränderte Haarfarbe|Ausschließlich alter Narbenschmerz
+Was bezeichnet Aspiration?|Eindringen von Fremdmaterial in die Atemwege|Schlucken in den Magen|Abfluss von Urin
+Warum ist eine akute Verhaltensänderung nicht automatisch psychiatrisch?|Auch körperliche Ursachen sind möglich|Körperliche Ursachen ändern nie Verhalten|Eine Untersuchung ist dann unnötig
+Was bedeutet akutes Abdomen?|Potenziell gefährliche akute Bauchbeschwerden mit Abklärungsbedarf|Immer harmlose Blähung|Sichere Blinddarmentzündung ohne Untersuchung
+Kann fehlender starker Schmerz eine schwere Erkrankung sicher ausschließen?|Nein|Ja, bei älteren Menschen immer|Ja, bei Diabetes immer
+Welche Information ist bei starker Blutung unter Medikamenten wichtig?|Einnahme von Gerinnungshemmern|Nur Einnahme von Vitaminen|Nur Trinkvorlieben
+Was ist beim Ertrinkungsnotfall zunächst für Helfende entscheidend?|Sichere Rettung ohne unvertretbare Eigengefährdung|Ungeübtes Hineinspringen in jede Strömung|Warten auf vollständige Trockenheit vor jeder Hilfe
+Welche Gefahr kann bei Stromunfällen fortbestehen?|Weiterhin anliegende Spannung|Nur sichtbarer Rauch|Kein Risiko nach dem Sturz
+Was ist bei mehreren Betroffenen zusätzlich wichtig?|Ressourcenbedarf früh melden und Versorgung priorisieren|Alle gleichzeitig ohne Struktur behandeln|Leitstelle nicht informieren

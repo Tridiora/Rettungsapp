@@ -1,0 +1,132 @@
+# Herz und Kreislauf|1|https://www.gesundheitsinformation.de/wie-funktioniert-das-herz.html|Der gerichtete Blutstrom entsteht durch Druckunterschiede. Herzräume, Klappen und Gefäße erfüllen dabei unterschiedliche Aufgaben.
+Welcher Herzraum empfängt das Blut der Hohlvenen?|Rechter Vorhof|Linker Vorhof|Linke Herzkammer
+Welche Klappe liegt zwischen rechtem Vorhof und rechter Kammer?|Trikuspidalklappe|Mitralklappe|Aortenklappe
+Welche Klappe liegt zwischen linkem Vorhof und linker Kammer?|Mitralklappe|Pulmonalklappe|Trikuspidalklappe
+Welche Klappe liegt am Ausgang der rechten Herzkammer?|Pulmonalklappe|Aortenklappe|Mitralklappe
+Welche Klappe liegt am Ausgang der linken Herzkammer?|Aortenklappe|Trikuspidalklappe|Pulmonalklappe
+Welche Gefäße versorgen den Herzmuskel direkt?|Koronararterien|Lungenvenen|Pfortader
+Welche Herzwandschicht erzeugt die Kontraktionskraft?|Myokard|Endokard|Perikardflüssigkeit
+Was bezeichnet die Systole der Herzkammern?|Kontraktions- und Austreibungsphase|Ausschließlich passive Füllung|Bildung neuer Herzklappen
+Was bezeichnet die Diastole der Herzkammern?|Entspannungs- und Füllungsphase|Ausschließlich Blutauswurf|Verschluss aller Venen
+Wo entsteht normalerweise der führende elektrische Herzimpuls?|Sinusknoten|Mitralklappe|Herzspitze
+# Gefäße und Blut|1|https://www.gesundheitsinformation.de/wie-funktioniert-der-kreislauf.html|Arterien führen vom Herzen weg, Venen zum Herzen zurück. Stoffaustausch findet vor allem in der Mikrozirkulation statt.
+Welche Gefäße ermöglichen vor allem den Stoffaustausch mit Gewebe?|Kapillaren|Aorta allein|Hohlvenen allein
+Was transportieren die meisten Körperarterien?|Sauerstoffreiches Blut|Ausschließlich Lymphe|Ausschließlich Kohlendioxid
+Was transportieren Lungenarterien normalerweise?|Sauerstoffarmes Blut|Sauerstoffreiches Blut aus der Lunge|Galle
+Wohin führen die Lungenvenen?|Zum linken Vorhof|Zum rechten Vorhof|Zur Pfortader
+Welches Gefäß führt Blut aus vielen Verdauungsorganen zur Leber?|Pfortader|Lungenarterie|Obere Hohlvene
+Was unterstützt den venösen Rückstrom aus den Beinen?|Muskelpumpe und Venenklappen|Lungenbläschen|Gallenblase
+Welche Zellen transportieren überwiegend Sauerstoff?|Erythrozyten|Thrombozyten|Fibroblasten
+Welches Protein bindet Sauerstoff in Erythrozyten?|Hämoglobin|Insulin|Kollagen
+Welche Blutbestandteile bilden den ersten zellulären Wundverschluss?|Thrombozyten|Alveolen|Nephrone
+Was bezeichnet Hämatokrit?|Volumenanteil der Erythrozyten am Blut|Anzahl der Atemzüge|Sauerstoffdruck der Atemluft
+# Atmung|1|https://www.gesundheitsinformation.de/wie-funktioniert-die-lunge.html|Luftleitung, Belüftung und Gasaustausch sind getrennte Schritte. Eine funktionierende Atmung benötigt auch eine ausreichende Lungendurchblutung.
+Welche Struktur hält die Luftröhre überwiegend offen?|Knorpelspangen|Herzklappen|Darmzotten
+Wo teilt sich die Trachea in die Hauptbronchien?|An der Bifurkation mit Carina|Am Mageneingang|Im Kehlkopfdeckel
+Wie viele Lappen hat der rechte Lungenflügel typischerweise?|Drei|Zwei|Fünf
+Wie viele Lappen hat der linke Lungenflügel typischerweise?|Zwei|Drei|Fünf
+Welche Zellen bilden pulmonalen Surfactant?|Typ-II-Pneumozyten|Erythrozyten|Thrombozyten
+Welche Wirkung hat Surfactant?|Verringert die Oberflächenspannung der Alveolen|Verschließt die Bronchien|Erhöht ausschließlich den Blutdruck
+Was liegt im schmalen Pleuraspalt normalerweise?|Ein dünner Flüssigkeitsfilm|Ein großer Luftvorrat|Nahrungsbrei
+Welche Muskelbewegung unterstützt die Ruheinspiration?|Absenkung des kontrahierten Zwerchfells|Anhebung des entspannten Zwerchfells allein|Kontraktion der Speiseröhre
+Wie erfolgt die ruhige Ausatmung überwiegend?|Durch elastische Rückstellkräfte|Durch Sauerstoffproduktion|Durch aktive Herzklappenbewegung
+Was bedeutet anatomischer Totraum?|Luftleitender Raum ohne alveolären Gasaustausch|Abgestorbenes Lungengewebe|Gesamtes Lungenvolumen
+# Nervensystem|1|https://www.gesundheitsinformation.de/wie-funktioniert-das-gehirn.html|Nervenzellen verarbeiten und übertragen Signale. Gehirnregionen arbeiten vernetzt; eine einzelne Beschwerde beweist keine bestimmte Läsion.
+Welche beiden Strukturen bilden das zentrale Nervensystem?|Gehirn und Rückenmark|Herz und Lunge|Nerven und Muskeln ohne Gehirn
+Was gehört zum peripheren Nervensystem?|Nerven außerhalb von Gehirn und Rückenmark|Nur Großhirnrinde|Nur Hirnventrikel
+Welche Struktur koordiniert Bewegungen und Gleichgewicht wesentlich?|Kleinhirn|Milz|Schilddrüse
+Welche Hirnregion enthält wichtige Atemregulationszentren?|Hirnstamm|Haarwurzel|Netzhaut
+Welche Zellfortsätze leiten Signale meist zum Zellkörper?|Dendriten|Herzsehnenfäden|Darmzotten
+Welcher Fortsatz leitet Signale typischerweise vom Neuron weg?|Axon|Alveole|Ureter
+Welche Funktion erfüllt Myelin?|Elektrische Isolation und schnellere Erregungsleitung|Produktion von Urin|Bildung von Blutplättchen
+Was bezeichnet eine Synapse?|Kontaktstelle zur Signalübertragung|Herzklappenöffnung|Hautpore
+Was umgibt Gehirn und Rückenmark als schützende Flüssigkeit?|Liquor cerebrospinalis|Galle|Synovialflüssigkeit
+Welche Nervenbahn führt sensible Information zum ZNS?|Afferente Bahn|Efferente motorische Bahn|Koronararterie
+# Nieren und Harnwege|1|https://www.gesundheitsinformation.de/wie-funktionieren-die-nieren.html|Filtration, Rückresorption und Sekretion formen den endgültigen Urin. Harnbildung und Harnspeicherung erfolgen in verschiedenen Organen.
+Wie heißt die funktionelle Grundeinheit der Niere?|Nephron|Alveole|Osteon
+Wo entsteht der Primärharn?|Im Nierenkörperchen|In der Harnblase|In der Harnröhre
+Was bedeutet tubuläre Rückresorption?|Rücktransport von Stoffen aus dem Tubulus ins Blut|Transport von Urin in die Lunge|Neubildung von Nieren
+Was bedeutet tubuläre Sekretion?|Abgabe von Stoffen aus dem Blut in den Tubulus|Rückfluss aus der Blase in die Leber|Abbau der Harnröhre
+Welche Struktur führt Urin von der Niere zur Blase?|Harnleiter|Harnröhre|Pfortader
+Welche Struktur führt Urin aus der Blase nach außen?|Harnröhre|Harnleiter|Nierenarterie
+Wo wird Urin hauptsächlich gespeichert?|Harnblase|Nierenarterie|Nebenniere
+Welches Nierenhormon stimuliert die Erythrozytenbildung?|Erythropoetin|Insulin|Melatonin
+Was beeinflusst ADH an der Niere?|Wasserrückresorption|Bildung von Galle|Belüftung der Alveolen
+Welche Lage haben die Nieren überwiegend?|Retroperitoneal|Intrapleural|Im Schädel
+# Verdauung|1|https://www.gesundheitsinformation.de/wie-funktioniert-der-darm.html|Der Verdauungstrakt transportiert und zerlegt Nahrung. Die Aufnahme verwertbarer Bestandteile erfolgt über spezialisierte Schleimhäute.
+Was verbindet den Rachen mit dem Magen?|Ösophagus|Trachea|Ureter
+Was bezeichnet Peristaltik?|Koordinierte wellenförmige Muskelbewegung|Elektrische Herzaktion|Harnfiltration
+Welcher Magenbestandteil schafft ein stark saures Milieu?|Salzsäure|Insulin|Surfactant
+Wie heißt der erste Dünndarmabschnitt?|Duodenum|Rektum|Sigma
+Wo werden die meisten Nährstoffe aufgenommen?|Im Dünndarm|In der Speiseröhre|In der Harnblase
+Was vergrößert die Resorptionsfläche des Dünndarms?|Zotten und Mikrovilli|Lungenlappen|Nierenkelche
+Welche Aufgabe hat der Dickdarm unter anderem?|Rückgewinnung von Wasser und Elektrolyten|Bildung von Insulin|Sauerstoffaufnahme aus der Luft
+Wo wird Galle gebildet?|Leber|Gallenblase|Milz
+Wo wird Galle zwischengespeichert und eingedickt?|Gallenblase|Harnblase|Linker Vorhof
+Wohin wird exokrines Pankreassekret abgegeben?|In den Zwölffingerdarm|In die Luftröhre|In das Nierenbecken
+# Bewegungsapparat|1|https://www.gesundheitsinformation.de/wie-funktionieren-gelenke.html|Knochen, Gelenke, Bänder und Muskeln haben unterschiedliche mechanische Funktionen. Verletzungen können auch Gefäße und Nerven betreffen.
+Was verbindet eine Sehne typischerweise?|Muskel und Knochen|Zwei Herzräume|Niere und Blase
+Was verbindet ein Band typischerweise?|Knochen mit Knochen|Muskel mit Hautpore|Bronchus mit Alveole
+Was vermindert Reibung an Gelenkflächen?|Gelenkknorpel und Synovia|Galle und Magensäure|Liquor im Gelenk
+Was bezeichnet eine Luxation?|Ausrenkung eines Gelenks|Knochenneubildung|Muskelzuckung ohne Gelenkveränderung
+Was bezeichnet eine Fraktur?|Knochenbruch|Bänderdehnung ohne Knochenbruch|Entzündung der Haut
+Welche Wirbelsäulenregion liegt zwischen Hals- und Lendenwirbelsäule?|Brustwirbelsäule|Kreuzbein|Steißbein
+Wie viele Halswirbel hat der Mensch üblicherweise?|Sieben|Fünf|Zwölf
+Welcher Knochen liegt im Oberarm?|Humerus|Femur|Tibia
+Welche beiden Knochen liegen im Unterarm?|Radius und Ulna|Tibia und Fibula|Femur und Patella
+Welcher große Knochen liegt im Oberschenkel?|Femur|Humerus|Radius
+# Hormone und Stoffwechsel|2|https://www.gesundheitsinformation.de/was-sind-hormone-und-welche-aufgaben-haben-sie.html|Hormone wirken über passende Rezeptoren. Rückkopplung begrenzt viele hormonelle Regelkreise; Organfunktion ist nicht mit einem einzelnen Laborwert gleichzusetzen.
+Wo gelangen endokrine Hormone typischerweise hin?|In das Blut|Ausschließlich auf die Haut|Ausschließlich in den Darm
+Welche Pankreaszellen bilden Insulin?|Betazellen|Alphazellen|Erythrozyten
+Welche Pankreaszellen bilden Glukagon?|Alphazellen|Betazellen|Thrombozyten
+Welche Grundwirkung hat Insulin auf den Blutzucker?|Es fördert die Senkung|Es erhöht ihn grundsätzlich|Es hat keinen Einfluss
+Welche Grundwirkung hat Glukagon auf den Blutzucker?|Es fördert die Erhöhung|Es senkt ihn grundsätzlich|Es ersetzt Hämoglobin
+Wo wird Adrenalin hauptsächlich als Hormon gebildet?|Nebennierenmark|Nebennierenrinde|Schilddrüsenfollikel
+Wo wird Cortisol hauptsächlich gebildet?|Nebennierenrinde|Nebennierenmark|Gallenblase
+Was beschreibt negative Rückkopplung?|Ein Ergebnis bremst seine weitere Entstehung|Jede Reaktion verstärkt sich unbegrenzt|Hormone wirken ohne Rezeptoren
+Welches Organ produziert T3 und T4?|Schilddrüse|Milz|Harnblase
+Welche kleine Drüse ist zentral an vielen hormonellen Regelkreisen beteiligt?|Hypophyse|Gallenblase|Tränendrüse allein
+# Haut und Abwehr|2|https://www.gesundheitsinformation.de/wie-funktioniert-die-haut.html|Die Haut schützt mechanisch und immunologisch. Lymphatische Gewebe und Abwehrzellen ergänzen diese Barriere.
+Wie heißt die äußerste Hautschicht?|Epidermis|Dermis|Subkutis
+In welcher Hautschicht liegen viele Gefäße und Sinnesrezeptoren?|Dermis|Hornschicht allein|Nagelplatte
+Welche Schicht enthält viel Unterhautfettgewebe?|Subkutis|Epidermis|Hornschicht
+Was unterstützt die Verdunstung von Schweiß?|Wärmeabgabe|Blutbildung|Gallenproduktion
+Welche Zellen gehören zur Immunabwehr?|Leukozyten|Nur Erythrozyten|Nur Fettzellen
+Wo entstehen viele Blutzellen beim Erwachsenen?|Rotes Knochenmark|Gallenblase|Gelenkspalt
+Welche Organe filtern Lymphe?|Lymphknoten|Nierenkelche|Alveolen
+Welche Flüssigkeit führt Gewebsflüssigkeit dem venösen Blut wieder zu?|Lymphe|Galle|Magensaft
+Was bezeichnet ein Antikörper?|Ein spezifisch bindendes Immunprotein|Ein Sauerstoffmolekül|Ein Knochenkanal
+Welche Funktion hat die Milz unter anderem?|Filterung des Blutes und Immunabwehr|Speicherung des Urins|Bildung der Atemluft
+# Sinne und räumliche Orientierung|2|https://www.gesundheitsinformation.de/wie-funktioniert-das-auge.html|Anatomische Richtungen beziehen sich auf den Körper der untersuchten Person. Sinnesorgane übersetzen physikalische Reize in Nervensignale.
+Was bedeutet medial?|Zur Körpermitte hin|Von der Mitte weg|Zum Fuß hin
+Was bedeutet lateral?|Seitlich von der Körpermitte weg|Zur Mitte hin|Zum Kopf hin
+Was bedeutet proximal an einer Extremität?|Näher am Rumpf oder Ursprung|Weiter vom Rumpf entfernt|Immer an der Hautoberfläche
+Was bedeutet distal an einer Extremität?|Weiter vom Rumpf oder Ursprung entfernt|Näher am Rumpf|Immer im Körperinneren
+Was bedeutet ventral am Rumpf?|Bauchwärts beziehungsweise nach vorne|Rückenwärts|Kopfwärts
+Was bedeutet dorsal am Rumpf?|Rückenwärts|Bauchwärts|Fußwärts
+Welche Augenstruktur reguliert die Pupillenweite?|Iris|Netzhaut|Sehnerv
+Wo liegen die lichtempfindlichen Rezeptoren des Auges?|Netzhaut|Hornhaut|Lederhaut
+Welche Augenstruktur verändert ihre Form zur Nahfokussierung?|Linse|Sehnerv|Glaskörper
+Welche Rezeptoren dienen besonders dem Farbsehen?|Zapfen|Stäbchen allein|Thrombozyten
+# Kreislaufphysiologie|3|https://www.gesundheitsinformation.de/wie-funktioniert-der-kreislauf.html|Organversorgung hängt von Blutfluss und Sauerstoffangebot ab. Druck allein beschreibt weder Fördermenge noch Sauerstofftransport vollständig.
+Wie berechnet sich das Herzzeitvolumen grundsätzlich?|Herzfrequenz mal Schlagvolumen|Blutdruck plus Temperatur|Atemfrequenz mal Körpergröße
+Was bezeichnet Schlagvolumen?|Pro Herzschlag ausgeworfenes Blutvolumen|Gesamtes Blutvolumen des Körpers|Luftvolumen pro Atemzug
+Was beschreibt Vorlast vereinfacht?|Füllung beziehungsweise Dehnung vor der Kontraktion|Widerstand nach dem Blutauswurf allein|Herzfrequenz allein
+Was beschreibt Nachlast vereinfacht?|Widerstand, gegen den die Kammer auswirft|Blutvolumen im Magen|Ausschließlich Venendruck vor Füllung
+Was bedeutet Kontraktilität?|Eigenständige Fähigkeit des Herzmuskels zur Kraftentwicklung|Nur Herzfrequenz|Nur Klappenöffnungsweite
+Kann normale Sauerstoffsättigung bei schwerer Anämie einen normalen Sauerstoffgehalt garantieren?|Nein|Ja|Nur bei Erwachsenen
+Wovon hängt der Sauerstoffgehalt des Blutes wesentlich ab?|Hämoglobinmenge und dessen Sättigung|Nur Hautfarbe|Nur Atemfrequenz
+Was beschreibt Perfusion?|Durchblutung eines Gewebes|Ausschließlich Belüftung|Nur Hormonbildung
+Was bedeutet Ischämie?|Unzureichende Durchblutung eines Gewebes|Erhöhte Luftfeuchtigkeit|Vermehrte Urinproduktion
+Warum sind Blutdruck und Blutfluss nicht identisch?|Druck und Gefäßwiderstand beeinflussen den Fluss gemeinsam|Druck misst immer direkt Liter pro Minute|Gefäßwiderstand hat nie Einfluss
+# Atmung und Regulation|3|https://www.gesundheitsinformation.de/wie-funktioniert-die-lunge.html|Ventilation, Diffusion und Perfusion müssen zusammenpassen. Kompensationsmechanismen haben Grenzen und ersetzen keine Ursachenbehandlung.
+Was beschreibt Ventilation?|Belüftung der Lunge|Durchblutung der Niere|Bildung von Erythrozyten
+Was beschreibt Diffusion beim Gasaustausch?|Passiven Stofftransport entlang eines Partialdruckgefälles|Aktives Pumpen durch Herzklappen|Transport von Nahrung
+Was ist ein Rechts-links-Shunt funktionell?|Blut erreicht den Körperkreislauf ohne ausreichenden Kontakt zu belüfteten Alveolen|Nur zusätzlicher Luftstrom durch die Nase|Jede normale Lungenvene
+Was bedeutet Ventilations-Perfusions-Verhältnis?|Verhältnis von Belüftung zu Durchblutung eines Lungenbereichs|Verhältnis von Puls zu Körpergröße|Verhältnis von Temperatur zu Gewicht
+Was kann Hyperventilation mit dem Kohlendioxidpartialdruck bewirken?|Absenkung|Grundsätzlich Erhöhung|Keine mögliche Veränderung
+Was kann Hypoventilation mit dem Kohlendioxidpartialdruck bewirken?|Erhöhung|Grundsätzlich Absenkung|Immer vollständiges Verschwinden
+Was bezeichnet Compliance der Lunge?|Dehnbarkeit bei einer Druckänderung|Gefäßdurchmesser der Aorta|Anzahl der Erythrozyten
+Was bezeichnet Atemwegswiderstand?|Widerstand gegen den Luftstrom|Widerstand gegen Urinfluss|Nur Herznachlast
+Was passiert bei kleinerem Atemwegsradius tendenziell mit dem Widerstand?|Er steigt deutlich|Er sinkt immer|Er bleibt grundsätzlich gleich
+Was bedeutet Homöostase?|Regulierte Aufrechterhaltung innerer Bedingungen|Völlige Unveränderlichkeit aller Werte|Ausschließlich Blutgerinnung

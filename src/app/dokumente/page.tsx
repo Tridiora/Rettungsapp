@@ -56,10 +56,11 @@ interface UserHighlight {
 
 export default function DokumentePage() {
   const { documents: officialDocuments } = useLibrary()
-  const { currentUser, learningLanguage } = useAppStore()
+  const { currentUser, learningLanguage, selectedYear, setSelectedYear } = useAppStore()
   const params = useSearchParams()
   const [selectedId, setSelectedId] = useState(params.get('dokument') || '')
-  const selectedDoc = officialDocuments.find(d => d.id === selectedId) || officialDocuments[0]
+  const selectedDocument = officialDocuments.find(d => d.id === selectedId) || officialDocuments[0]
+  const selectedDoc = selectedDocument ? {...selectedDocument,sections:selectedDocument.sections.filter(s=>selectedYear==='all'||(s.yearLevel||1)===selectedYear)} : undefined
   const [searchQuery, setSearchQuery] = useState('')
   const [activeColor, setActiveColor] = useState<string>('#fef08a') // light yellow highlight
   const [userHighlights, setUserHighlights] = useState<UserHighlight[]>([])
@@ -123,7 +124,7 @@ export default function DokumentePage() {
   }
 
   const applyHighlight = (withNote = false) => {
-    if (!selectedText || !selectedSectionId) return
+    if (!selectedDoc || !selectedText || !selectedSectionId) return
 
     if (withNote) {
       setShowNoteModal(true)
@@ -132,7 +133,7 @@ export default function DokumentePage() {
 
     const newHl: UserHighlight = {
       id: 'hl_' + Date.now(),
-      docId: selectedDoc?.id,
+      docId: selectedDoc.id,
       sectionId: selectedSectionId,
       text: selectedText,
       color: activeColor,
@@ -145,9 +146,10 @@ export default function DokumentePage() {
   }
 
   const confirmSaveNote = () => {
+    if (!selectedDoc || !selectedText || !selectedSectionId) return
     const newHl: UserHighlight = {
       id: 'hl_' + Date.now(),
-      docId: selectedDoc?.id,
+      docId: selectedDoc.id,
       sectionId: selectedSectionId,
       text: selectedText,
       color: activeColor,
@@ -203,6 +205,8 @@ export default function DokumentePage() {
         </div>
       </div>
 
+      <div className="flex flex-wrap gap-2" aria-label="Lernkapitel nach Lehrjahr filtern">{(['all',1,2,3] as const).map(year=><button key={year} aria-pressed={selectedYear===year} onClick={()=>setSelectedYear(year)} className="px-4 py-2 border border-border rounded-xl">{year==='all'?'Alle Lehrjahre':`${year}. Lehrjahr`}</button>)}<span className="p-2 text-sm text-muted">{selectedDoc.sections.length} Abschnitte</span></div>
+      {selectedDoc.sections.length===0&&<p>In diesem Dokument gibt es noch keine Abschnitte für das gewählte Lehrjahr.</p>}
       {/* ── Document Reader Layout ── */}
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
         {/* Left 3 Cols: Document Content & Interactive Highlighter */}

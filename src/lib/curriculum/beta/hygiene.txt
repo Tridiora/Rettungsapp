@@ -1,0 +1,110 @@
+# Grundlagen|1|https://www.rki.de/DE/Themen/Infektionskrankheiten/Krankenhaushygiene/KRINKO/Empfehlungen-der-KRINKO/Basishygiene/basishygiene-node.html|Basishygiene gilt unabhängig davon, ob eine Infektion bekannt ist. Maßnahmen richten sich zusätzlich nach Tätigkeit und Übertragungsrisiko.
+Was bedeutet Basishygiene?|Grundlegende Infektionsschutzmaßnahmen bei allen Patienten|Nur Maßnahmen bei bekanntem HIV|Nur Reinigung am Dienstende
+Was ist eine Infektion?|Eindringen und Vermehrung von Erregern mit Reaktion des Organismus|Jede bloße Verschmutzung|Jede Allergie
+Was bedeutet Kontamination?|Verunreinigung mit potenziell schädlichen Stoffen oder Mikroorganismen|Immer bereits Erkrankung|Garantierte Sterilität
+Was bedeutet Kolonisation?|Besiedlung ohne notwendige Infektionszeichen|Immer schwere Sepsis|Vollständige Keimfreiheit
+Was ist ein Erregerreservoir?|Ort, an dem Erreger vorkommen und überdauern können|Ausschließlich eine Medikamentenampulle|Nur ein Desinfektionsmittel
+Was ist eine Eintrittspforte?|Weg, über den Erreger in den Körper gelangen|Ausschließlich Gebäudetür|Nur ein Transportweg
+Warum unbekannten Infektionsstatus berücksichtigen?|Infektionen können unerkannt vorliegen|Alle Personen sind sicher hochinfektiös|Schutz ist sonst grundsätzlich unnötig
+Was bedeutet Infektionskette?|Zusammenhang von Erregerquelle, Übertragung und empfänglichem Menschen|Nur Fieberverlauf|Nur Reihenfolge der Fahrzeuge
+Was ist Ziel der Infektionsprävention?|Übertragung und Erkrankung verhindern|Alle Mikroorganismen überall ausrotten|Nur Gerüche beseitigen
+Ersetzt sichtbare Sauberkeit eine hygienische Risikobeurteilung?|Nein|Ja|Nur bei glatten Flächen immer
+# Händehygiene|1|https://www.rki.de/DE/Themen/Infektionskrankheiten/Krankenhaushygiene/KRINKO/Empfehlungen-der-KRINKO/Basishygiene/Downloads/Haendehyg_Rili.pdf?__blob=publicationFile&v=6|Händedesinfektion unterbricht wichtige Übertragungswege. Vollständige Benetzung, geeignete Produkte und die angegebene Einwirkzeit sind entscheidend.
+Was ist vor direktem Patientenkontakt in der Regel angezeigt?|Hygienische Händedesinfektion|Nur Hände an Kleidung abwischen|Immer nur Wasser ohne weiteres Vorgehen
+Was ist vor einer aseptischen Tätigkeit angezeigt?|Händedesinfektion|Nur Handschuhe über kontaminierte Hände|Nur Material zählen
+Was ist nach Kontakt mit potenziell infektiösem Material wichtig?|Händehygiene nach Risiko und Vorgabe|Nur Parfüm verwenden|Hände erst nach Dienstende reinigen
+Was ist nach dem Ablegen von Einmalhandschuhen nötig?|Indikationsgerechte Händedesinfektion|Grundsätzlich nichts|Nur Handschuhe erneut anziehen
+Welche Stellen werden bei Händedesinfektion leicht vergessen?|Daumen, Fingerkuppen und Zwischenräume|Nur Unterarme|Nur Schultern
+Warum Hände während der Einwirkzeit benetzt halten?|Wirksamkeit des vorgesehenen Verfahrens sichern|Haut dauerhaft nass halten|Geruch verstärken
+Wovon hängt die erforderliche Einwirkzeit ab?|Produkt und vorgesehener Anwendung|Immer genau derselben beliebigen Sekundenzahl|Farbe des Spenders
+Was ist bei sichtbar verschmutzten Händen zusätzlich zu berücksichtigen?|Reinigung nach Hygieneplan|Desinfektion ist immer allein ausreichend|Schmutz einfach verteilen
+Warum kurze natürliche Fingernägel im Patientenkontakt?|Reinigung und Desinfektion erleichtern|Nur aus optischen Gründen|Zur Vermeidung jeder Allergie
+Warum Schmuck an Händen problematisch sein kann?|Er kann wirksame Händehygiene behindern|Er sterilisiert Haut|Er verhindert Mikrobenwachstum
+# Handschuhe|1|https://www.rki.de/DE/Themen/Infektionskrankheiten/Krankenhaushygiene/KRINKO/Empfehlungen-der-KRINKO/Basishygiene/basishygiene-node.html|Handschuhe werden nach Expositionsrisiko gewählt und gewechselt. Sie können selbst kontaminiert sein und ersetzen keine Händehygiene.
+Wozu dienen medizinische Einmalhandschuhe?|Schutz bei möglichem Kontakt mit infektiösem Material|Ersatz jeder Händedesinfektion|Unbegrenzte Wiederverwendung
+Wann sind Handschuhe zwischen Patienten zu wechseln?|Bei jedem Patientenwechsel|Nur bei sichtbaren Löchern|Nur einmal pro Schicht
+Was ist beim Wechsel von unreiner zu reiner Tätigkeit wichtig?|Handschuhe wechseln und Händehygiene beachten|Mit denselben Handschuhen fortfahren|Handschuhe nur abklopfen
+Dürfen kontaminierte Handschuhe beliebig Türklinken berühren?|Nein|Ja|Nur wenn sie trocken wirken
+Was ist bei beschädigten Handschuhen erforderlich?|Wechsel und erforderliche Händehygiene|Mit Klebeband reparieren|Bis Schichtende weitertragen
+Sind unsterile Untersuchungshandschuhe steril?|Nein|Ja|Nur direkt nach Entnahme immer
+Wann sind sterile Handschuhe nötig?|Wenn das konkrete aseptische Verfahren sie verlangt|Bei jeder Schreibarbeit|Nie
+Warum passende Handschuhgröße wählen?|Sicheren Sitz und Handhabung ermöglichen|Nur für gleiches Aussehen|Damit Händehygiene entfällt
+Was ist beim Ausziehen wichtig?|Kontakt mit kontaminierter Außenseite möglichst vermeiden|Außenseite im Gesicht abstreifen|Handschuhe kräftig ausschütteln
+Sind Einmalhandschuhe grundsätzlich zum Waschen und Wiederverwenden gedacht?|Nein|Ja|Nur zwischen zwei Patienten
+# Schutzkleidung|1|https://www.sicherer-rettungsdienst.de/|Persönliche Schutzausrüstung wird passend zur Exposition eingesetzt. An- und Ablegen können selbst Übertragungsrisiken verursachen.
+Wann ist Augenschutz besonders relevant?|Bei möglichem Spritzerkontakt|Nur bei Dunkelheit|Nur bei langen Fahrten
+Was schützt ein Schutzkittel vor allem?|Kleidung und Haut vor Kontamination|Allein vor Sauerstoffmangel|Vor jedem mechanischen Unfall
+Was ist bei Atemschutz entscheidend?|Passende Schutzklasse und korrekter Sitz|Nur die Farbe|Nur der Preis
+Was kann Bartwuchs im Dichtbereich beeinträchtigen?|Dichtsitz einer eng anliegenden Atemschutzmaske|Nur die Hörfähigkeit|Nur das Visiergewicht
+Warum den Sitz von Atemschutz prüfen?|Undichtigkeiten erkennen|Die Filterklasse ändern|Die Maske sterilisieren
+Was ist beim Ablegen kontaminierter Schutzkleidung wichtig?|Selbstkontamination vermeiden|Außenseite an Alltagskleidung reiben|Alles im sauberen Bereich ausschütteln
+Was ist bei durchfeuchteter oder beschädigter Maske zu beachten?|Wechsel nach Vorgabe|Weitertragen ohne Prüfung|Mit Duftspray behandeln
+Ersetzt ein Visier grundsätzlich jeden erforderlichen Atemschutz?|Nein|Ja|Nur bei Husten immer
+Warum Schutzkleidung vor dem Einsatz passend auswählen?|Exposition und Tätigkeit bestimmen den Bedarf|Eine Ausrüstung passt immer zu allem|Nur zur Materialzählung
+Wo wird gebrauchte kontaminierte Schutzkleidung abgelegt?|Im dafür vorgesehenen Bereich oder Behälter|Auf sauberen Arbeitsflächen|Im privaten Rucksack
+# Übertragungswege|2|https://www.rki.de/DE/Themen/Infektionskrankheiten/Krankenhaushygiene/KRINKO/Empfehlungen-der-KRINKO/Basishygiene/basishygiene-node.html|Übertragungswege können sich überlagern. Schutzmaßnahmen müssen zum Erreger, zur Tätigkeit und zum räumlichen Umfeld passen.
+Was bezeichnet direkte Kontaktübertragung?|Unmittelbaren Kontakt zwischen Quelle und Empfänger|Nur Übertragung über ein Gerät|Nur Übertragung durch Trinkwasser
+Was bezeichnet indirekte Kontaktübertragung?|Übertragung über kontaminierte Gegenstände oder Hände|Ausschließlich Blickkontakt|Nur genetische Vererbung
+Was bedeutet fäkal-oral?|Aufnahme von Erregern aus fäkaler Verunreinigung über den Mund|Nur Übertragung durch Schall|Nur Übertragung durch intakte Haut
+Welche Rolle können Hände bei Übertragung spielen?|Sie können Erreger zwischen Orten übertragen|Sie sind grundsätzlich keimfrei|Nur sichtbarer Schmutz ist relevant
+Was ist bei Blutkontakt über verletzte Haut relevant?|Mögliches Übertragungsrisiko blutübertragbarer Erreger|Nur Hautfarbe|Grundsätzlich kein Risiko
+Was ist bei Atemwegsinfektionen zusätzlich wichtig?|Lüftung und situationsgerechter Atemschutz|Nur Flächenduft|Nur Handschuhe ohne weitere Maßnahmen
+Kann eine Person vor deutlichen Symptomen ansteckend sein?|Ja, je nach Infektion|Nein, niemals|Nur bei sichtbarer Blutung
+Was bedeutet Inkubationszeit?|Zeit von Infektion bis Auftreten von Symptomen|Dauer der Händedesinfektion|Dauer jeder Behandlung
+Was bedeutet Exposition?|Kontakt mit einem möglichen schädigenden Einfluss|Immer bereits Erkrankung|Immer sichere Immunität
+Warum reicht Erregername allein nicht für jede Schutzentscheidung?|Tätigkeit und Expositionsweg beeinflussen das Risiko|Erreger sind immer gleich übertragbar|Schutz hängt nur vom Alter ab
+# Reinigung und Desinfektion|2|https://www.rki.de/DE/Themen/Infektionskrankheiten/Krankenhaushygiene/KRINKO/Empfehlungen-der-KRINKO/Basishygiene/basishygiene-node.html|Reinigung und Desinfektion haben unterschiedliche Ziele. Produkte dürfen nur für vorgesehene Anwendungen und in korrekter Konzentration eingesetzt werden.
+Was ist Reinigung?|Entfernen von Verschmutzungen|Garantierte Abtötung aller Sporen|Immer Sterilisation
+Was ist Desinfektion?|Reduktion vermehrungsfähiger Mikroorganismen auf ein geeignetes Maß|Nur sichtbares Aufräumen|Immer vollständige Sterilität
+Was ist Sterilisation?|Verfahren zur Herstellung eines sterilen Zustands|Nur Abwischen mit Wasser|Nur Trocknen
+Warum Konzentrationsangaben einhalten?|Wirksamkeit und Materialverträglichkeit sichern|Je mehr desto immer besser|Nur wegen Geruch
+Dürfen Reinigungs- und Desinfektionsmittel beliebig gemischt werden?|Nein|Ja|Nur in warmem Wasser immer
+Warum Einwirkzeiten einhalten?|Das Verfahren benötigt die vorgesehene Kontaktzeit|Nur zur Zeitplanung|Trockene Flächen sind sofort immer sicher
+Was ist bei Flächendesinfektion wichtig?|Geeignete vollständige Benetzung nach Vorgabe|Nur an einer Ecke wischen|Nur Duft versprühen
+Warum Materialverträglichkeit prüfen?|Geräteschäden und Funktionsverlust vermeiden|Die Erregerzahl automatisch bestimmen|Händehygiene ersetzen
+Was ist eine Wischdesinfektion?|Aufbringen und Verteilen mit geeignetem Wischverfahren|Nur Wasser versprühen|Ausschließlich trockenes Abstauben
+Warum sichtbare organische Verschmutzung berücksichtigen?|Sie kann die Wirksamkeit von Verfahren beeinträchtigen|Sie erhöht jede Desinfektionswirkung|Sie ist immer steril
+# Instrumente und Abfall|2|https://www.sicherer-rettungsdienst.de/|Scharfe Gegenstände und wiederaufzubereitende Medizinprodukte benötigen geregelte sichere Wege. Unreines Material darf saubere Bereiche nicht unkontrolliert kontaminieren.
+Wohin gehören gebrauchte Kanülen?|In geeignete stichfeste Abwurfbehälter|Lose in Müllbeutel|In die Hosentasche
+Warum gebrauchte Kanülen nicht routinemäßig recappen?|Nadelstichverletzungen vermeiden|Nadelspitze stumpf machen|Wirkstoff sparen
+Was ist bei gefüllten Abwurfbehältern zu beachten?|Füllgrenze einhalten und rechtzeitig verschließen|Inhalt von Hand zusammendrücken|Nadeln wieder herausnehmen
+Wo sollte ein Abwurfbehälter bei invasiven Tätigkeiten sein?|Sicher und unmittelbar erreichbar|Im entfernten Lager|Im Privatfahrzeug
+Was ist bei wiederverwendbaren Medizinprodukten maßgeblich?|Herstellerangaben und validiertes Aufbereitungsverfahren|Nur optischer Eindruck|Beliebiges Abspülen
+Dürfen Einmalprodukte ohne zulässiges Verfahren beliebig wiederverwendet werden?|Nein|Ja|Nur wenn sie teuer sind
+Warum reines und unreines Material trennen?|Rekontamination vermeiden|Nur Inventur erleichtern|Damit Material schneller altert
+Was ist bei Abfall mit Verletzungsrisiko wichtig?|Sichere dafür geeignete Verpackung|Beliebiger dünner Beutel|Offene Ablage
+Warum Abfall nicht mit bloßen Händen nachsortieren?|Verletzungs- und Expositionsrisiko|Nur Zeitverlust|Kein besonderer Grund
+Was ist nach Aufbereitung vor Verwendung wichtig?|Freigabe und Zustand entsprechend Verfahren prüfen|Nur Farbe ansehen|Verpackung unnötig öffnen
+# Nadelstich und Exposition|2|https://www.sicherer-rettungsdienst.de/|Nach beruflicher Exposition sind sofortige Maßnahmen und zeitnahe fachliche Beurteilung wichtig. Das konkrete Vorgehen folgt dem betrieblichen Expositionsplan.
+Was ist nach einer Nadelstichverletzung erforderlich?|Sofortmaßnahmen und zeitnahe medizinische Abklärung|Bis nächste Woche warten|Vorfall verschweigen
+Warum den Expositionszeitpunkt festhalten?|Zeitkritische Maßnahmen und Verlauf einordnen|Nur für die Lohnabrechnung|Er ist medizinisch bedeutungslos
+Was gehört zur Expositionsbeschreibung?|Material, Kontaktweg und betroffene Körperstelle|Nur Schichtlänge|Nur Fahrzeugtyp
+Was ist bei Schleimhautkontakt mit potenziell infektiösem Material nötig?|Unverzügliches Vorgehen nach Expositionsplan|Nur Abwarten|Schleimhaut mit aggressivem Flächendesinfektionsmittel behandeln
+Warum eine Exposition melden?|Versorgung und arbeitsmedizinische Nachsorge sichern|Nur Schuld feststellen|Damit niemand behandelt wird
+Was bedeutet PEP?|Postexpositionsprophylaxe|Persönlicher Einsatzplan allein|Pulskontrolle vor Transport
+Ist nach jeder Exposition dieselbe PEP automatisch erforderlich?|Nein, individuelle Risikobeurteilung ist nötig|Ja|Nur abhängig von Handschuhfarbe
+Warum Impfstatus berücksichtigen?|Er kann Risiko und Nachsorge beeinflussen|Er ersetzt jede Abklärung|Er beweist vollständigen Schutz gegen alle Erreger
+Warum ist ein bekannter negativer alter Test keine universelle Entwarnung?|Zeitpunkt und diagnostisches Fenster können relevant sein|Tests sind grundsätzlich nutzlos|Nur die Papierfarbe zählt
+Was ist bei Unsicherheit nach Exposition richtig?|Zuständige fachliche Beratung zeitnah einholen|Selbst Medikamente beliebig beginnen|Immer nichts tun
+# Hygieneorganisation|3|https://www.rki.de/DE/Themen/Infektionskrankheiten/Krankenhaushygiene/KRINKO/Empfehlungen-der-KRINKO/Basishygiene/basishygiene-node.html|Ein Hygieneplan macht Zuständigkeiten und Verfahren verbindlich nachvollziehbar. Schulung und überprüfbare Umsetzung sind Teil des Systems.
+Was legt ein Hygieneplan unter anderem fest?|Wer was wann womit und wie durchführt|Nur Fahrzeugfarbe|Nur Dienstwünsche
+Warum Hygieneunterweisungen wiederholen?|Kenntnisse und sichere Durchführung erhalten|Weil Regeln täglich beliebig wechseln|Nur Unterschriften sammeln
+Was ist bei fehlendem geeignetem Desinfektionsmittel nötig?|Sichere Versorgung und Ersatz nach Vorgabe organisieren|Beliebige Haushaltsmischung herstellen|Einwirkzeit auf null setzen
+Warum Dosierhilfen verwenden?|Korrekte Konzentration unterstützen|Wirkstoff ersetzen|Material sterilisieren ohne Mittel
+Warum Reinigungsarbeiten dokumentieren?|Durchführung und Verantwortlichkeit nachvollziehen|Nur Papier verbrauchen|Kontamination garantieren
+Was ist bei einem Infektionstransport vorab sinnvoll?|Empfangende Stelle über relevante Schutzanforderungen informieren|Diagnose öffentlich posten|Alle Daten an Unbeteiligte senden
+Warum kontaminierte Wäsche geregelt transportieren?|Verschleppung vermeiden|Geruch verbreiten|Private Waschmaschine grundsätzlich nutzen
+Was ist bei einem Hygienevorfall sinnvoll?|Ursache klären und wirksame Korrektur organisieren|Nur Schuldige suchen|Vorfall unsichtbar machen
+Was ist bei neuen Produkten vor Einführung zu prüfen?|Eignung, Anwendung und Schulungsbedarf|Nur Verpackungsdesign|Nur Rabatt
+Warum Händehygiene beobachtbar trainieren?|Benetzungslücken und Ablauffehler erkennen|Um alle Fehler endgültig auszuschließen|Nur zur Unterhaltung
+# Schutz und Abwägung|3|https://www.sicherer-rettungsdienst.de/|Infektionsschutz muss mit sicherer Patientenversorgung zusammenpassen. Ein einzelnes Schutzmittel ersetzt kein abgestimmtes Maßnahmenpaket.
+Schließt Impfung jede Übertragung sicher aus?|Nein|Ja, immer|Nur bei Erwachsenen immer
+Ersetzt eine negative Schnelltestung alle Schutzmaßnahmen?|Nein|Ja, immer|Ja, unabhängig vom Testzeitpunkt
+Warum Symptome und Exposition trotz Test berücksichtigen?|Tests haben Grenzen und zeitabhängige Aussagekraft|Tests sind immer falsch|Nur Symptome zählen ohne Kontext
+Was ist bei Tätigkeiten mit möglicher Aerosolbildung wichtig?|Risikogerechte Schutzmaßnahmen und Umgebung|Nur Handschuhe|Nur Flächenreinigung danach
+Warum Schutzmaßnahmen bei Personalmangel nicht beliebig entfallen?|Risiken für Personal und Patienten bleiben bestehen|Hygiene ist nur optional|Zeitdruck beseitigt Erreger
+Was ist bei Hautschäden an den Händen sinnvoll?|Hautschutz und fachliche Abklärung|Immer weiterarbeiten ohne Beachtung|Mehr Duftstoff verwenden
+Warum Hautpflege in den Plan gehört?|Intakte Haut unterstützt wirksamen Schutz|Sie ersetzt Desinfektion|Sie sterilisiert Hände
+Was ist bei einer kontaminierten Geräteoberfläche vor Weitergabe nötig?|Aufbereitung nach vorgesehenem Verfahren|Nur Übergabe ohne Hinweis|Abdecken mit Papier reicht immer
+Warum saubere Dokumentationsgeräte schützen?|Kontaminationsverschleppung vermeiden|Nur Akkulaufzeit erhöhen|Messgenauigkeit der Körpertemperatur steigern
+Was ist eine geeignete Hygienestrategie?|Mehrere passende Maßnahmen konsequent kombinieren|Nur ein einziges Schutzmittel für alles|Nur Reinigung bei sichtbarem Schmutz

@@ -1,0 +1,110 @@
+# Eigenschutz|1|https://www.sicherer-rettungsdienst.de/|Eigenschutz ist Voraussetzung für wirksame Hilfe. Gefahren werden vor dem Betreten und während des Einsatzes wiederholt beurteilt.
+Was steht vor dem ungesicherten Betreten einer Einsatzstelle?|Lage und Eigengefährdung beurteilen|Material vollständig auspacken|Patientendaten laut vorlesen
+Warum ist eine dynamische Gefahrenbeurteilung nötig?|Gefahren können sich im Verlauf ändern|Nur zur Papierersparnis|Ein Ersteindruck bleibt immer gültig
+Was ist bei unbekannter Atmosphäre in einem engen Raum wichtig?|Nicht ungesichert betreten und geeignete Kräfte anfordern|Geruch als alleinige Freigabe nutzen|Mit angehaltenem Atem hineingehen
+Welche Gefahr ist bei laufendem Verkehr besonders relevant?|Erfasstwerden durch Fahrzeuge|Nur Sonnenlicht|Nur Geräuschbelastung ohne Unfallrisiko
+Was ist bei erkennbarer Gewaltbereitschaft sinnvoll?|Abstand, Rückzugsmöglichkeit und Unterstützung organisieren|Allein körperlich bedrängen|Fluchtweg blockieren
+Was ist bei einem freiliegenden Stromkabel zu beachten?|Abstand halten und Stromgefahr fachgerecht sichern lassen|Mit bloßer Hand beiseitelegen|Mit Wasser benetzen
+Was ist bei Rauchentwicklung zu berücksichtigen?|Atemgifte und mögliche Branddynamik|Nur eingeschränkte Sicht|Geruchslosigkeit bedeutet Sicherheit
+Warum Fluchtwege freihalten?|Rückzug und Rettung ermöglichen|Nur optische Ordnung|Damit keine Hilfe nachkommt
+Was bedeutet persönliche Schutzausrüstung?|Ausrüstung zum Schutz der tragenden Person|Nur medizinisches Verbrauchsmaterial|Nur Funktechnik
+Ersetzt Schutzausrüstung jede Gefahrenvermeidung?|Nein|Ja, immer|Ja, bei jeder Größe
+# Anfahrt und Lage|1|https://www.sicherer-rettungsdienst.de/|Anfahrt und Fahrzeugpositionierung müssen Zugänglichkeit, Verkehr und Rückzug berücksichtigen. Sonderrechte beseitigen keine Pflicht zur Sorgfalt.
+Welche Information unterstützt eine sichere Anfahrt?|Genaue Einsatzadresse und besondere Zufahrtshinweise|Nur Nachname|Nur gewünschte Musik
+Warum eine Rückmeldung bei unklarer Einsatzadresse?|Fehlanfahrt und Zeitverlust vermeiden|Allein zur Beschäftigung der Leitstelle|Weil Navigation immer unbrauchbar ist
+Was ist bei der Fahrzeugaufstellung wichtig?|Sichere Arbeitszone und Abtransportmöglichkeit|Grundsätzlich jeden Zugang blockieren|Immer unmittelbar im Gefahrenbereich parken
+Was gehört zu einer ersten Lagemeldung?|Ort, Art, Ausmaß und benötigte Unterstützung|Nur persönliche Meinung|Nur Wetter ohne Einsatzbezug
+Warum ist die Zahl der Betroffenen wichtig?|Sie beeinflusst Ressourcen und Priorisierung|Sie ersetzt jede Untersuchung|Sie ist für die Leitstelle nie relevant
+Was ist bei unübersichtlicher Lage hilfreich?|Kurze klare Rückmeldung und Nachforderung|Funk grundsätzlich ausschalten|Alle Kräfte ohne Auftrag verteilen
+Warum muss die Zufahrt für weitere Kräfte frei bleiben?|Damit Verstärkung und Abtransport möglich bleiben|Nur wegen Parkgebühren|Weil Material sonst unwirksam wird
+Welche Information kann bei einem Gefahrstoffereignis wichtig sein?|Sicher ablesbare Kennzeichnung und Art der Exposition|Geschmack des Stoffes|Ungeprüftes Anfassen der Verpackung
+Darf eine unbekannte Substanz zur Identifikation probiert werden?|Nein|Ja, in kleiner Menge|Ja, mit Handschuhen
+Was ist bei einer plötzlichen Lageverschlechterung sinnvoll?|Sicherheit und Einsatzplan neu bewerten|Ursprünglichen Plan immer unverändert fortsetzen|Rückmeldungen vermeiden
+# Vorbereitung und Material|1|https://www.sicherer-rettungsdienst.de/|Einsatzbereitschaft entsteht durch systematische Kontrollen. Funktionsprüfung ist nicht gleichbedeutend mit bloßem Vorhandensein eines Geräts.
+Was gehört zur Geräteprüfung vor Dienstbeginn?|Funktionsfähigkeit und Zubehör kontrollieren|Nur Gehäusefarbe ansehen|Nur Inventarnummer zählen
+Warum Akkustände prüfen?|Ausfall während des Einsatzes vermeiden|Um Messwerte zu verändern|Nur zur Gewichtsbestimmung
+Was gehört zur Sauerstoffkontrolle?|Vorrat, Anschlüsse und Funktionszustand prüfen|Nur Flaschenfarbe prüfen|Ventile mit Öl behandeln
+Warum Verbrauchsmaterial nachfüllen?|Nächsten Einsatz sicher ermöglichen|Nur Schränke füllen|Haltbarkeit verlängern
+Was ist bei defektem Material zu tun?|Kennzeichnen, aus der Nutzung nehmen und melden|Unbemerkt zurücklegen|Nur verstecken
+Warum Ablaufdaten kontrollieren?|Nicht mehr regulär verwendbares Material erkennen|Herstellerwerbung prüfen|Material automatisch sterilisieren
+Was bedeutet standardisierte Materialanordnung?|Wiederauffindbare festgelegte Plätze|Jeden Tag zufällige Plätze|Nur alphabetische Farben
+Warum eine Absaugung vorhalten und prüfen?|Sekret oder Fremdmaterial bei Bedarf entfernen können|Sie ersetzt jedes Atemwegsverfahren|Sie misst den Blutdruck
+Was ist bei Übergabe eines Fahrzeugs wichtig?|Mängel und Besonderheiten weitergeben|Nur Schlüssel abgeben|Bekannte Defekte verschweigen
+Was ist eine Checkliste?|Strukturierte Gedächtnisstütze|Ersatz für jede Kompetenz|Garantie gegen alle Fehler
+# Patiententransport|1|https://www.sicherer-rettungsdienst.de/|Transport beeinflusst Sicherheit und Überwachbarkeit. Lagerung und Hilfsmittel richten sich nach Zustand, Umgebung und verfügbaren Ressourcen.
+Was ist vor dem Bewegen einer Person abzustimmen?|Ablauf und Kommandos im Team|Nur Farbe der Trage|Nur Fahrtroute
+Warum geeignete Tragehilfen nutzen?|Belastung und Verletzungsrisiko reduzieren|Um auf Sicherung zu verzichten|Um jede Untersuchung zu ersetzen
+Wann muss eine Trage gemäß System gesichert sein?|Vor Transport und Fahrt|Nur bei hoher Geschwindigkeit|Nur bei Erwachsenen
+Was gilt für Patientensicherung während der Fahrt?|Vorgesehene Rückhaltesysteme korrekt verwenden|Festhalten durch eine Person reicht immer|Nur Kopfkissen genügen
+Warum freie Zugänge zum Patienten erhalten?|Überwachung und Maßnahmen ermöglichen|Nur für Fotos|Damit Sicherungen entfallen
+Was ist beim Treppentransport wichtig?|Geeignetes Hilfsmittel und abgestimmtes Teamvorgehen|Allein improvisieren ohne Prüfung|Rückwärts rennen
+Warum Schläuche vor Bewegung prüfen?|Zug, Knick und versehentliche Trennung vermeiden|Nur optische Ordnung|Infusion automatisch beschleunigen
+Was ist beim Umlagern erneut zu prüfen?|Zustand, Zugänge und Sicherungen|Nur die Uhrzeit|Nur der Papierverbrauch
+Was bedeutet ergonomisches Arbeiten?|Arbeitsweise an körperliche Belastbarkeit anpassen|Immer mit verdrehtem Rücken heben|Hilfsmittel grundsätzlich vermeiden
+Warum darf die Lagerung nicht schematisch für alle gleich sein?|Zustand und Beschwerden unterscheiden sich|Es gibt keinerlei geeignete Lagerungen|Lagerung hat nie Einfluss
+# Teamarbeit|2|https://www.sicherer-rettungsdienst.de/|Klare Aufgaben, bestätigte Kommunikation und gegenseitige Kontrolle verbessern die Zusammenarbeit. Fachliche Bedenken dürfen unabhängig von Hierarchie angesprochen werden.
+Was bedeutet Closed-Loop-Kommunikation?|Auftrag, Rückmeldung und Bestätigung|Alle sprechen gleichzeitig|Aufträge ohne Empfänger
+Warum einen Auftrag einer Person zuordnen?|Zuständigkeit klar machen|Andere vom Denken ausschließen|Verantwortung verstecken
+Was ist ein Teambriefing?|Kurze gemeinsame Abstimmung vor oder zu Beginn|Ausschließlich Kritik nach Wochen|Nur private Unterhaltung
+Was ist ein Debriefing?|Strukturierte Nachbesprechung|Versteckte Schuldzuweisung|Nur Materialreinigung
+Was bedeutet Speak-up?|Sicherheitsbedenken klar ansprechen|Immer lauter schreien|Nur nach Einsatzende sprechen
+Warum Aufgaben priorisieren?|Zeitkritische Maßnahmen zuerst sichern|Unwichtige Aufgaben zuerst erledigen|Alle Aufgaben gleichzeitig verlangen
+Was ist bei unklarer Anweisung sinnvoll?|Gezielt rückfragen|Beliebig interpretieren|Anweisung verschweigen
+Warum Aufgabenwechsel ausdrücklich mitteilen?|Doppelte oder ausgelassene Arbeit verhindern|Nur Formalität|Damit niemand mehr verantwortlich ist
+Was ist gemeinsame Lagewahrnehmung?|Geteiltes Verständnis von Zustand, Plan und Risiken|Gleiche Meinung ohne Austausch|Nur Blick auf den Monitor
+Wie wird ein erkannter Fehler konstruktiv angesprochen?|Konkret, zeitnah und lösungsorientiert|Persönlich abwertend|Gar nicht
+# Zielklinik und Übergabe|2|https://www.grc-org.de/wissenschaft/leitlinien|Das Transportziel richtet sich nach Versorgungsbedarf und regionaler Organisation. Frühzeitige Anmeldung ermöglicht Vorbereitung, ersetzt aber keine geordnete Übergabe.
+Wovon hängt ein geeignetes Transportziel ab?|Erforderlicher Versorgung und regionalem Konzept|Nur kürzester Luftlinie|Nur persönlicher Vorliebe
+Warum eine zeitkritische Person voranmelden?|Aufnahmeteam auf Bedarf vorbereiten|Damit keine Übergabe nötig ist|Um Untersuchung zu ersetzen
+Welche Information gehört in eine Übergabe?|Befunde, Verlauf und durchgeführte Maßnahmen|Nur vermutete Diagnose|Nur Einsatzdauer
+Warum Medikamentengaben mit Zeitpunkt nennen?|Wirkung, Wechselwirkungen und weitere Therapie einordnen|Nur Abrechnung|Zeitpunkt ist nie relevant
+Warum den letzten stabilen Zustand nennen?|Verschlechterung nachvollziehbar machen|Um aktuelle Befunde wegzulassen|Nur aus Höflichkeit
+Was ist bei laufenden Infusionen zu übergeben?|Inhalt, Rate und Zugang|Nur Beutelfarbe|Nur Herstellerlogo
+Was ist bei einem ungeklärten kritischen Befund wichtig?|Unsicherheit ausdrücklich benennen|Sichere Diagnose erfinden|Befund weglassen
+Warum eine verantwortliche Übernahme klären?|Kontinuität der Versorgung sichern|Um jede Rückfrage zu verhindern|Nur für Statistik
+Was ist bei Gerätewechsel an der Übergabe zu beachten?|Überwachungslücken vermeiden|Alle Geräte gleichzeitig entfernen|Alarme dauerhaft ausschalten
+Warum ist eine strukturierte Übergabe sinnvoll?|Wichtige Informationen werden weniger leicht vergessen|Sie ersetzt jede Dokumentation|Sie muss immer sehr lang sein
+# Mehrere Betroffene|2|https://www.bbk.bund.de/DE/Themen/Gesundheitlicher-Bevoelkerungsschutz/Sanitaetsdienst/sanitaetsdienst_node.html|Bei vielen Betroffenen muss Versorgung mit verfügbaren Ressourcen organisiert werden. Sichtung ist dynamisch und folgt dem regional vorgesehenen Verfahren.
+Was ist bei unerwartet vielen Betroffenen früh wichtig?|Lage melden und zusätzliche Ressourcen anfordern|Allein alles übernehmen|Leitstelle erst am Ende informieren
+Was bedeutet Sichtung?|Priorisierung nach Behandlungs- und Transportdringlichkeit|Endgültige Diagnose aller Personen|Reihenfolge nach Lautstärke allein
+Ist eine Sichtungskategorie unveränderlich?|Nein|Ja, immer|Ja, nach dem ersten Aufkleber
+Warum müssen Sichtungsentscheidungen dokumentiert werden?|Zuordnung und Verlauf nachvollziehbar halten|Nur zur Dekoration|Weil Beobachtungen sonst unwichtig wären
+Was ist bei gehfähigen Betroffenen dennoch nötig?|Weitere Beurteilung und Organisation|Automatische Entlassung ohne Prüfung|Annahme völliger Verletzungsfreiheit
+Warum klare Sammelbereiche festlegen?|Versorgung und Übersicht organisieren|Damit niemand mehr untersucht wird|Nur um Wege zu verlängern
+Was ist bei Patientenzuordnung entscheidend?|Eindeutige Kennzeichnung|Nur Kleidungsfarbe|Nur ungefähres Alter
+Warum Transporte koordinieren?|Geeignete Kliniken und Kapazitäten berücksichtigen|Alle grundsätzlich zur selben Tür schicken|Verfügbarkeit ignorieren
+Was bedeutet Ressourcenknappheit?|Bedarf übersteigt momentan verfügbare Mittel|Es gibt grundsätzlich keine Hilfe|Nur Material ist ungeordnet
+Was darf eine vereinfachte Sichtung nicht ersetzen?|Erforderliche erneute Beurteilung|Eindeutige Kennzeichnung|Lagemeldung
+# Besondere Einsatzstellen|2|https://www.sicherer-rettungsdienst.de/|Besondere Gefahren erfordern Spezialkräfte und angepasste Abläufe. Medizinische Dringlichkeit hebt physikalische Gefahren nicht auf.
+Was ist vor Annäherung an einen Hubschrauber nötig?|Freigabe und Anweisungen der Besatzung beachten|Beliebig von hinten herangehen|Lose Gegenstände hochhalten
+Warum sind Rotorbereiche gefährlich?|Rotierende Teile und Luftströmung können verletzen|Nur wegen Lärm|Nur bei Regen
+Was ist bei möglicher Kontamination wichtig?|Verschleppung vermeiden und Dekontaminationskonzept beachten|Direkt ungeschützt in saubere Bereiche bringen|Kontamination grundsätzlich ignorieren
+Was ist ein sicherer Bereitstellungsraum?|Zugewiesener Bereich außerhalb relevanter Gefahren|Immer direkt am Schadenszentrum|Jeder zufällige Parkplatz
+Warum gefährdete Bereiche kennzeichnen?|Unbeabsichtigten Zutritt vermeiden|Nur für Fotos|Damit niemand mehr kommuniziert
+Was ist bei ungesicherter Absturzkante erforderlich?|Abstand und geeignete Sicherung|Nur schneller gehen|Geräte als Geländer nutzen
+Was ist bei instabilen Gebäudeteilen zu beachten?|Einsturzgefahr und fachkundige Freigabe|Nur Staubbelastung|Sicherheit durch bloßes Rufen
+Was ist bei Tieren am Einsatzort sinnvoll?|Unkontrollierten Kontakt vermeiden und sichern lassen|Jedes Tier selbst einfangen|Gefahr grundsätzlich ausschließen
+Warum bei Wasserrettung eigene Fähigkeiten berücksichtigen?|Eigengefährdung und weitere Opfer vermeiden|Wasser ist grundsätzlich ungefährlich|Hilfsmittel verzögern immer
+Was ist bei einem Tunnelereignis relevant?|Fluchtwege, Rauch und Verkehrsgefahren|Nur Fahrbahnbelag|Nur Funklautstärke
+# Entscheidungen unter Druck|3|https://www.sicherer-rettungsdienst.de/|Unter Zeitdruck helfen kurze strukturierte Absprachen. Fixierung auf eine erste Erklärung kann neue Warnzeichen verdecken.
+Was bezeichnet Fixierungsfehler?|Festhalten an einer Erklärung trotz widersprechender Befunde|Jede sichere Materialfixierung|Jede wiederholte Kontrolle
+Wie kann ein Team Fixierung reduzieren?|Alternative Erklärungen aktiv prüfen|Rückfragen verbieten|Nur eine Person beobachten lassen
+Was ist ein kurzer Team-Time-out?|Bewusste kurze Lage- und Planprüfung|Ungeplante vollständige Versorgungspause|Privates Telefonat
+Warum eine Eskalationsschwelle festlegen?|Bei Verschlechterung rechtzeitig Hilfe oder Planwechsel auslösen|Um Veränderungen zu ignorieren|Damit niemand entscheiden muss
+Was bedeutet Nutzen-Risiko-Abwägung?|Erwarteten Nutzen gegen mögliche Schäden abwägen|Nur schnellste Option wählen|Nur Materialkosten vergleichen
+Was ist bei unzureichender eigener Kompetenz sinnvoll?|Unterstützung anfordern und sicher innerhalb der Kompetenz handeln|Verfahren improvisieren ohne Kenntnis|Kompetenz vortäuschen
+Warum kritische Schritte laut ankündigen?|Team auf Handlung und Risiken vorbereiten|Nur Aufmerksamkeit erzeugen|Damit keine Bestätigung möglich ist
+Was ist bei widersprüchlichen Teambeobachtungen nötig?|Befunde gemeinsam klären|Niedrigere Hierarchie ignorieren|Unterschied verschweigen
+Was ist eine Rückfallebene im Einsatzplan?|Vorbereitete Alternative bei Scheitern|Wiederholung ohne Änderung trotz Gefahr|Verzicht auf jede Planung
+Warum Maßnahmen nach Wirkung priorisieren?|Versorgung am tatsächlichen Bedarf ausrichten|Nur nach Reihenfolge im Koffer|Immer die invasivste Maßnahme zuerst
+# Nachbereitung und Qualität|3|https://www.sicherer-rettungsdienst.de/|Nachbereitung umfasst Hygiene, Material, Dokumentation und Lernen. Systemische Ursachen sollten neben individuellen Handlungen betrachtet werden.
+Was gehört zur Wiederherstellung der Einsatzbereitschaft?|Reinigung, Kontrolle und Nachbestückung|Nur Tanken|Nur Protokoll ablegen
+Warum kritische Ereignisse nachbesprechen?|Verbesserungsmöglichkeiten erkennen|Einzelne öffentlich beschämen|Fehler aus Akten entfernen
+Was ist ein CIRS grundsätzlich?|Meldesystem zum Lernen aus kritischen Ereignissen|Automatisches Strafverfahren|Ersatz für akute Patientenhilfe
+Ersetzt eine CIRS-Meldung die erforderliche Einsatzdokumentation?|Nein|Ja, immer|Ja, bei Beinahefehlern grundsätzlich
+Was ist bei eigener starker Belastung sinnvoll?|Unterstützungsangebote und Teamkontakt nutzen|Jede Reaktion verheimlichen müssen|Immer sofort allein weiterarbeiten
+Warum Materialmängel nachvollziehbar melden?|Reparatur und Wiederholungsvermeidung ermöglichen|Nur Schuld zuweisen|Damit Defekte unentdeckt bleiben
+Was bedeutet Qualitätsverbesserung?|Abläufe anhand von Erfahrungen und Daten verbessern|Nur mehr Formulare|Nur Fehlerzahlen verstecken
+Warum Checklisten regelmäßig überprüfen?|Abläufe und Anforderungen können sich ändern|Sie sind immer unveränderlich|Nur wegen Papierfarbe
+Was ist bei einer unvollständigen Übergabe nachträglich wichtig?|Relevante fehlende Information zuverlässig nachreichen|Information löschen|Darauf hoffen, dass sie unwichtig ist
+Warum medizinische und organisatorische Zeitpunkte dokumentieren?|Versorgungsverlauf nachvollziehbar machen|Nur Arbeitszeit verlängern|Weil aktuelle Befunde unwichtig sind

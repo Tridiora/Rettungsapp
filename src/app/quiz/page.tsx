@@ -1,5 +1,6 @@
 'use client'
 
+import {questionsForYear} from '@/lib/learning-filters'
 import { useState } from 'react'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -24,7 +25,8 @@ import { cn } from '@/lib/utils'
 import type { YearLevel } from '@/types'
 
 export default function QuizOverviewPage() {
-  const { quizzes } = useLibrary()
+  const { quizzes: allQuizzes } = useLibrary()
+  const quizzes = allQuizzes.filter(q=>q.questions.length>=20)
   const user = useAppStore((s) => s.currentUser)
   const selectedYear = useAppStore((s) => s.selectedYear)
   const setSelectedYear = useAppStore((s) => s.setSelectedYear)
@@ -33,7 +35,7 @@ export default function QuizOverviewPage() {
 
   const filteredQuizzes = quizzes.filter((q) => {
     const matchesCat = selectedCategory === 'all' || q.categoryId === selectedCategory
-    const matchesYear = selectedYear === 'all' || q.yearLevel === selectedYear || !q.yearLevel
+    const matchesYear = questionsForYear(q,selectedYear).length >= 20
     return matchesCat && matchesYear
   })
 

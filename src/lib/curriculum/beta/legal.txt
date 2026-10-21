@@ -1,0 +1,110 @@
+# Einwilligung|1|https://www.gesetze-im-internet.de/bgb/__630d.html|Medizinische Maßnahmen benötigen grundsätzlich eine wirksame Einwilligung. Für unaufschiebbare Maßnahmen bei fehlender rechtzeitiger Einholbarkeit gelten besondere Voraussetzungen.
+Was ist grundsätzlich vor einer medizinischen Maßnahme erforderlich?|Einwilligung nach erforderlicher Aufklärung|Nur Zustimmung der Nachbarn|Nur Ausfüllen eines Formulars ohne Gespräch
+Kann eine Einwilligung grundsätzlich widerrufen werden?|Ja|Nein, niemals|Nur schriftlich vor einem Gericht
+Beweist eine Unterschrift allein eine wirksame Aufklärung?|Nein|Ja, immer|Ja, unabhängig vom Verständnis
+Was bedeutet Einwilligungsfähigkeit?|Fähigkeit, Bedeutung und Folgen der konkreten Entscheidung zu verstehen und abzuwägen|Allein Volljährigkeit|Allein Besitz eines Ausweises
+Sind Geschäftsfähigkeit und Einwilligungsfähigkeit identisch?|Nein|Ja, immer|Ja, bei jeder Erkrankung
+Muss Einwilligungsfähigkeit situationsbezogen beurteilt werden?|Ja|Nein, einmal im Leben genügt|Nur anhand des Berufs
+Darf eine einwilligungsfähige Person eine Behandlung grundsätzlich ablehnen?|Ja|Nein, bei jedem Rettungsdiensteinsatz ausgeschlossen|Nur mit Zustimmung aller Angehörigen
+Worauf kommt es bei einer Ablehnung besonders an?|Informierte Entscheidung und Einwilligungsfähigkeit|Nur Unterschrift|Nur Lautstärke der Ablehnung
+Ist eine medizinisch unvernünftige Entscheidung automatisch Einwilligungsunfähigkeit?|Nein|Ja, immer|Ja, sobald Personal widerspricht
+Was ist bei Zweifeln an der Einwilligungsfähigkeit sinnvoll?|Gezielte Beurteilung und erforderliche Unterstützung|Automatisch jede Ablehnung ignorieren|Automatisch jede Behandlung abbrechen
+# Aufklärung|1|https://www.gesetze-im-internet.de/bgb/__630e.html|Aufklärung soll eine verständliche Entscheidung ermöglichen. Umfang und Zeitpunkt richten sich auch nach Dringlichkeit und konkreter Maßnahme.
+Wie soll Aufklärung sprachlich erfolgen?|Für die betroffene Person verständlich|Ausschließlich mit Fachabkürzungen|Nur in gedrucktem Kleinsttext
+Was gehört grundsätzlich zur Aufklärung?|Wesentliche Umstände, Risiken und gegebenenfalls Alternativen|Nur Preis|Nur Name des Geräts
+Warum Verständnis überprüfen?|Missverständnisse vor der Entscheidung erkennen|Um eine Zustimmung zu erzwingen|Nur zur Gedächtnisprüfung
+Ersetzt ein Merkblatt immer das erforderliche Gespräch?|Nein|Ja, immer|Ja, wenn es lang genug ist
+Müssen wesentliche Behandlungsalternativen gegebenenfalls erläutert werden?|Ja|Nein, grundsätzlich nie|Nur auf Nachfrage von Nachbarn
+Was ist bei sprachlichen Barrieren wichtig?|Geeignete Verständigung ermöglichen|Zustimmung einfach unterstellen|Lauter sprechen reicht immer
+Was ist bei akutem Zeitdruck zu berücksichtigen?|Dringlichkeit und verbleibende Aufklärungsmöglichkeiten|Aufklärung ist bei jedem Notruf ausgeschlossen|Zeitdruck erlaubt immer beliebige Maßnahmen
+Kann Aufklärung ohne gesicherte Verständigung problematisch sein?|Ja|Nein|Nur bei schriftlicher Sprache
+Wem gilt die Aufklärung vorrangig bei einwilligungsfähigen Erwachsenen?|Der betroffenen Person|Immer den Angehörigen allein|Immer dem Arbeitgeber
+Ist Täuschung ein geeignetes Mittel zur Einwilligungsgewinnung?|Nein|Ja, wenn schneller|Ja, bei jeder Unsicherheit
+# Schweigepflicht|1|https://www.gesetze-im-internet.de/stgb/__203.html|Gesundheitsinformationen sind vertraulich. Eine Weitergabe benötigt eine tragfähige rechtliche Grundlage und muss auf den erforderlichen Umfang begrenzt bleiben.
+Welche Informationen können der Schweigepflicht unterliegen?|Auch die Tatsache einer Behandlung|Nur Laborwerte|Nur schriftliche Diagnosen
+Dürfen Einsatzdetails aus Neugier an Bekannte weitergegeben werden?|Nein|Ja, ohne Nachnamen immer|Ja, nach Feierabend
+Haben Angehörige automatisch Anspruch auf alle Informationen?|Nein|Ja, immer|Ja, sofern sie laut fragen
+Was kann eine zulässige Informationsweitergabe ermöglichen?|Wirksame Einwilligung oder andere Rechtsgrundlage|Bloße Neugier|Beliebige Anfrage ohne Prüfung
+Warum muss die Identität eines Anfragenden geprüft werden?|Unbefugte Offenlegung vermeiden|Nur zur Höflichkeit|Weil Namen medizinisch unwichtig sind
+Sind Fotos mit erkennbaren Patienten vertraulich zu behandeln?|Ja|Nein, wenn mit Privattelefon aufgenommen|Nur im Krankenhaus
+Darf ein privater Gruppenchat automatisch Einsatzinformationen erhalten?|Nein|Ja, wenn Kolleginnen dabei sind|Ja, nach Dienstende
+Endet Vertraulichkeit automatisch mit dem Einsatzende?|Nein|Ja|Nur bei kurzen Einsätzen
+Warum kann eine Erzählung ohne Namen trotzdem identifizierend sein?|Ort, Zeit und Details können die Person erkennbar machen|Ohne Namen ist Identifikation unmöglich|Nur Namen sind personenbezogen
+Was ist bei einer behördlichen Auskunftsanfrage nötig?|Berechtigung und Rechtsgrundlage prüfen|Immer alles sofort herausgeben|Immer grundsätzlich alles verweigern
+# Dokumentation|1|https://www.gesetze-im-internet.de/bgb/__630f.html|Dokumentation soll den Behandlungsverlauf nachvollziehbar wiedergeben. Nachträgliche Änderungen müssen erkennbar bleiben und dürfen den ursprünglichen Inhalt nicht unkenntlich machen.
+Was soll eine Einsatzdokumentation wiedergeben?|Wesentliche Befunde, Maßnahmen und Verlauf|Nur die Abschlussdiagnose|Nur die Fahrtstrecke
+Wann sollte dokumentiert werden?|Zeitnah zum Behandlungsgeschehen|Grundsätzlich erst Monate später|Nur nach Beschwerden
+Wie sind nachträgliche Änderungen vorzunehmen?|Nachvollziehbar mit erkennbarem ursprünglichem Inhalt|Durch unkenntliches Überschreiben|Durch vollständiges Löschen der alten Fassung
+Warum sind Zeitangaben wichtig?|Sie machen den Verlauf nachvollziehbar|Nur für die Schriftgröße|Sie ersetzen Befunde
+Wie sollten Beobachtung und Vermutung dokumentiert werden?|Erkennbar voneinander getrennt|Immer als sichere Diagnose|Nur als persönliche Wertung
+Was ist bei einer verweigerten Maßnahme relevant?|Angebot, Aufklärung, Entscheidung und Beurteilung dokumentieren|Nur eine Unterschrift ohne Zusammenhang|Nichts dokumentieren
+Dürfen Befunde erfunden werden, um Lücken zu schließen?|Nein|Ja, wenn plausibel|Ja, bei Routineeinsätzen
+Was ist bei einem später erinnerten wichtigen Befund sinnvoll?|Als zeitlich gekennzeichneten Nachtrag dokumentieren|Unbemerkt in die Originalfassung einfügen|Grundsätzlich verschweigen
+Was ist objektive Sprache in der Dokumentation?|Konkrete beobachtbare Angaben|Abwertende Zuschreibungen|Vermutungen als Tatsachen
+Warum auch Wirkungen von Maßnahmen dokumentieren?|Versorgungsverlauf und Entscheidungen nachvollziehen|Nur Medikamentenverbrauch zählen|Wirkungen sind nie relevant
+# Beruf und Kompetenz|2|https://www.gesetze-im-internet.de/notsang/__2a.html|Berufsrechtliche Befugnisse haben konkrete Voraussetzungen. Ausbildung, Beherrschung, Erforderlichkeit und Versorgungslage sind zu unterscheiden.
+Regelt § 2a NotSanG uneingeschränkt jede denkbare Maßnahme?|Nein|Ja, ohne Voraussetzungen|Ja, unabhängig von Ausbildung
+Welche Voraussetzung nennt § 2a unter anderem?|Maßnahme in der Ausbildung erlernt und beherrscht|Nur einmal im Internet gesehen|Nur vom Patienten gewünscht
+Welches Ziel nennt § 2a für erforderliche Maßnahmen?|Lebensgefahr oder wesentliche Folgeschäden abwenden|Jeden Komfortwunsch erfüllen|Nur Dokumentation vereinfachen
+Gilt persönliche Kompetenz allein durch Berufsbezeichnung für jedes Verfahren als bewiesen?|Nein|Ja|Nur bei langem Dienstalter automatisch
+Was ist bei fehlender Beherrschung einer Maßnahme wichtig?|Unterstützung und sichere Alternativen organisieren|Kompetenz vortäuschen|Ungeprüft ausprobieren
+Ersetzt eine lokale SOP jede individuelle Situationsbeurteilung?|Nein|Ja, immer|Ja, wenn ausgedruckt
+Was bedeutet Delegation grundsätzlich?|Übertragung einer Aufgabe im zulässigen Rahmen|Übertragung jeder Verantwortung ohne Grenzen|Automatische Aufhebung aller Regeln
+Warum muss eine übernommene Aufgabe verstanden sein?|Sichere Durchführung und Erkennen von Grenzen ermöglichen|Nur für die Reihenfolge im Protokoll|Verständnis ist bei Anordnung unnötig
+Was ist bei erkennbar gefährlicher unklarer Anordnung sinnvoll?|Rückfragen und Bedenken äußern|Blind durchführen|Anordnung verschweigen
+Können Rettungsdienstregelungen regional unterschiedlich sein?|Ja|Nein, jede Einzelregel ist bundesweit identisch|Nur außerhalb Deutschlands
+# Patientenwille und Vertretung|2|https://www.gesetze-im-internet.de/bgb/__1827.html|Patientenwille und Vertretungsbefugnis müssen zur konkreten Situation passen. Angehörigeneigenschaft allein begründet nicht jede Entscheidungsbefugnis.
+Was ist eine Patientenverfügung grundsätzlich?|Vorausverfügung für bestimmte Behandlungssituationen bei Einwilligungsunfähigkeit|Beliebiger Wunschzettel ohne Behandlungsbezug|Automatischer Verzicht auf jede Hilfe
+Ist jede Patientenverfügung auf jede Notfallsituation anwendbar?|Nein|Ja, immer|Ja, ohne Inhaltsprüfung
+Was muss bei einer Patientenverfügung geprüft werden?|Ob Festlegungen zur aktuellen Situation passen|Nur Papierfarbe|Nur Anzahl der Seiten
+Was ist eine Vorsorgevollmacht?|Bevollmächtigung einer Person für festgelegte Angelegenheiten|Automatische ärztliche Zulassung|Immer eine Patientenverfügung
+Sind Vollmacht und Patientenverfügung dasselbe?|Nein|Ja|Nur wenn handschriftlich
+Entscheiden Angehörige bei einwilligungsfähigen Erwachsenen automatisch an deren Stelle?|Nein|Ja, immer|Ja, wenn sie älter sind
+Was ist bei behaupteter Vertretungsmacht wichtig?|Befugnis und Umfang klären|Nur Verwandtschaft annehmen|Immer ohne Prüfung folgen
+Was ist ein mutmaßlicher Wille?|An individuellen Anhaltspunkten orientierter anzunehmender Wille|Persönliche Vorliebe der Helfenden|Mehrheitsmeinung Umstehender
+Was hat bei einer einwilligungsfähigen Person Vorrang?|Ihr aktueller Wille|Immer ein alter Angehörigenwunsch|Immer die bequemste Lösung
+Was ist bei widersprüchlichen Angaben zum Patientenwillen sinnvoll?|Sachverhalt klären und erforderliche fachliche Hilfe einbeziehen|Beliebige Aussage auswählen|Widerspruch verschweigen
+# Datenschutz|2|https://eur-lex.europa.eu/eli/reg/2016/679/oj?locale=de|Gesundheitsdaten sind besonders geschützt. Zweckbindung, Datenminimierung und angemessene Sicherheit gelten auch bei digitaler Verarbeitung.
+Was bedeutet Datenminimierung?|Nur erforderliche personenbezogene Daten verarbeiten|Möglichst viele Daten sammeln|Daten ohne Zweck kopieren
+Was bedeutet Zweckbindung?|Daten für festgelegte zulässige Zwecke verwenden|Daten beliebig weiterverwenden|Zwecke nie festlegen
+Sind Gesundheitsdaten besonders geschützte Daten?|Ja|Nein|Nur auf Papier
+Was ist eine geeignete Zugriffsbeschränkung?|Zugang entsprechend Aufgabe und Berechtigung|Gemeinsames öffentliches Passwort|Freie Einsicht für alle Besucher
+Warum Bildschirm sperren beim Verlassen?|Unbefugten Zugriff verhindern|Medizinische Daten löschen|Internetgeschwindigkeit erhöhen
+Darf ein privates Gerät automatisch für Patientendaten verwendet werden?|Nein, nur im zulässigen geregelten Rahmen|Ja, grundsätzlich immer|Ja, wenn es neu ist
+Was ist bei fehlgeleiteten Patientendaten wichtig?|Vorfall nach zuständigem Verfahren melden und begrenzen|Vorfall verbergen|Weitere Kopien verteilen
+Was bedeutet Pseudonymisierung?|Ersetzen direkter Identifikatoren mit zuordenbaren Kennzeichen|Garantierte vollständige Anonymität|Löschen jeder Information
+Sind pseudonymisierte Daten automatisch anonym?|Nein|Ja|Nur bei kurzen Kennzeichen
+Warum sind Zugriffsprotokolle nützlich?|Unberechtigte Zugriffe nachvollziehen|Alle Zugriffe automatisch erlauben|Datenminimierung ersetzen
+# Hilfeleistung und Gefahren|2|https://www.gesetze-im-internet.de/stgb/__323c.html|Die allgemeine Hilfeleistungspflicht berücksichtigt Erforderlichkeit und Zumutbarkeit. Weitergehende berufliche Pflichten sind davon gesondert zu beurteilen.
+Was verlangt § 323c grundsätzlich?|Erforderliche und zumutbare Hilfe bei bestimmten Notlagen|Unbegrenzte Selbstgefährdung|Nur Hilfe bei Bekannten
+Ist ein Notruf eine mögliche Hilfeleistung?|Ja, abhängig von der Situation|Nein, niemals|Nur bei Tageslicht
+Verlangt allgemeine Hilfeleistungspflicht immer erhebliche Eigengefährdung?|Nein|Ja|Nur von Fußgängern
+Was ist bei unvertretbarer Gefahr sinnvoll?|Sichere Hilfe organisieren und Spezialkräfte alarmieren|Gefahr ignorieren|Jede Hilfe endgültig aufgeben
+Sind allgemeine und berufliche Handlungspflichten stets deckungsgleich?|Nein|Ja|Nur im Rettungswagen
+Was bezeichnet rechtfertigender Notstand grundsätzlich?|Handeln zur Abwehr einer gegenwärtigen Gefahr unter gesetzlichen Voraussetzungen|Freibrief für jede Maßnahme|Immer eine bloße Ausrede
+Darf eine Notstandslage ohne Prüfung pauschal angenommen werden?|Nein|Ja, bei jedem Einsatz|Ja, bei jeder Zeitknappheit
+Was bedeutet Verhältnismäßigkeit im Grundsatz?|Geeignetheit, Erforderlichkeit und Angemessenheit prüfen|Immer stärkstes Mittel wählen|Nur den Zeitbedarf betrachten
+Warum sind mildere geeignete Mittel relevant?|Unnötige Eingriffe vermeiden|Weil Hilfe immer unterbleiben soll|Nur wegen Materialkosten
+Was ist bei Zwangsmaßnahmen besonders wichtig?|Konkrete Rechtsgrundlage und Voraussetzungen klären|Nur Zustimmung eines Zuschauers|Allein organisatorische Bequemlichkeit
+# Minderjährige und Schutz|3|https://www.gesetze-im-internet.de/bgb/__630d.html|Entscheidungen bei Minderjährigen benötigen eine situationsbezogene Beurteilung. Reife, Maßnahme, Sorgeberechtigung und Dringlichkeit spielen eine Rolle.
+Ist Einwilligungsfähigkeit bei Minderjährigen allein durch eine starre Altersgrenze bestimmt?|Nein|Ja, immer|Ja, allein durch Körpergröße
+Was ist bei Jugendlichen zusätzlich zu berücksichtigen?|Einsichts- und Urteilsfähigkeit zur konkreten Maßnahme|Nur Schulklasse|Nur Kleidung
+Warum Kinder altersgerecht einbeziehen?|Verständnis, Beteiligung und Vertrauen fördern|Um Erwachsene grundsätzlich auszuschließen|Nur zur Ablenkung ohne Information
+Wer ist bei fehlender eigener Einwilligungsfähigkeit grundsätzlich einzubeziehen?|Berechtigte Vertretung unter Beachtung der Situation|Beliebige erwachsene Begleitperson|Immer nur die Polizei
+Kann ein unaufschiebbarer Notfall besonderes Handeln erfordern?|Ja, unter den gesetzlichen Voraussetzungen|Nein, immer warten|Ja, ohne jede Grenze
+Was ist bei unklarer Sorgeberechtigung wichtig?|Berechtigung klären, soweit möglich und erforderlich|Jede Begleitperson gleichsetzen|Nur Nachnamen vergleichen
+Was ist bei Verdacht auf Kindeswohlgefährdung angemessen?|Befunde sachlich erfassen und zuständige Unterstützung einbeziehen|Öffentlich beschuldigen|Verdacht grundsätzlich ignorieren
+Beweist eine einzelne Verletzung automatisch Misshandlung?|Nein|Ja|Nur bei kleinen Kindern immer
+Warum Aussagen möglichst wörtlich dokumentieren?|Beobachtung und Interpretation trennen|Um Befragung zu ersetzen|Damit keine Zeitangaben nötig sind
+Warum suggestive Fragen vermeiden?|Aussagen möglichst wenig beeinflussen|Damit niemand antwortet|Weil Beobachtungen unwichtig sind
+# Ethik und Entscheidungsqualität|3|https://www.gesetze-im-internet.de/bgb/__630d.html|Ethische Abwägung ergänzt die rechtliche Prüfung. Respekt vor Autonomie, Schadensvermeidung und gerechter Versorgung müssen in der konkreten Lage zusammen betrachtet werden.
+Was bedeutet Patientenautonomie?|Selbstbestimmung über eigene Behandlung|Entscheidung nur durch Personal|Automatische Zustimmung zu allem
+Was bedeutet Nichtschaden als ethisches Prinzip?|Vermeidbare Schädigung berücksichtigen|Nie irgendeine riskante Maßnahme durchführen|Nur Haftung vermeiden
+Was bedeutet Fürsorge im Behandlungskontext?|Wohl und Interessen der betroffenen Person berücksichtigen|Eigene Vorlieben durchsetzen|Jede Ablehnung übergehen
+Was bedeutet gerechte Versorgung?|Bedarf und faire Kriterien berücksichtigen|Nach sozialem Ansehen behandeln|Nur nach Lautstärke entscheiden
+Warum persönliche Wertungen reflektieren?|Verzerrte Entscheidungen erkennen|Damit jeder dieselbe Meinung hat|Um Dokumentation zu vermeiden
+Ist eine Behinderung allein ein Grund für geringere Behandlungspriorität?|Nein|Ja|Nur im Rettungsdienst immer
+Warum Unsicherheit im Team benennen?|Gemeinsam angemessen entscheiden|Verantwortung vollständig abgeben|Behandlung grundsätzlich verhindern
+Was ist bei Interessenkonflikten wichtig?|Konflikt erkennen und transparent bearbeiten|Konflikt verbergen|Patienteninteressen automatisch nachordnen
+Was ist bei einer diskriminierenden Äußerung im Team sinnvoll?|Klar und sachlich widersprechen|Immer schweigen|Äußerung dokumentationsfrei übernehmen
+Was ist das Ziel einer ethischen Fallbesprechung?|Begründete patientenbezogene Entscheidung|Nachträgliche Schuldzuweisung allein|Ersetzung aller Gesetze

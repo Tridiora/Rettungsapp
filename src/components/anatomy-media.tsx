@@ -1,4 +1,6 @@
 'use client'
+import { isLearningBeta } from '@/lib/build-mode'
+import { AnatomyLearningMedia } from '@/components/anatomy-learning-media'
 import { useState } from 'react'
 import { useEditorialStore } from '@/stores/editorial-store'
 import { atlasMedia } from '@/lib/atlas-media-data'
@@ -9,8 +11,8 @@ const plates: Record<string,{src:string;title:string;credit:string;source:string
   brain: {src:'/anatomie/gehirn.svg',title:'Gehirn · Medianschnitt',credit:'A. Spielhoff',source:'https://commons.wikimedia.org/wiki/File:Gehirn_beschriftet.svg',license:'CC0 1.0',licenseUrl:'https://creativecommons.org/publicdomain/zero/1.0/deed.de',description:'Deutsch beschriftete Vektorzeichnung. Ohne Qualitätsverlust vergrößerbar. Die Zeichnung zeigt auch Zwischenhirn, Balken, Hypophyse und Rückenmark.'},
   skeleton: {src:'/anatomie/skelett.png',title:'Skelett · Vorder- und Rückansicht',credit:'Meyers Konversationslexikon, 1888',source:'https://commons.wikimedia.org/wiki/File:Skelett_des_Menschen_MK1888.png',license:'Gemeinfrei',licenseUrl:'https://commons.wikimedia.org/wiki/File:Skelett_des_Menschen_MK1888.png#Licensing',description:'Historische anatomische Tafel mit deutscher Beschriftung. Die Originalauflösung beträgt 741 × 821 Pixel; historische Schreibweisen sind erhalten.'},
 }
-export function hasAnatomyMedia(id:string) {return !!plates[id] || id==='heart'}
-export function AnatomyMedia({modelId,onSelect}:{modelId:string;onSelect:(id:string)=>void}) {
+export function hasAnatomyMedia(id:string) {return true}
+export function LegacyAnatomyMedia({modelId,onSelect}:{modelId:string;onSelect:(id:string)=>void}) {
   const [error,setError]=useState(false)
   const records=useEditorialStore(s=>s.records)
   const saved=records?.find(r=>r.kind==='illustrations'&&r.data.modelId===modelId)?.data as typeof atlasMedia[number]|undefined
@@ -21,3 +23,5 @@ export function AnatomyMedia({modelId,onSelect}:{modelId:string;onSelect:(id:str
   return <section className="rounded-2xl border border-border overflow-hidden bg-surface"><div className="p-5"><h2 className="text-xl font-bold">{plate.title}</h2><p className="mt-2 text-sm text-muted">{plate.description}</p></div><TransformWrapper key={modelId} minScale={1} maxScale={8} doubleClick={{disabled:true}}>{({zoomIn,zoomOut,resetTransform})=><><div className="flex gap-2 p-3 border-y border-border"><button className="p-2 rounded-lg border border-border" aria-label="Tafel vergrößern" onClick={()=>zoomIn()}><ZoomIn size={18}/></button><button className="p-2 rounded-lg border border-border" aria-label="Tafel verkleinern" onClick={()=>zoomOut()}><ZoomOut size={18}/></button><button className="p-2 rounded-lg border border-border" aria-label="Tafel zurücksetzen" onClick={()=>resetTransform()}><Maximize size={18}/></button><span className="text-xs text-muted self-center">Ziehen zum Verschieben · Zwei Finger zum Zoomen</span></div><div className="bg-white"><TransformComponent wrapperStyle={{width:'100%'}} contentStyle={{width:'100%'}}><div className="relative w-full"><img src={plate.src} alt={plate.title} className="block w-full" draggable={false}/>{modelId==='brain'&&<><Hotspot x={30} y={23} label="Großhirn" onClick={()=>onSelect('cerebrum')}/><Hotspot x={44} y={49} label="Zwischenhirn" onClick={()=>onSelect('diencephalon')}/><Hotspot x={54} y={68} label="Hirnstamm" onClick={()=>onSelect('brainstem')}/><Hotspot x={69} y={61} label="Kleinhirn" onClick={()=>onSelect('cerebellum')}/></>}</div></TransformComponent></div></>}</TransformWrapper><p className="p-4 text-xs text-muted">{plate.credit} · <a className="underline" href={plate.source} target="_blank" rel="noreferrer">Original</a> · <a className="underline" href={plate.licenseUrl} target="_blank" rel="noreferrer">{plate.license}</a> · Original unverändert; Bedienelemente separat überlagert.</p></section>
 }
 function Hotspot({x,y,label,onClick}:{x:number;y:number;label:string;onClick:()=>void}) {return <button aria-label={`${label} erklären`} title={`${label} erklären`} onClick={onClick} style={{position:'absolute',left:`${x}%`,top:`${y}%`,transform:'translate(-50%,-50%)'}} className="rounded-full bg-teal-800 text-white border-2 border-white w-8 h-8 shadow-md font-bold">+</button>}
+
+export function AnatomyMedia(props:{modelId:string;onSelect:(id:string)=>void}) {return <><AnatomyLearningMedia key={props.modelId} {...props}/>{!isLearningBeta&&(plates[props.modelId]||props.modelId==='heart')&&<details className="p-4 border border-border rounded-xl"><summary>Weitere bisherige Quellenmedien mit Lizenzangaben</summary><LegacyAnatomyMedia {...props}/></details>}</>}

@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { useLibrary } from '@/lib/use-library'
+import { isLearningBeta } from '@/lib/build-mode'
 import { useNative } from '@/lib/use-native'
 import { useEditorialStore } from '@/stores/editorial-store'
 import { useAppStore } from '@/stores/app-store'
@@ -10,20 +11,17 @@ import type { YearLevel } from '@/types'
 
 export default function ManagedCardsPage() {
   const { decks, cards } = useLibrary()
-  const native = useNative()
+  const nativeDevice = useNative(); const native = nativeDevice || isLearningBeta
   const error = useEditorialStore((s) => s.error)
   const records = useEditorialStore((s) => s.records)
   const selectedYear = useAppStore((s) => s.selectedYear)
   const setSelectedYear = useAppStore((s) => s.setSelectedYear)
   const [query, setQuery] = useState('')
 
-  const filtered = decks.filter((d) => {
-    const matchesYear = selectedYear === 'all' || d.yearLevel === selectedYear || (d.tags && d.tags.includes(`${selectedYear}. Lehrjahr`))
-    const textMatch = [d.title, d.description, ...cards.filter((c) => c.deckId === d.id).map((c) => c.front)]
-      .join(' ')
-      .toLocaleLowerCase('de')
-      .includes(query.toLocaleLowerCase('de'))
-    return (query ? textMatch : matchesYear && textMatch)
+  const selectedCards = cards.filter(c => selectedYear === 'all' || (c.yearLevel || 1) === selectedYear)
+  const filtered = decks.map(d => ({...d, cardCount:selectedCards.filter(c=>c.deckId===d.id).length})).filter(d => {
+    const ownCards=selectedCards.filter(c=>c.deckId===d.id)
+    return ownCards.length > 0 && [d.title,d.description,...ownCards.map(c=>c.front)].join(' ').toLocaleLowerCase('de').includes(query.toLocaleLowerCase('de'))
   })
 
   return (
@@ -40,7 +38,7 @@ export default function ManagedCardsPage() {
       <div className="rounded-2xl border border-border bg-surface p-4 space-y-2">
         <div className="flex items-center justify-between text-xs">
           <span className="font-bold uppercase tracking-wider text-muted">Filter nach Lehrjahr (Roter Faden):</span>
-          <span className="text-muted">Suchfunktion durchsucht immer alle Lehrjahre</span>
+          <span className="text-muted">Suche und Lehrjahr werden kombiniert</span>
         </div>
         <div className="flex flex-wrap gap-2">
           {(
@@ -71,7 +69,7 @@ export default function ManagedCardsPage() {
         className="w-full border border-border bg-surface rounded-xl p-3"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        placeholder="Thema oder Kartenfrage suchen (sucht in allen Lehrjahren) …"
+        placeholder="Thema oder Kartenfrage suchen (im gewählten Lehrjahr) …"
       />
 
       {error && <p role="alert">{error}</p>}
@@ -80,7 +78,7 @@ export default function ManagedCardsPage() {
       ) : (
         <>
           <p className="text-sm text-muted">
-            {filtered.length} Lernsets · {cards.length} Karten im System verfügbar
+            {filtered.length} Lernsets · {filtered.reduce((sum,d)=>sum+d.cardCount,0)} Karten in dieser Auswahl
           </p>
           <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-4">
             {filtered.map((deck) => (

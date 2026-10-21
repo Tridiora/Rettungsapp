@@ -8,9 +8,12 @@
     "start": "next start",
     "lint": "eslint",
     "prepare:pdf": "node scripts/prepare-pdf.cjs",
-    "predev": "npm run prepare:pdf",
-    "prebuild": "npm run prepare:pdf",
-    "test": "node --test tests"
+    "predev": "npm run prepare:curriculum && npm run prepare:pdf",
+    "prebuild": "npm run prepare:curriculum && npm run prepare:pdf",
+    "test": "node --test tests/*.test.cjs",
+    "build:beta": "npm run prepare:curriculum && npm run prepare:pdf && node scripts/build-beta.cjs",
+    "prepare:curriculum": "node scripts/prepare-curriculum.cjs && node scripts/prepare-explanations.cjs",
+    "prepare:anatomy": "node scripts/prepare-anatomy.cjs"
   },
   "dependencies": {
     "@capacitor/android": "^7.6.9",
@@ -51,5 +54,8 @@
     "eslint-config-next": "16.4.2",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=22 <23"
   }
 }

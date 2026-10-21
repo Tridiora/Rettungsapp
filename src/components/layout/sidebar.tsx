@@ -16,6 +16,7 @@ import {
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { useAppStore } from '@/stores/app-store'
+import { isLearningBeta } from '@/lib/build-mode'
 import { useNative } from '@/lib/use-native'
 
 // ── Navigation items ─────────────────────────────────
@@ -57,7 +58,7 @@ function MobileOverlay({ onClick }: { onClick: () => void }) {
 
 // ── Sidebar component ────────────────────────────────
 export function Sidebar() {
-  const native=useNative()
+  const nativeDevice = useNative(); const native = nativeDevice || isLearningBeta
   const pathname = usePathname()
   const { sidebarOpen, toggleSidebar, setSidebarOpen, currentUser } =
     useAppStore()
@@ -142,7 +143,7 @@ export function Sidebar() {
 
         {/* ── Navigation ──────────────────────────── */}
         <nav className="flex-1 overflow-y-auto py-4 px-2 space-y-1">
-          {navItems.filter(item=>!native||!item.href.startsWith('/verwaltung')).map((item) => {
+          {navItems.filter(item=>(!native||!item.href.startsWith('/verwaltung')) && (!isLearningBeta || item.href !== '/medien')).map((item) => {
             const isActive = pathname === item.href || pathname?.startsWith(item.href + '/')
             return (
               <NavLink

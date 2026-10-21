@@ -1,3 +1,4 @@
+import { expandedLibrary } from '@/lib/curriculum/expanded'
 import { database } from './database'
 import { ApiError } from './security'
 import type { Account } from '@/lib/media-types'
@@ -54,6 +55,14 @@ export function editorialDb() {
       db.prepare('INSERT OR IGNORE INTO editorial_content VALUES (?,?,?)').run(row.id,kind,JSON.stringify(row))
     }
     db.prepare("INSERT INTO editorial_meta VALUES ('curriculum-de-v1','1')").run()
+  })()
+  if(!db.prepare("SELECT value FROM editorial_meta WHERE key='beta-curriculum-v2'").get())db.transaction(()=>{
+    for(const library of [curriculumLibrary,expandedLibrary,germanStarter]) for(const kind of ['decks','cards','quizzes','documents'] as const)for(const data of library[kind]){
+      const id=kind+':'+data.id;const old=db.prepare('SELECT data FROM editorial_content WHERE id=?').get(id) as {data:string}|undefined;
+      if(old){const row=JSON.parse(old.data) as EditorialRecord;if(row.ownerId!=='system'||row.revision!==1)continue;row.data=data as unknown as Record<string,unknown>;if(kind==='quizzes'&&Array.isArray(row.data.questions)&&row.data.questions.length<20)row.status='archived';db.prepare('UPDATE editorial_content SET data=? WHERE id=?').run(JSON.stringify(row),id)}
+      else{const row={id,kind,data,ownerId:'system',scope:'global',classId:'',status:'published',revision:1};db.prepare('INSERT INTO editorial_content VALUES (?,?,?)').run(id,kind,JSON.stringify(row))}
+    }
+    db.prepare("INSERT INTO editorial_meta VALUES ('beta-curriculum-v2','1')").run();
   })()
   return db
 }

@@ -1,0 +1,110 @@
+# Grundlagen|1|https://gesund.bund.de/arzneimittel-anwendungsformen|Arzneimittel wirken abhängig von Wirkstoff, Dosis, Aufnahmeweg und individuellen Voraussetzungen. Eine Lernfrage begründet keine eigenständige Anwendung im Einsatz.
+Was bezeichnet ein Wirkstoff?|Pharmakologisch wirksamen Bestandteil|Nur Verpackungsmaterial|Nur Handelsnamen
+Was bezeichnet ein Handelsname?|Vom Anbieter verwendeten Produktnamen|Immer die chemische Struktur|Immer den Aufnahmeweg
+Was ist eine Indikation?|Begründeter Anwendungsgrund|Grund gegen jede Anwendung|Verfallsdatum
+Was ist eine Kontraindikation?|Umstand, der gegen die Anwendung spricht|Gewünschte Wirkung|Packungsgröße
+Was ist eine Nebenwirkung?|Zusätzliche, nicht als Hauptwirkung beabsichtigte Wirkung|Immer eine Allergie|Immer ein Dosierfehler
+Was ist eine Wechselwirkung?|Gegenseitige Beeinflussung von Stoffen oder Arzneimitteln|Nur Farbänderung der Verpackung|Jede normale Verdauung
+Was bedeutet Applikation?|Verabreichung eines Arzneimittels|Entsorgung einer Verpackung|Ausschließlich intravenöse Gabe
+Was bedeutet Dosierung?|Festlegung von Menge und Anwendungsschema|Nur Wahl der Marke|Nur Ablesen der Farbe
+Was bedeutet Konzentration einer Lösung?|Wirkstoffmenge pro Volumen|Gesamtvolumen ohne Wirkstoffbezug|Nur Größe der Ampulle
+Was ist ein Generikum?|Arzneimittel mit gleichem Wirkstoff wie ein Referenzpräparat|Immer wirkstofffrei|Immer ein Impfstoff
+# Pharmakokinetik|1|https://www.barmer.de/gesundheit-verstehen/medizin/medikamente/wie-wirken-arzneimittel-1056060|Pharmakokinetik beschreibt den Weg eines Wirkstoffs im Körper. Die Geschwindigkeit einzelner Schritte kann zwischen Personen stark variieren.
+Was untersucht Pharmakokinetik?|Aufnahme, Verteilung, Umbau und Ausscheidung|Nur die Rezeptorwirkung|Nur die Verpackung
+Was bedeutet Resorption?|Aufnahme eines Stoffes in den Körperkreislauf|Ausschließliche Ausscheidung|Herstellung der Tablette
+Was bedeutet Distribution?|Verteilung im Körper|Abgabe im Abfall|Nur Auflösung der Verpackung
+Was bedeutet Metabolismus eines Arzneistoffs?|Biochemischer Umbau|Nur Transport im Rettungswagen|Nur Lagerung im Schrank
+Was bedeutet Elimination?|Entfernung des Wirkstoffs aus dem Körper|Nur Verteilung ins Gewebe|Nur Bindung an einen Rezeptor
+Was bezeichnet Bioverfügbarkeit?|Anteil, der unverändert systemisch verfügbar wird|Immer die gesamte geschluckte Menge|Nur die Tablettenmasse
+Wie hoch ist die Bioverfügbarkeit bei intravenöser Gabe definitionsgemäß?|100 Prozent|50 Prozent|0 Prozent
+Was beschreibt der First-Pass-Effekt?|Präsystemischen Abbau vor Erreichen des Körperkreislaufs|Erste Berührung der Verpackung|Erste Blutdruckmessung
+Was bedeutet Halbwertszeit?|Zeit bis zur Halbierung einer betrachteten Wirkstoffkonzentration|Zeit bis zur sicheren Wirkungslosigkeit|Immer die Wirkungsdauer
+Kann eingeschränkte Nierenfunktion Arzneistoffspiegel verändern?|Ja, bei entsprechend ausgeschiedenen Stoffen|Nein, niemals|Nur die Packungsfarbe ändert sich
+# Aufnahmewege|1|https://www.gesundheitsinformation.de/medikamenten-anwendung.html|Die Darreichungsform bestimmt den vorgesehenen Aufnahmeweg. Andere Wege können Wirkung und Risiken erheblich verändern.
+Was bedeutet oral?|Über den Mund|In eine Vene|Auf die Haut
+Was bedeutet sublingual?|Unter die Zunge|Unter die Haut|In den Muskel
+Was bedeutet buccal?|In die Wangentasche|In die Harnblase|In die Luftröhre
+Was bedeutet intravenös?|In eine Vene|In einen Muskel|Auf die Haut
+Was bedeutet intramuskulär?|In einen Muskel|In eine Arterie|Unter die Zunge
+Was bedeutet subkutan?|In das Unterhautgewebe|In den Magen|In die Rückenmarksflüssigkeit
+Was bedeutet inhalativ?|Über die Atemwege|Über die Harnwege|Über die Speiseröhre allein
+Was bedeutet transdermal?|Durch die Haut hindurch|Direkt in den Darm|Direkt in die Vene
+Was bedeutet rektal?|Über den Enddarm|Über die Nase|Über eine Vene
+Was bedeutet intranasal?|Über die Nase|Über das Ohr|Über den Enddarm
+# Sichere Vorbereitung|1|https://www.bfarm.de/DE/Arzneimittel/Pharmakovigilanz/_node.html|Sichere Arzneimittelanwendung benötigt Identitäts-, Präparate- und Anordnungskontrolle. Eine unlesbare oder unklare Anordnung wird vor der Anwendung geklärt.
+Was muss vor einer Arzneimittelgabe eindeutig geklärt sein?|Richtige Person und gültige Anordnung beziehungsweise Kompetenzgrundlage|Nur Farbe der Ampulle|Nur Name des Herstellers
+Was ist bei unlesbarer Beschriftung zu tun?|Präparat nicht verwenden und klären|Inhalt anhand der Farbe schätzen|Dosis halbieren und ausprobieren
+Welche Angabe ist vor Verwendung einer Ampulle wichtig?|Wirkstoff und Konzentration|Nur Form der Glasampulle|Nur Farbe des Aufdrucks
+Was ist bei einer unerwarteten Trübung wichtig?|Herstellerangaben prüfen und Präparat gegebenenfalls verwerfen|Immer kräftig schütteln und geben|Trübung grundsätzlich ignorieren
+Warum Spritzen eindeutig beschriften?|Verwechslungen vermeiden|Wirkstoff sterilisieren|Wirkung beschleunigen
+Darf eine unbekannte vorbereitete Spritze anhand ihres Volumens identifiziert werden?|Nein|Ja, immer|Ja, bei kleinen Volumina
+Was ist bei bekannter Arzneimittelallergie erforderlich?|Auslöser und Reaktionsart berücksichtigen und Vorgehen klären|Nur die Lieblingsmarke notieren|Allergie grundsätzlich ignorieren
+Was ist nach einer Arzneimittelgabe erforderlich?|Wirkung und unerwünschte Reaktionen beobachten|Überwachung grundsätzlich beenden|Nur die Ampulle aufbewahren
+Was gehört zur Dokumentation einer Gabe?|Wirkstoff, Dosis, Weg und Zeitpunkt|Nur Handelsname ohne Menge|Nur Farbe der Spritze
+Warum ist ein unabhängiger Gegencheck bei kritischen Berechnungen sinnvoll?|Er kann Rechen- und Verwechslungsfehler erkennen|Er garantiert absolute Fehlerfreiheit|Er ersetzt jede Anordnung
+# Rechnen ohne Präparatebezug|2|https://www.bipm.org/en/measurement-units|Diese Aufgaben betreffen ausschließlich Einheiten und Mathematik. Sie sind keine Dosierungsempfehlungen für ein konkretes Arzneimittel.
+Wie viele Mikrogramm entsprechen 1 mg?|1000 Mikrogramm|100 Mikrogramm|10 Mikrogramm
+Wie viele Milligramm entsprechen 1 g?|1000 mg|100 mg|10 mg
+Wie viele Milliliter entsprechen 1 Liter?|1000 ml|100 ml|10 ml
+Eine Übungslösung enthält 20 mg in 10 ml. Wie hoch ist die Konzentration?|2 mg/ml|20 mg/ml|0,2 mg/ml
+Eine Übungslösung enthält 5 mg/ml. Wie viel Wirkstoff enthalten 2 ml?|10 mg|2,5 mg|5 mg
+Eine Rechenaufgabe verlangt 6 mg aus 3 mg/ml. Welches Volumen ergibt sich?|2 ml|18 ml|0,5 ml
+50 ml sollen rechnerisch in 2 Stunden laufen. Welche Rate ergibt sich?|25 ml/h|100 ml/h|2 ml/h
+100 ml sollen rechnerisch in 30 Minuten laufen. Welche Rate ergibt sich?|200 ml/h|50 ml/h|30 ml/h
+Wie lautet die Formel für ein benötigtes Volumen?|Dosis geteilt durch Konzentration|Dosis mal Konzentration|Konzentration minus Dosis
+Was muss vor einer Berechnung übereinstimmen?|Die verwendeten Einheiten|Die Farbe aller Gefäße|Die Marke aller Geräte
+# Rezeptoren und Wirkungen|2|https://gesund.bund.de/arzneimittel-anwendungsformen|Pharmakodynamik beschreibt Wirkungen am Organismus. Rezeptorbindung und klinischer Effekt sind nicht in jedem Fall gleichzusetzen.
+Was untersucht Pharmakodynamik?|Wirkungen eines Arzneistoffs auf den Organismus|Nur Ausscheidungswege|Nur Verpackungsgrößen
+Was ist ein Agonist?|Stoff, der einen Rezeptor aktiviert|Stoff ohne jede Rezeptorbindung|Immer ein Gegengift
+Was ist ein Antagonist am Rezeptor?|Stoff, der eine Aktivierung blockiert|Stoff, der immer maximal aktiviert|Jedes Vitamin
+Was bedeutet therapeutische Breite?|Abstand zwischen wirksamen und toxischen Dosen|Breite der Tablette|Länge des Beipackzettels
+Was bedeutet Toleranzentwicklung?|Abnehmende Wirkung bei wiederholter gleicher Exposition|Zunehmende Sterilität|Sichere Allergiefreiheit
+Was bedeutet Kumulation?|Anreicherung bei wiederholter Gabe und unzureichender Elimination|Sofortige vollständige Ausscheidung|Verdünnung im Verpackungsmaterial
+Was ist eine additive Wirkung?|Wirkungen summieren sich|Eine Wirkung verschwindet immer|Beide Stoffe werden unwirksam
+Was bedeutet Sedierung?|Dämpfung von Wachheit und Reaktionsfähigkeit|Sichere Schmerzfreiheit ohne Ausnahme|Sichere Atemwegssicherung
+Was bedeutet Analgesie?|Schmerzlinderung|Muskelaufbau|Desinfektion
+Sind Analgesie und Sedierung identisch?|Nein|Ja, immer|Ja, bei jedem Medikament
+# Arzneimittelgruppen|2|https://gesund.bund.de/arzneimittel-anwendungsformen|Gruppennamen beschreiben Wirkprinzipien oder Anwendungsgebiete. Einzelpräparate unterscheiden sich in Indikationen, Nebenwirkungen und Zulassung.
+Wozu dienen Bronchodilatatoren?|Erweiterung der Bronchien|Verengung aller Atemwege|Sichere Behandlung jeder Atemnotursache
+Was bewirken Antikoagulanzien grundsätzlich?|Hemmung der Blutgerinnung|Sofortige Auflösung jedes Thrombus|Vermehrung der Blutplättchen
+Was bewirken Thrombozytenaggregationshemmer?|Hemmung des Zusammenlagerns von Blutplättchen|Erhöhung der Erythrozytenzahl|Ausschließlich Blutdrucksenkung
+Was ist ein Antiemetikum?|Mittel gegen Übelkeit und Erbrechen|Mittel zur Blutgerinnung|Mittel zur Knochenbildung
+Was ist ein Diuretikum?|Mittel zur Förderung der Harnausscheidung|Mittel zur Atemwegssicherung|Mittel gegen alle Vergiftungen
+Was ist ein Vasopressor?|Mittel zur Steigerung des Gefäßtonus beziehungsweise Blutdrucks|Mittel zur Urinmessung|Mittel zur Knochenstabilisierung
+Was ist ein Antibiotikum?|Arzneimittel gegen bestimmte bakterielle Infektionen|Universelles Mittel gegen alle Viren|Reines Schmerzmittel
+Was ist ein Antihistaminikum?|Mittel zur Blockade bestimmter Histaminwirkungen|Mittel zur Bildung von Hämoglobin|Universeller Ersatz für jede Anaphylaxiebehandlung
+Was ist ein Lokalanästhetikum?|Mittel zur örtlichen Unterbrechung der Schmerzleitung|Mittel zur sicheren Bewusstlosigkeit|Mittel zur Blutbildung
+Was ist ein Glukokortikoid?|Hormon beziehungsweise Arzneistoff mit unter anderem entzündungshemmender Wirkung|Ausschließlich Zuckerersatz|Ausschließlich Gerinnungsfaktor
+# Besondere Risiken|2|https://www.bfarm.de/DE/Arzneimittel/Pharmakovigilanz/_node.html|Risiken hängen auch von Begleiterkrankungen, Wechselwirkungen und der Versorgungssituation ab. Notfallausrüstung und Überwachung müssen zur Maßnahme passen.
+Welche relevante Nebenwirkung können Opioide verursachen?|Atemdepression|Sichere Steigerung jeder Atmung|Immer vollständige Wachheit
+Welche Risiken können sedierende Mittel gemeinsam verstärken?|Bewusstseins- und Atemdämpfung|Ausschließlich Haarwachstum|Nur Zahnverfärbung
+Warum ist Sauerstoff als Arzneimittel zu betrachten?|Er hat Indikationen, Dosierung und mögliche Risiken|Er ist in jeder Menge risikofrei|Er ersetzt jede Beatmung
+Was kann eine schnelle intravenöse Gabe verändern?|Spitzenkonzentration und Nebenwirkungsrisiko|Nur die Ampullenform|Nur das Ablaufdatum
+Was ist eine Paravasation?|Austritt einer Infusion in umliegendes Gewebe|Normale Gabe in die Vene|Ausschließlich Harnverlust
+Was ist bei Schmerz und Schwellung am Infusionszugang zu prüfen?|Mögliche Fehl- oder Paravasatlage|Nur das Alter der Person|Nur die Uhrzeit
+Warum können ältere Menschen besonders empfindlich reagieren?|Veränderte Organfunktion und Begleitmedikation|Arzneimittel wirken im Alter nie|Alle Dosen sind automatisch gleich
+Warum ist bei Kindern eine sorgfältige Berechnung wichtig?|Körpergewicht und Entwicklungsstand beeinflussen Anwendung und Risiko|Kinder erhalten immer Erwachsenendosen|Packungsgröße bestimmt die Dosis
+Was ist bei Schwangerschaft relevant?|Mögliche Wirkungen auf Schwangere und ungeborenes Kind|Nur Handelsname|Keine besondere Prüfung nötig
+Was ist eine unerwartete schwere Reaktion nach Gabe?|Anlass für unmittelbare Beurteilung und Behandlung nach Situation|Beweis korrekter Wirkung|Grund, keine Dokumentation anzufertigen
+# Aufbewahrung und Zubereitung|3|https://www.bfarm.de/DE/Arzneimittel/Pharmakovigilanz/_node.html|Stabilität und Kompatibilität sind präparatespezifisch. Herstellerinformationen und lokale Vorgaben bestimmen Lagerung und Zubereitung.
+Dürfen beliebige Arzneimittel in einer Spritze gemischt werden?|Nein, Kompatibilität muss gesichert sein|Ja, sofern beide klar sind|Ja, sofern gleiche Ampullengröße
+Was bedeutet Rekonstitution?|Wiederherstellung einer Lösung aus einem vorbereiteten Pulver oder Konzentrat nach Vorgabe|Beliebiges Erhitzen|Entfernen der Beschriftung
+Welche Flüssigkeit ist zur Rekonstitution zu verwenden?|Die für das Präparat vorgesehene|Beliebige Trinkflüssigkeit|Immer Leitungswasser
+Warum kann Lichtschutz erforderlich sein?|Manche Wirkstoffe sind lichtempfindlich|Licht erhöht immer die Wirksamkeit|Nur zur optischen Ordnung
+Was ist bei Überschreiten zulässiger Lagertemperaturen zu tun?|Verwendbarkeit anhand Herstellerangaben klären|Immer weiterverwenden|Nur neues Etikett aufkleben
+Darf eine abgelaufene Ampulle regulär ohne Prüfung verwendet werden?|Nein|Ja, wenn die Farbe passt|Ja, wenn sie teuer war
+Warum Anbruchzeit dokumentieren?|Zulässige Verwendungsdauer nachvollziehen|Dosis automatisch erhöhen|Wirkstoff identifizieren ohne Etikett
+Was beschreibt aseptisches Arbeiten?|Vermeidung des Eintrags von Mikroorganismen|Beliebiges Berühren steriler Teile|Nur schnelle Durchführung
+Was ist bei beschädigter Sterilverpackung zu beachten?|Sterilität ist nicht verlässlich gewährleistet|Sterilität bleibt immer erhalten|Nur das Aussehen ist verändert
+Was bedeutet Look-alike/Sound-alike-Risiko?|Verwechslung ähnlich aussehender oder klingender Präparate|Wirkstofffreiheit|Unverträglichkeit jeder Tablette
+# Fehler erkennen und melden|3|https://www.bfarm.de/DE/Arzneimittel/Pharmakovigilanz/_node.html|Bei Fehlerverdacht steht die Sicherheit der betroffenen Person zuerst. Transparente Dokumentation und Meldung ermöglichen Behandlung und Lernen.
+Was hat bei vermuteter falscher Arzneimittelgabe Vorrang?|Patient beurteilen und erforderliche Hilfe veranlassen|Fehler verbergen|Dokumentation löschen
+Warum ist die genaue Menge bei einer Fehlgabe wichtig?|Sie unterstützt Risikobeurteilung und Behandlung|Sie ist grundsätzlich bedeutungslos|Sie ersetzt die Patientenbeurteilung
+Was ist ein Beinahefehler?|Fehler, der vor einer Schädigung beziehungsweise Durchführung erkannt wird|Absichtlich korrekte Gabe|Jede gewünschte Wirkung
+Wozu dient Pharmakovigilanz?|Erkennen und Bewerten von Arzneimittelrisiken|Preisvergleich allein|Lagerbestandszählung allein
+Was ist ein Rote-Hand-Brief?|Wichtige Sicherheitsinformation zu Arzneimitteln|Werbeprospekt ohne Sicherheitsbezug|Persönliche Verordnung
+Warum sind Allergie und Unverträglichkeit zu unterscheiden?|Mechanismus und künftige Konsequenzen können verschieden sein|Beides bedeutet immer dasselbe|Unverträglichkeit ist grundsätzlich erfunden
+Was bedeutet Off-label-Anwendung?|Anwendung außerhalb der zugelassenen Bedingungen|Jede Anwendung nach Packungsbeilage|Gabe ohne Etikett
+Ist Off-label gleichbedeutend mit automatisch erlaubter Eigenanwendung?|Nein|Ja, immer|Ja, bei jedem Notfall
+Was ist bei widersprüchlichen Dosisangaben erforderlich?|Vor Anwendung verbindlich klären|Den höchsten Wert wählen|Den Mittelwert schätzen
+Warum sind lokale Freigaben keine universelle Arzneimittelzulassung?|Sie regeln einen begrenzten organisatorischen Rahmen|Sie ersetzen weltweit jedes Gesetz|Sie ändern den Wirkstoff

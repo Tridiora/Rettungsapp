@@ -1,3 +1,4 @@
+import {expandedLibrary, expandedQuestions, expandedTopics} from './expanded'
 import {categories} from '@/lib/db/mock-data'
 import type {Library} from '@/lib/library-types'
 import {anatomyLessons} from './anatomy'
@@ -35,10 +36,10 @@ for(const topic of curriculumTopics){
  const {category,lessons}=topic,id=`de-basis-${category.slug}`
  const urls=[...new Set(lessons.flatMap(l=>l.sources))]
  const source=`Quellenabgleich ${checkedAt} · Deutschland · ${urls.join(' · ')}`
- curriculumLibrary.decks.push({id,title:`${category.name} – 10 Lernbausteine`,description:'Zehn unterschiedliche Themen mit Fachtext, verständlicher Erklärung und Quellen. Dazu gibt es ein Lesekapitel und ein Quiz.',categoryId:category.id,category,coverImage:`/lernmaterial/${category.slug}.svg`,authorId:'redaktion',isOfficial:true,cardCount:lessons.length,difficulty:'beginner',tags:['Deutschland','Grundlagen','Quellenabgleich 20.10.2026'],createdAt:date,updatedAt:date,source,publication:'published'})
+ curriculumLibrary.decks.push({id,title:`${category.name} – großer Lernpool`,description:'Über 100 Lernkarten mit Quellen, Lehrjahrzuordnung und Erklärgrafiken.',categoryId:category.id,category,coverImage:`/lernmaterial/${category.slug}.svg`,authorId:'redaktion',isOfficial:true,cardCount:lessons.length,difficulty:'beginner',tags:['Deutschland','Grundlagen','Quellenabgleich 20.10.2026'],createdAt:date,updatedAt:date,source,publication:'published'})
  for(const l of lessons)curriculumLibrary.cards.push({id:`${id}-${l.id}`,front:l.question,back:l.technical,simpleExplanation:l.simple,hint:l.title,deckId:id,categoryId:category.id,category,authorId:'redaktion',status:'approved',difficulty:'beginner',tags:['Deutschland',l.title],createdAt:date,updatedAt:date,source:`Quellenabgleich ${checkedAt} · ${l.sources.join(' · ')}`,publication:'published'})
  const quizId=`${id}-quiz`
- curriculumLibrary.quizzes.push({id:quizId,title:`${category.name} – Verständnis prüfen`,description:'10 Fragen mit begründeter Auflösung. Lernkontrolle, keine staatliche Prüfungsbewertung.',categoryId:category.id,category,authorId:'redaktion',difficulty:'beginner',passingScore:80,isExamSimulation:false,createdAt:date,source,publication:'published',questions:lessons.map((l,index)=>{
+ curriculumLibrary.quizzes.push({id:quizId,title:`${category.name} – Verständnis prüfen`,description:'Großer Fragenpool: wahlweise 20, 40 oder alle Fragen mit begründeter Auflösung und Erklärgrafiken.',categoryId:category.id,category,authorId:'redaktion',difficulty:'beginner',passingScore:80,isExamSimulation:false,createdAt:date,source,publication:'published',questions:lessons.map((l,index)=>{
   const questionId=`${quizId}-${l.id}`
   // Rotate the correct position deterministically: it is not always the first answer.
   const answers=[{text:l.correct,isCorrect:true},...l.wrong.map(text=>({text,isCorrect:false}))]
@@ -46,4 +47,30 @@ for(const topic of curriculumTopics){
   return {id:questionId,quizId,type:'single_choice',text:l.question,simpleText:l.question,explanation:l.technical,simpleExplanation:l.simple,source:l.sources.join(' · '),points:1,order:index,answers:ordered.map((a,i)=>({...a,id:`${questionId}-${i}`,questionId,order:i}))}
  })})
  curriculumLibrary.documents.push({id:`${id}-lesen`,title:`${category.name} – Lernkapitel`,category:category.name,pages:lessons.length,date:'Quellenabgleich 20.10.2026',summary:'Zehn erläuterte Lernziele, eine interaktive Themenübersicht und weiterführende Originalquellen. Grundlagen für Deutschland; keine vollständige Einsatzanweisung.',imageUrl:`/lernmaterial/${category.slug}.svg`,visualSteps:topic.focus.map(i=>({title:lessons[i].title,technical:lessons[i].technical,simple:lessons[i].simple})),resources:resources[category.id],publication:'published',source,sections:lessons.map((l,i)=>({id:`${id}-abschnitt-${l.id}`,title:`${i+1}. ${l.title}`,content:l.technical,simpleContent:l.simple,sources:l.sources}))})
+}
+
+for(const deck of curriculumLibrary.decks) {
+ const extra=expandedLibrary.cards.filter(c=>c.deckId===deck.id);
+ deck.cardCount+=extra.length;
+ deck.tags.push('1. Lehrjahr','2. Lehrjahr','3. Lehrjahr');
+}
+for(const card of curriculumLibrary.cards) card.yearLevel=1;
+for(const quiz of curriculumLibrary.quizzes) {
+ for(const q of quiz.questions){q.yearLevel=1;q.explanationImageUrl=`/erklaerbilder/basis-${q.id}.svg`}
+ quiz.questions.push(...expandedQuestions(quiz.categoryId,quiz.id));
+}
+
+for(const card of curriculumLibrary.cards) {
+ const quiz=curriculumLibrary.quizzes.find(q=>q.categoryId===card.categoryId);
+ const question=quiz?.questions.find(q=>q.text===card.front);
+ card.explanationImageUrl=question?.explanationImageUrl;
+}
+
+for(const document of curriculumLibrary.documents){
+ const topic=expandedTopics.find(t=>document.id===`de-basis-${t.category.slug}-lesen`);
+ if(!topic)continue;
+ for(const section of document.sections)section.yearLevel=1;
+ document.sections.push(...topic.facts.map(f=>({id:`beta-section-${f.id}`,title:f.question,content:`${f.answer}. ${f.context}`,simpleContent:`${f.answer}. ${f.context}`,sources:[f.source],yearLevel:f.year as 1|2|3})));
+ document.pages=document.sections.length;
+ document.summary='Lernziele, Fragen und Erklärungen aus dem erweiterten Themenpool. Lehrjahre sind didaktische Empfehlungen, kein verbindlicher Landeslehrplan.';
 }

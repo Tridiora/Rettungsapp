@@ -1,4 +1,5 @@
 'use client'
+import {questionsForYear} from '@/lib/learning-filters'
 import { SourceLinks } from '@/components/source-links'
 import { LanguageSwitch, LearningText, TermText } from '@/components/learning-language'
 import { useEffect, useState, useCallback, useMemo } from 'react'
@@ -22,10 +23,25 @@ export function QuizExecutionClient({ quizId }: { quizId: string }) {
       </div>
     )
   }
-  return <QuizPlayer key={quiz.id + JSON.stringify(quiz.questions)} quiz={quiz} />
+  return <QuizSetup key={quiz.id} quiz={quiz} />
 }
 
-function shuffleArray<T>(array: T[], seed?: number): T[] {
+function QuizSetup({quiz}:{quiz:Quiz}) {
+ const selectedYear=useAppStore(s=>s.selectedYear)
+ const [count,setCount]=useState(20)
+ const [started,setStarted]=useState<Quiz|null>(null)
+ const eligible=questionsForYear(quiz,selectedYear)
+ if(started)return <QuizPlayer key={started.id} quiz={started}/>
+ return <section className="max-w-3xl mx-auto p-5 md:p-8 space-y-5">
+  <Link href="/quiz" className="underline">Zur Quizübersicht</Link>
+  <h1 className="text-2xl font-bold">{quiz.title}</h1>
+  <p>{eligible.length} Fragen · {selectedYear==='all'?'Alle Lehrjahre':`${selectedYear}. Lehrjahr`} · Erklärgrafiken in der Auswertung</p>
+  <label className="block">Umfang der Lernrunde<select aria-label="Fragen pro Runde" className="block mt-2 rounded-xl border border-border bg-surface p-3" value={count} onChange={e=>setCount(Number(e.target.value))}>{[20,40,eligible.length].filter((n,i,a)=>n<=eligible.length&&a.indexOf(n)===i).map(n=><option key={n} value={n}>{n} Fragen</option>)}</select></label>
+  {eligible.length<20?<p>Für dieses Lehrjahr sind noch keine 20 Fragen verfügbar. Wähle in der Übersicht „Alle Lehrjahre“.</p>:<button className="rounded-xl bg-accent text-white px-6 py-3" onClick={()=>setStarted({...quiz,questions:shuffleArray(eligible).slice(0,count),yearLevel:selectedYear})}>Lernrunde starten</button>}
+ </section>
+}
+
+function shuffleArray<T>(array: T[]): T[] {
   const arr = [...array]
   for (let i = arr.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1))
@@ -297,6 +313,7 @@ function QuizPlayer({ quiz }: { quiz: Quiz }) {
                     </div>
                   )}
 
+                  {q.explanationImageUrl && <img loading="lazy" src={q.explanationImageUrl} alt={`Erklärschema zur Auflösung: ${q.text}`} className="w-full rounded-xl"/>}
                   <SourceLinks source={q.source} />
                 </article>
               )

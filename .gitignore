@@ -50,3 +50,8 @@ next-env.d.ts
 /*.log
 /eslint-report.json
 /better_sqlite3/
+
+.beta-build/
+dist-infinityfree/
+
+.anatomy-render/

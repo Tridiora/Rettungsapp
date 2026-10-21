@@ -1,5 +1,6 @@
 'use client'
 
+import { isLearningBeta } from '@/lib/build-mode'
 import { Suspense, useEffect } from 'react'
 import { useLibraryStore } from '@/stores/library-store'
 import { useLearningStore } from '@/stores/learning-store'
@@ -29,7 +30,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   useEffect(() => { void useAppStore.persist.rehydrate(); void useContentStore.persist.rehydrate(); void useLibraryStore.persist.rehydrate(); void useLearningStore.persist.rehydrate() }, [])
   if (!currentUser) return <LocalAccount />
   return (
-    <div className="flex h-screen overflow-hidden">
+    <div className="flex h-dvh overflow-hidden">
       {/* Sidebar – desktop always visible, mobile slide-over */}
       <Suspense fallback={<aside className="w-64 bg-primary hidden md:block" />}>
         <Sidebar />
@@ -43,6 +44,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
 
         <main className="flex-1 overflow-y-auto pb-20 md:pb-0">
           <EditorialSync/>
+          {isLearningBeta && <div className="px-4 py-2 text-xs bg-accent/10 text-accent-ink">Lern-Beta · Fortschritt bleibt in diesem Browser · Inhalte in fachlicher Erprobung</div>}
           <Suspense fallback={<div className="p-8 text-center text-muted">Laden...</div>}>
             {native&&pathname.startsWith('/verwaltung')?<div className="p-8"><h1 className="text-2xl font-bold">Verwaltung im Browser</h1><p>Inhalte, Klassen und Rechte werden über das Verwaltungsportal im Webbrowser gepflegt.</p></div>:children}
           </Suspense>

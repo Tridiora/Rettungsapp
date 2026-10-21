@@ -1,5 +1,6 @@
 'use client'
 import { useState } from 'react'
+import { isLearningBeta } from '@/lib/build-mode'
 import { useNative } from '@/lib/use-native'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
@@ -9,7 +10,7 @@ import { useAppStore } from '@/stores/app-store'
 import { useContentStore } from '@/stores/content-store'
 
 export function Header() {
-  const native=useNative()
+  const nativeDevice = useNative(); const native = nativeDevice || isLearningBeta
   const { currentUser, setCurrentUser, setSidebarOpen, theme, setTheme } = useAppStore()
   const cards = useContentStore(s => s.cards)
   const [query, setQuery] = useState('')

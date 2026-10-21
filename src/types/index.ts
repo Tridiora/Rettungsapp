@@ -45,6 +45,7 @@ export interface Category {
 }
 
 export interface Flashcard {
+  explanationImageUrl?: string
   id: string
   front: string
   back: string
@@ -117,6 +118,8 @@ export interface Quiz {
 }
 
 export interface Question {
+  yearLevel?: YearLevel
+  explanationImageUrl?: string
   source?: string
   id: string
   quizId: string
